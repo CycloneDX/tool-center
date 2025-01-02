@@ -1741,10 +1741,10 @@
     - opensource
     - analysis
 - name: cyclonedx-npm-pipe
-  publisher: ccideas
+  publisher: ShiftLeftCyber
   description: A Bitbucket Pipe which generates a CycloneDX compliant sBOM for a node/npm project
-  repoUrl: https://bitbucket.org/ccideas1/cyclonedx-npm-pipe/
-  websiteUrl: https://github.com/ccideas/cyclonedx-npm-pipe
+  repoUrl: https://github.com/shiftleftcyber/cyclonedx-npm-pipe
+  websiteUrl: https://shiftleftcyber.io
   categories:
     - opensource
     - build-integration
@@ -1843,10 +1843,10 @@
     - analysis
     - build-integration
 - name: sbom-swissarmy-bitbucket-pipe
-  publisher: ccideas
+  publisher: ShiftLeftCyber
   description: A Bitbucket Pipe containing a collection of open source tools to perform additionl analysis on a CycloneDX or SPDX sBOM.
-  repoUrl: https://bitbucket.org/ccideas1/cyclonedx-npm-pipe
-  websiteUrl: https://github.com/ccideas/sbom-utilities-pipe
+  repoUrl: https://github.com/shiftleftcyber/sbom-utilities-pipe
+  websiteUrl: https://shiftleftcyber.io
   categories:
     - opensource
     - build-integration
@@ -2021,10 +2021,10 @@
   - build-integration
   - opensource
 - name: Bitbucket Pipe for SBOM Generation
-  publisher: ccideas
-  description: Integrate this Bitbucket Pipe into your CI/CD pipeline to automatically generate a Software Bill of Materials (SBOM) for any project type using Syft.
-  repoUrl: https://bitbucket.org/ccideas1/syft-pipe/src/main/
-  websiteUrl: https://bitbucket.org/ccideas1/syft-pipe/src/main/README.md
+  publisher: ShiftLeftCyber
+  description: Integrate this Bitbucket Pipe into your CI/CD pipeline to automatically generate a Software Bill of Materials (SBOM) for any project.
+  repoUrl: https://github.com/shiftleftcyber/syft-bitbucket-pipe
+  websiteUrl: https://shiftleftcyber.io
   categories:
     - opensource
     - build-integration
