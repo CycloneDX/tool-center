@@ -209,6 +209,15 @@
   categories:
   - opensource
   - build-integration
+- name: Dyana
+  publisher: dreadnode
+  description: A sandbox environment designed for loading, running and profiling a wide range of files, including machine learning models, ELFs, Pickle, Javascript and more
+  repoUrl: https://github.com/dreadnode/dyana
+  websiteUrl: https://dreadnode.io/
+  categories:
+  - opensource
+  - ml-bom
+  - analysis
 - name: Eclipse SW360 Antenna
   publisher: Eclipse
   description: Creates CycloneDX SBOMs from Maven projects
