@@ -2096,6 +2096,14 @@
   - distribute
   - transform
   - author
+- name: Dyana
+  publisher: dreadnode
+  description: A sandbox environment designed for loading, running and profiling a wide range of files, including machine learning models, ELFs, Pickle, Javascript and more.
+  repoUrl: https://github.com/dreadnode/dyana
+  websiteUrl: https://dreadnode.io/
+  categories:
+  - opensource
+  - analysis
 
 # `description` will be truncated at 250 characters
 # `categories` values MUST be the keys from `tool-categories.yml` file
