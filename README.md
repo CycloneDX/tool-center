@@ -18,7 +18,7 @@ Contributions are welcome! If you know of a tool, product, or service related to
 
 If you have questions, suggestions, or feedback about the CycloneDX Tool Center, we encourage you to:
 
-- Join the [CycloneDX Slack](https://cyclonedx.org/slack) for real-time discussions.
+- Join the [CycloneDX Slack](https://cyclonedx.org/slack) ([invite](https://cyclonedx.org/slack/invite)) for real-time discussions.
 - Visit the [CycloneDX website](https://cyclonedx.org) for documentation, news, and updates.
 - Open an issue in this repository for any corrections or clarifications.
 
