@@ -2125,6 +2125,16 @@
   - proprietary
   - build-integration
   - github-action
+- name: ts-scan 
+  publisher: TrustSource
+  description: Multi ecosystem SCA cli tool supporting SBOM generation, decoration and analysis for licenses, vulnerabilities, known code snippets and malware. Can convert SBOMs between SPDX, CycloneDX and ts formats. All local. But it may also upload results to app.trustsource.io.
+  websiteUrl: https://trustsource.github.io/ts-scan/
+  categories:
+    - opensource
+    - analysis
+    - transform
+    - build-integration
+
 
 # `description` will be truncated at 250 characters
 # `categories` values MUST be the keys from `tool-categories.yml` file
