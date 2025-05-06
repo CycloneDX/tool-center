@@ -2177,6 +2177,13 @@
   categories:
   - opensource
   - author
+- name: NTIA Validator for CycloneDX
+  publisher: FOSSA
+  description: Ensure your CycloneDX SBOM meets NTIA requirements BEFORE you submit.
+  websiteUrl: https://fossa.com/resources/devops-tools/ntia-sbom-validator/
+  categories:
+    - analysis
+    - library
 
 # `description` will be truncated at 250 characters
 # `categories` values MUST be the keys from `tool-categories.yml` file
