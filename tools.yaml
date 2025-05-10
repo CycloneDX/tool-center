@@ -2187,6 +2187,13 @@
   categories:
   - opensource
   - author
+- name: NTIA Validator for CycloneDX
+  publisher: FOSSA
+  description: Get a detailed validation report on your SBOM against NTIA requirements before submitting to consumers or regulatory bodies. Visualize and validate the dependency graph structure to ensure compliance.
+  websiteUrl: https://fossa.com/resources/devops-tools/ntia-sbom-validator/
+  categories:
+    - analysis
+    - library
 
 # `description` will be truncated at 250 characters
 # `categories` values MUST be the keys from `tool-categories.yml` file
