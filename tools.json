@@ -12753,5 +12753,74 @@
         "SCALA"
       ]
     }
+    {
+      "name": "Boostsecurity.io",
+      "publisher": "Boostsecurity.io",
+      "description": "The zero friction platform for AppSec Testing and Application Security Posture Management (ASPM) Securing both Software Supply Chains and AI Development.",
+      "website_url": "https://boostsecurity.io/",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "COMMERCIAL_LICENSE",
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "AUTHOR",
+        "DISTRIBUTE",
+        "PACKAGE_MANAGER_INTEGRATION",
+        "TRANSFORM"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING",
+        "OUTDATED_COMPONENTS",
+        "POLICY_EVALUATION",
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [
+        "BOM_STANDARD"
+      ],
+      "packaging": [
+        "APPLICATION",
+        "COMMAND_LINE_UTILITY",
+        "GITHUB_APP"
+      ],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "DESIGN",
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "SPDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        "C/C++",
+        ".NET",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SWIFT"
+      ]
+    }
   ]
 }
