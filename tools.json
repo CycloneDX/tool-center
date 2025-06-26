@@ -12757,6 +12757,69 @@
         "RUST",
         "SCALA"
       ]
+    },
+    {
+      "name": "Aikido Security",
+      "publisher": "Aikido Security",
+      "description": "No bullsh*t security for devs. One central system that shows you what matters and how to fix it, from code-to-cloud.‍ Get security done. Get back to building.",
+      "website_url": "https://aikido.dev",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "FREEMIUM",
+        "SUBSCRIPTION",
+        "COMMERCIAL_LICENSE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "POLICY_EVALUATION",
+        "LICENSE_REPORTING",
+        "OUTDATED_COMPONENTS"
+      ],
+      "transform": [],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "DESIGN",
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [],
+      "supportedLanguages": [
+        "JAVASCRIPT/TYPESCRIPT",
+        "PHP",
+        "JAVA",
+        "SWIFT",
+        "GO",
+        "PYTHON",
+        ".NET",
+        "RUBY",
+        "RUST",
+        "KOTLIN",
+        "ERLANG_ELIXIR",
+        "C/C++",
+        "SCALA"
+      ]
     }
   ]
 }
