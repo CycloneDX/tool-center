@@ -12757,6 +12757,155 @@
         "RUST",
         "SCALA"
       ]
+    },
+    {
+      "name": "To Be Continuous GitLab templates",
+      "publisher": "To Be Continuous",
+      "description": "A set of GitLab CI templates including SBOM generation for every supported technology using Trivy, Syft, or CycloneDX plugins.",
+      "repository_url": "https://gitlab.com/to-be-continuous/doc",
+      "website_url": "https://to-be-continuous.gitlab.io/doc/",
+      "capabilities": [
+        "SBOM",
+        "RELEASE_NOTES"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "AUTHOR",
+        "DISTRIBUTE",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [
+        "GITLAB_CI_TEMPLATE"
+      ],
+      "library": [
+        "PYTHON",
+        "SHELL"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ],
+      "supportedLanguages": [
+        "GO",
+        "GROOVY",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "KOTLIN",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUST",
+        "SCALA"
+      ]
+    },
+    {
+      "name": "To Be Continuous Dependency-Track template",
+      "publisher": "To Be Continuous",
+      "description": "A GitLab CI template to validate and merge SBOMs before publishing them to Dependency-Track.",
+      "repository_url": "https://gitlab.com/to-be-continuous/dependency-track",
+      "website_url": "https://gitlab.com/to-be-continuous/dependency-track",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "DISTRIBUTE",
+        "TRANSFORM"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [
+        "BOM_VERSION",
+        "BOM_STANDARD"
+      ],
+      "library": [
+        "PYTHON",
+        "SHELL"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ]
+    },
+    {
+      "name": "DT SBOM Scanner",
+      "publisher": "To Be Continuous",
+      "description": "A CLI tool to validate and merge SBOMs before publishing them to Dependency-Track.",
+      "repository_url": "https://gitlab.com/to-be-continuous/tools/dt-sbom-scanner",
+      "website_url": "https://gitlab.com/to-be-continuous/tools/dt-sbom-scanner",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "DISTRIBUTE",
+        "TRANSFORM"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [
+        "BOM_VERSION",
+        "BOM_STANDARD"
+      ],
+      "library": [
+        "PYTHON",
+        "SHELL"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ]
     }
   ]
 }
