@@ -12909,53 +12909,121 @@
       ]
     },
     {
-      "name": "SecureSBOM",
-      "publisher": "ShiftLeftCyber",
-      "description": "SecureSBOM is an enterprise-grade API that provides cryptographic signing and verification capabilities at scale.",
-      "website_url": "https://shiftleftcyber.io/securesbom",
+      "name": "Socket",
+      "publisher": "Socket",
+      "description": "Supply Chain Security platform. Next-gen SCA + SBOM + 0-day prevention.",
+      "website_url": "https://socket.dev",
       "capabilities": [
         "SBOM",
         "VDR/VEX"
       ],
       "availability": [
         "FREEMIUM",
-        "SUBSCRIPTION"
+        "SUBSCRIPTION",
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
-        "PACKAGE_MANAGER_INTEGRATION",
-        "SIGNING/NOTARY"
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
-      "analysis": [],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "POLICY_EVALUATION",
+        "LICENSE_REPORTING",
+        "OUTDATED_COMPONENTS"
+      ],
       "transform": [],
       "packaging": [
+        "APPLICATION",
         "COMMAND_LINE_UTILITY",
         "GITHUB_ACTION",
-        "LIBRARY"
+        "GITHUB_APP",
+        "GITLAB_CI_TEMPLATE"
       ],
-      "library": [
-        "GO"
-      ],
+      "library": [],
       "platform": [
         "LINUX",
         "MAC",
         "WINDOWS"
       ],
       "lifecycle": [
+        "DESIGN",
+        "PRE-BUILD",
         "BUILD",
-        "POST-BUILD",
-        "OPERATIONS"
+        "POST-BUILD"
       ],
       "supportedStandards": [
         "CYCLONEDX",
-        "SPDX"
+        "SPDX",
+        "PACKAGE_URL"
       ],
-      "cycloneDxVersion": [
-        "CYCLONEDX_V1.4",
-        "CYCLONEDX_V1.5",
-        "CYCLONEDX_V1.6"
-      ],
-      "supportedLanguages": []
-    }
+      "cycloneDxVersion": [],
+      "supportedLanguages": [
+        "C/C++",
+        ".NET",
+        "ERLANG_ELIXIR",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "KOTLIN",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SCALA",
+        "SWIFT"
+      ]
+    },
+    {
+        "name": "SecureSBOM",
+        "publisher": "ShiftLeftCyber",
+        "description": "SecureSBOM is an enterprise-grade API that provides cryptographic signing and verification capabilities at scale.",
+        "website_url": "https://shiftleftcyber.io/securesbom",
+        "capabilities": [
+          "SBOM",
+          "VDR/VEX"
+        ],
+        "availability": [
+          "FREEMIUM",
+          "SUBSCRIPTION"
+        ],
+        "functions": [
+          "ANALYSIS",
+          "PACKAGE_MANAGER_INTEGRATION",
+          "SIGNING/NOTARY"
+        ],
+        "analysis": [],
+        "transform": [],
+        "packaging": [
+          "COMMAND_LINE_UTILITY",
+          "GITHUB_ACTION",
+          "LIBRARY"
+        ],
+        "library": [
+          "GO"
+        ],
+        "platform": [
+          "LINUX",
+          "MAC",
+          "WINDOWS"
+        ],
+        "lifecycle": [
+          "BUILD",
+          "POST-BUILD",
+          "OPERATIONS"
+        ],
+        "supportedStandards": [
+          "CYCLONEDX",
+          "SPDX"
+        ],
+        "cycloneDxVersion": [
+          "CYCLONEDX_V1.4",
+          "CYCLONEDX_V1.5",
+          "CYCLONEDX_V1.6"
+        ],
+        "supportedLanguages": []
+      }
   ]
 }
