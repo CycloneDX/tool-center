@@ -7778,7 +7778,7 @@
     {
       "name": "SBOMDiff",
       "publisher": "Anthony Harrison",
-      "description": "SBOMDiff is an Apache-2.0 CLI that compares two SBOM files (CycloneDX 1.4 or SPDX 2.3), highlighting package additions, removals, version or license changes, and outputs text, JSON or YAML reports.",
+      "description": "SBOMDiff is an Apache-2.0 CLI that compares two SBOM files (CycloneDX or SPDX), highlighting package additions, removals, version or license changes, and outputs text, JSON or YAML reports.",
       "repository_url": "https://github.com/anthonyharrison/sbomdiff",
       "website_url": "https://pypi.org/project/sbomdiff/",
       "capabilities": [
@@ -7807,6 +7807,7 @@
         "WINDOWS"
       ],
       "lifecycle": [
+        "BUILD",
         "POST-BUILD"
       ],
       "supportedStandards": [
@@ -7814,6 +7815,8 @@
         "SPDX"
       ],
       "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4"
       ]
     },
@@ -7853,6 +7856,7 @@
       ],
       "lifecycle": [
         "PRE-BUILD",
+        "BUILD",
         "POST-BUILD"
       ],
       "supportedStandards": [
@@ -7860,7 +7864,9 @@
         "SPDX"
       ],
       "cycloneDxVersion": [
-        "CYCLONEDX_V1.5"
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
       ],
       "supportedLanguages": [
         "PYTHON"
@@ -7895,18 +7901,22 @@
         "WINDOWS"
       ],
       "lifecycle": [
-        "BUILD",
-        "POST-BUILD"
+        "PRE-BUILD"
       ],
       "supportedStandards": [
         "CYCLONEDX",
         "SPDX"
-      ]
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ],
     },
     {
       "name": "SBOM4Rust",
       "publisher": "Anthony Harrison",
-      "description": "CLI that reads Cargo.lock and authors CycloneDX v1.6 or SPDX SBOMs for Rust projects.",
+      "description": "CLI that reads Cargo.lock and authors CycloneDX or SPDX SBOMs for Rust projects.",
       "repository_url": "https://github.com/anthonyharrison/sbom4rust",
       "website_url": "https://github.com/anthonyharrison/sbom4rust",
       "capabilities": [
@@ -7932,14 +7942,17 @@
         "WINDOWS"
       ],
       "lifecycle": [
-        "PRE-BUILD"
+        "BUILD",
+        "POST-BUILD"
       ],
       "supportedStandards": [
         "CYCLONEDX",
         "SPDX"
       ],
       "cycloneDxVersion": [
-        "CYCLONEDX_V1.6"
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
       ],
       "supportedLanguages": [
         "RUST"
@@ -7985,13 +7998,15 @@
         "SPDX"
       ],
       "cycloneDxVersion": [
-        "CYCLONEDX_V1.5"
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
       ]
     },
     {
       "name": "SBOM-Manager",
       "publisher": "Anthony Harrison",
-      "description": "SBOM-Manager is an open-source Python CLI that stores, queries, and scans CycloneDX 1.4/1.5 and SPDX 2.3 SBOMs via a local repository to support audit and vulnerability investigations.",
+      "description": "SBOM-Manager is an open-source Python CLI that stores, queries, and scans CycloneDX and SPDX SBOMs via a local repository to support audit and vulnerability investigations.",
       "repository_url": "https://github.com/anthonyharrison/sbom-manager",
       "website_url": "https://pypi.org/project/sbom-manager/",
       "capabilities": [
@@ -8028,6 +8043,7 @@
         "SPDX"
       ],
       "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4"
       ]
@@ -8077,15 +8093,16 @@
       "cycloneDxVersion": [
         "CYCLONEDX_V1.6",
         "CYCLONEDX_V1.5",
-        "CYCLONEDX_V1.4",
-        "CYCLONEDX_V1.3"
+        "CYCLONEDX_V1.4"
       ],
       "supportedLanguages": [
         "GO",
         "JAVA",
         "JAVASCRIPT/TYPESCRIPT",
         ".NET",
+        "NODE.JS",
         "PERL",
+        "PHP",
         "PYTHON",
         "RUBY",
         "RUST",
@@ -8129,10 +8146,15 @@
       ],
       "supportedStandards": [
         "CYCLONEDX",
-        "SPDX"
+        "SPDX",
+        "CPE",
+        "PACKAGE_URL"
       ],
-      "cycloneDxVersion": [],
-      "supportedLanguages": []
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ]
     },
     {
       "name": "SBOM2dot",
@@ -8174,26 +8196,15 @@
         "SPDX"
       ],
       "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4"
-      ],
-      "supportedLanguages": [
-        "C/C++",
-        "GO",
-        "JAVA",
-        "JAVASCRIPT/TYPESCRIPT",
-        ".NET",
-        "NODE.JS",
-        "PHP",
-        "PYTHON",
-        "RUBY",
-        "RUST"
       ]
     },
     {
       "name": "SBOMMerge",
       "publisher": "Anthony Harrison",
-      "description": "Command-line utility that merges two SBOM files, supporting CycloneDX and SPDX inputs and outputs in tag, JSON or YAML formats.",
+      "description": "Command-line utility that merges two SBOM files, supporting CycloneDX and SPDX SBOMs and outputs in tag, JSON or YAML formats.",
       "repository_url": "https://github.com/anthonyharrison/sbommerge",
       "website_url": "https://pypi.org/project/sbommerge/",
       "capabilities": [
@@ -8229,6 +8240,7 @@
         "SPDX"
       ],
       "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4"
       ]
@@ -8236,11 +8248,14 @@
     {
       "name": "Lib4sbom",
       "publisher": "Anthony Harrison",
-      "description": "Python library that parses, converts and generates SBOMs in CycloneDX and SPDX formats, allowing JSON, Tag, YAML and XML serialization and programmatic manipulation of packages, files and dependencies.",
+      "description": "Python library that parses, validates, converts and generates xBOMs in CycloneDX and SPDX formats, allowing JSON, Tag, YAML and XML serialization and programmatic manipulation of packages, files and dependencies.",
       "repository_url": "https://github.com/anthonyharrison/lib4sbom",
       "website_url": "https://pypi.org/project/lib4sbom/",
       "capabilities": [
-        "SBOM"
+        "AI/ML-BOM",
+        "OBOM",
+        "SBOM",
+        "VDR/VEX"
       ],
       "availability": [
         "OPEN_SOURCE",
@@ -8272,6 +8287,11 @@
       "supportedStandards": [
         "CYCLONEDX",
         "SPDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
       ]
     },
     {
@@ -10979,6 +10999,7 @@
         "WINDOWS"
       ],
       "lifecycle": [
+        "BUILD",
         "POST-BUILD"
       ],
       "supportedStandards": [
@@ -10986,7 +11007,9 @@
         "SPDX"
       ],
       "cycloneDxVersion": [
-        "CYCLONEDX_V1.5"
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
       ],
       "supportedLanguages": [
         "PYTHON"
