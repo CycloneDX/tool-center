@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Kyverno",
+    "publisher": "Kyverno Project (CNCF Incubating)",
+    "description": "Kyverno is an open-source Kubernetes policy engine that validates, mutates and generates configurations, and can evaluate CycloneDX SBOM attestations to enforce supply-chain policies.",
+    "repository_url": "https://github.com/kyverno/kyverno",
+    "website_url": "https://kyverno.io",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "POLICY_EVALUATION",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ]
+  }
+}

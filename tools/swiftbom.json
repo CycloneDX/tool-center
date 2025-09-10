@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SwiftBOM",
+    "publisher": "CERT Coordination Center (CERT/CC)",
+    "description": "Generates SBOMs for demo and PoC purposes. Supports output in CycloneDX, SPDX, and SWID formats. Visualizes SBOMs as tree graphs.",
+    "repository_url": "https://github.com/CERTCC/SBOM",
+    "website_url": "https://sbom.democert.org/sbom/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SWID"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

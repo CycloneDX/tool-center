@@ -1,9 +1,9 @@
 {
-  "settingsVersion": "1.0.2",
+  "settingsVersion": "1.0.3",
   "dataFormat": "json",
-  "toolbarTitle": "MetaConfigurator",
-  "hideSchemaEditor": false,
-  "hideSettings": false,
+  "toolbarTitle": "CycloneDX ToolCenter Editor",
+  "hideSchemaEditor": true,
+  "hideSettings": true,
   "performance": {
     "maxDocumentSizeForValidation": 1024000,
     "maxDocumentSizeForCursorSynchronization": 1240000,
@@ -14,7 +14,7 @@
   "codeEditor": {
     "fontSize": 14,
     "tabSize": 2,
-    "showFormatSelector": true,
+    "showFormatSelector": false,
     "xml": {
       "attributeNamePrefix": "_"
     }
@@ -22,7 +22,9 @@
   "guiEditor": {
     "maximumDepth": 20,
     "propertySorting": "schemaOrder",
-    "hideAddPropertyButton": true
+    "hideAddPropertyButton": true,
+    "showBorderAroundInputFields": true,
+    "showSchemaTitleAsHeader": true
   },
   "schemaDiagram": {
     "editMode": true,
@@ -52,9 +54,14 @@
   "panels": {
     "dataEditor": [
       {
+        "panelType": "textEditor",
+        "mode": "dataEditor",
+        "size": 50
+      },
+      {
         "panelType": "guiEditor",
         "mode": "dataEditor",
-        "size": 40
+        "size": 50
       }
     ],
     "schemaEditor": [
@@ -82,31 +89,11 @@
       }
     ],
     "hidden": [
-      "debug",
       "aiPrompts",
+      "debug",
+      "test",
+      "schemaDiagram",
       "tableView"
     ]
-  },
-  "frontend": {
-    "hostname": "http://metaconfigurator.informatik.uni-stuttgart.de"
-  },
-  "backend": {
-    "hostname": "http://metaconfigurator.informatik.uni-stuttgart.de",
-    "port": 5000
-  },
-  "rdf": {
-    "sparqlEndpointUrl": "https://dbpedia.org/sparql"
-  },
-  "aiIntegration": {
-    "model": "gpt-4o-mini",
-    "maxTokens": 5000,
-    "temperature": 0,
-    "endpoint": "https://api.openai.com/v1/chat/completions"
-  },
-  "openAi": {
-    "model": "gpt-4o-mini",
-    "maxTokens": 5000,
-    "temperature": 0.3,
-    "endpoint": "/chat/completions"
   }
 }

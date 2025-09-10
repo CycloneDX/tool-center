@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "PulseUno Plugin for Dimensions CM",
+    "publisher": "Micro Focus",
+    "description": "PulseUno enables development teams to continually build and inspect the health and quality of code using plugins such as CycloneDX. Teams can use this information for merge, deployment, and release decisions.",
+    "repository_url": "https://www.microfocus.com/en-us/products/dimensions-cm",
+    "website_url": "https://www.microfocus.com/en-us/products/dimensions-cm",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "RESOURCE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

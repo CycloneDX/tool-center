@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for Gradle",
+    "publisher": "CycloneDX",
+    "description": "Gradle plugin that generates CycloneDX SBOMs (XML or JSON) for all dependencies in Java-based builds.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-gradle-plugin",
+    "website_url": "https://plugins.gradle.org/plugin/org.cyclonedx.bom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "JAVA"
+    ]
+  }
+}

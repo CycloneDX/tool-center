@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Dependency-Track Maven Plugin",
+    "publisher": "Paul McKeown",
+    "description": "Maven plugin that integrates with a Dependency-Track server to submit SBOMs and optionally fail execution when vulnerable dependencies are found",
+    "repository_url": "https://github.com/pmckeown/dependency-track-maven-plugin",
+    "website_url": "https://github.com/pmckeown/dependency-track-maven-plugin#readme",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [],
+    "packaging": [
+      "MAVEN_PLUGIN"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "JAVA"
+    ]
+  }
+}

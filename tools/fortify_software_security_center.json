@@ -1,0 +1,68 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Fortify Software Security Center",
+    "publisher": "Micro Focus",
+    "description": "Open-source CycloneDX parser plugin for Fortify SSC that imports SBOMs, correlates components with known vulnerabilities and licenses, and displays them in the SSC portal.",
+    "repository_url": "https://github.com/fortify/fortify-ssc-parser-generic-cyclonedx",
+    "website_url": "https://github.com/fortify/fortify-ssc-parser-generic-cyclonedx",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "TRANSFORM",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "CPE",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY"
+    ]
+  }
+}

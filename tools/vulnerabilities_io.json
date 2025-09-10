@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Vulnerabilities.io",
+    "publisher": "Vulnerabilities Input Output Limited",
+    "description": "Generates CycloneDX Software Bill of Materials (SBOM) and visualizations for an organization's codebase through integrations with source control systems. Enables organizations to manage overall supply chain risk.",
+    "website_url": "https://www.vulnerabilities.io",
+    "repository_url": "https://www.vulnerabilities.io",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "DISTRIBUTE",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "packaging": [
+      "GITHUB_APP",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      ".NET",
+      "PHP",
+      "PYTHON",
+      "JAVASCRIPT/TYPESCRIPT",
+      "RUST",
+      "ERLANG_ELIXIR"
+    ]
+  }
+}

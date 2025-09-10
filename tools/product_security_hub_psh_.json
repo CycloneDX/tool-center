@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Product Security Hub (PSH)",
+    "publisher": "Product Security Hub, LLC",
+    "description": "Cloud-based tool to import, export, view, create, edit, and transform CycloneDX SBOMs and human-readable SBOMs, as well as manage VEX data.",
+    "website_url": "https://www.ProductSecurityHub.com/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ]
+  }
+}

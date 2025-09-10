@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "nim_lk",
+    "publisher": "Emery Hemingway",
+    "description": "Create and update SBOMs for the Nim programing language. Includes a translation module for the Nimble package manager as well as a Nix expression for building packages from SBOMs.",
+    "repository_url": "https://git.sr.ht/~ehmry/nim_lk",
+    "website_url": "https://git.sr.ht/~ehmry/nim_lk",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "NIM"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ]
+  }
+}

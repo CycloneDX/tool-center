@@ -1,0 +1,66 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Fortify on Demand",
+    "publisher": "Micro Focus",
+    "description": "SaaS application-security testing platform offering SAST, DAST and SCA. Produces and consumes CycloneDX SBOMs to secure the software supply chain across many languages, frameworks and package managers.",
+    "repository_url": "https://github.com/fortify/github-action",
+    "website_url": "https://www.microfocus.com/en-us/cyberres/application-security/fortify-on-demand",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY",
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "SCALA",
+      "KOTLIN",
+      "SWIFT"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Cyberwatch",
+    "publisher": "Cyberwatch",
+    "description": "Cyberwatch Vulnerability Manager allows you to discover assets, scan and prioritize vulnerabilities, and fix them.",
+    "repository_url": "https://cyberwatch.fr/en/",
+    "website_url": "https://cyberwatch.fr/en/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      ".NET",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON"
+    ]
+  }
+}

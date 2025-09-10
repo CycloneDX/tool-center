@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "MLBOMdoc",
+    "publisher": "Anthony Harrison",
+    "description": "A command line tool which produces a human-readable representation of a CycloneDX ML Bill of Materials (MLBOM). Output formats include PDF and Markdown.",
+    "repository_url": "https://github.com/anthonyharrison/mlbomdoc",
+    "website_url": "https://pypi.org/project/mlbomdoc/",
+    "capabilities": [
+      "AI/ML-BOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

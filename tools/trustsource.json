@@ -1,0 +1,71 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "TrustSource",
+    "publisher": "TrustSource",
+    "description": "SaaS platform for implementing and maintaining open source compliance that imports CycloneDX SBOMs, analyzes them for licenses and vulnerabilities, and integrates with various development workflows.",
+    "repository_url": "https://github.com/trustsource",
+    "website_url": "https://www.trustsource.io/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "TRANSFORM",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION",
+      "RESOURCE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT",
+      "PYTHON",
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PYTHON",
+      "RUBY"
+    ]
+  }
+}

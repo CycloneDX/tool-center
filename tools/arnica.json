@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Arnica",
+    "publisher": "Arnica",
+    "description": "SaaS platform that automates software supply-chain security; offers free, always-up-to-date SBOM generation in CycloneDX format plus risk analysis and CI/CD integrations.",
+    "website_url": "https://www.arnica.io/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ]
+  }
+}

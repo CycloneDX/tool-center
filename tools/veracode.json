@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Veracode",
+    "publisher": "Veracode",
+    "description": "API to output SBOM in CycloneDX (JSON) format based on Veracode's software composition analysis (SCA) scan.",
+    "website_url": "https://www.veracode.com/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_ACTION"
+    ],
+    "library": [],
+    "platform": [
+      "WINDOWS",
+      "MAC",
+      "LINUX"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "PYTHON",
+      "RUBY",
+      "GO",
+      "PHP"
+    ]
+  }
+}

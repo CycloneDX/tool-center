@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "EXPLIoT IoT Security Assessment Framework",
+    "publisher": "EXPLIoT",
+    "description": "EXPLIoT is an AGPLv3 Python framework and CLI for assessing and exploiting IoT devices; it offers 140+ plug-ins and can generate CycloneDX SBOMs from firmware filesystems.",
+    "repository_url": "https://gitlab.com/expliot_framework/expliot",
+    "website_url": "https://expliot.io/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

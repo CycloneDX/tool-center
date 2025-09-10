@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SBOM2doc",
+    "publisher": "Anthony Harrison",
+    "description": "SBOM2doc converts CycloneDX or SPDX SBOMs into human-readable reports in PDF, Markdown, HTML, Excel or console formats via a cross-platform Python CLI.",
+    "repository_url": "https://github.com/anthonyharrison/sbom2doc",
+    "website_url": "https://pypi.org/project/sbom2doc/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "TRANSFORM",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

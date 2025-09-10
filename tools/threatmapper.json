@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ThreatMapper",
+    "publisher": "Deepfence",
+    "description": "Deepfence ThreatMapper hunts for vulnerabilities in production platforms, ranks vulnerabilities based on their risk-of-exploit using attack path enumeration, and generates CycloneDX SBOMs.",
+    "repository_url": "https://github.com/deepfence/threatmapper",
+    "website_url": "https://deepfence.io/threatmapper",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "CONTAINER_IMAGE",
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": []
+  }
+}

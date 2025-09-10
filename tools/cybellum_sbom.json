@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Cybellum SBOM",
+    "publisher": "Cybellum Technologies LTD.",
+    "description": "Analyzes binary artifacts to generate SBOMs including context-based analysis to perform accurate vulnerability assessment",
+    "website_url": "https://cybellum.com",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "RESOURCE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ]
+  }
+}

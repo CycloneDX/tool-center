@@ -1,0 +1,67 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CAST Highlight",
+    "publisher": "CAST",
+    "description": "CAST Highlight automatically analyzes source code portfolios for open-source risks, cloud readiness, resiliency, green impact and technical debt, and can import CycloneDX SBOMs for instant SCA insights.",
+    "website_url": "https://www.castsoftware.com/products/highlight",
+    "repository_url": "https://github.com/MichaelMULLER/highlight-scan-github-action",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      ".NET",
+      "NODE.JS",
+      "JAVASCRIPT/TYPESCRIPT",
+      "C/C++",
+      "GO",
+      "PYTHON",
+      "PHP",
+      "RUBY",
+      "SCALA",
+      "KOTLIN"
+    ]
+  }
+}

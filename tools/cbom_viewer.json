@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CBOM Viewer",
+    "publisher": "IBM",
+    "description": "A Web Service to visualize and explore the use of cryptography in software with Cryptography Bills of Materials (CBOM).",
+    "website_url": "https://www.zurich.ibm.com/cbom/",
+    "repository_url": "https://www.zurich.ibm.com/cbom/",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON"
+    ]
+  }
+}

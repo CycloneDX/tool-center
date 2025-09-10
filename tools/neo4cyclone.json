@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Neo4Cyclone",
+    "publisher": "Javier Dominguez",
+    "description": "Neo4Cyclone is a tool that allows you to visualise your SBOMs using Neo4J.",
+    "repository_url": "https://github.com/javixeneize/neo4cyclone",
+    "website_url": "https://github.com/javixeneize/neo4cyclone",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

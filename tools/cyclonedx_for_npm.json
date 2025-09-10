@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for NPM",
+    "publisher": "CycloneDX",
+    "description": "Create CycloneDX Software Bill of Materials (SBOM) from npm projects.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-node-npm",
+    "website_url": "https://www.npmjs.com/package/@cyclonedx/cyclonedx-npm",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT",
+      "NODE.JS"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DESIGN",
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SOOS",
+    "publisher": "SOOS",
+    "description": "Automate your software inventory. SOOS creates, ingests, and manages your Software Bill of Materials and uses patented SCA and the largest open-source SBOM database to find hidden vulnerabilities, license issues, and dependencies sooner.",
+    "website_url": "https://soos.io",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "DISTRIBUTE",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "GITHUB_ACTION",
+      "GITHUB_APP",
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT",
+      "JAVA",
+      ".NET",
+      "PYTHON",
+      "RUBY",
+      "PHP"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "JAVA",
+      "PYTHON",
+      "RUBY",
+      "PHP"
+    ]
+  }
+}

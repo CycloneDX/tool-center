@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CaPyCli - Clearing Automation for SW360",
+    "publisher": "Siemens",
+    "description": "CaPyCli is an MIT-licensed Python CLI that generates, compares, merges and converts CycloneDX SBOMs for several language ecosystems and maps them to a SW360 component database.",
+    "repository_url": "https://github.com/sw360/capycli",
+    "website_url": "https://github.com/sw360/capycli",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON"
+    ]
+  }
+}

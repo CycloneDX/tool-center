@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Endor Labs",
+    "publisher": "Endor Labs",
+    "description": "Cloud-native platform that auto-creates CycloneDX SBOMs, generates VEX, and analyzes reachability so teams can securely select, integrate and maintain open-source software at scale.",
+    "website_url": "https://endorlabs.com",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_ACTION",
+      "GITLAB_CI_TEMPLATE"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY"
+    ]
+  }
+}

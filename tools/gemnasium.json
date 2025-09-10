@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Gemnasium",
+    "publisher": "GitLab",
+    "description": "Dependency scanning analyzer that uses the GitLab Advisory Database to detect vulnerabilities in project dependencies and generates CycloneDX SBOMs.",
+    "repository_url": "https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium",
+    "website_url": "https://docs.gitlab.com/ee/user/application_security/dependency_scanning/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE",
+      "FREEMIUM"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [],
+    "packaging": [
+      "CONTAINER_IMAGE",
+      "GITLAB_CI_TEMPLATE"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "RUBY",
+      "PYTHON",
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "JAVA",
+      "GO",
+      "PHP"
+    ]
+  }
+}

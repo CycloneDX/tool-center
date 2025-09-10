@@ -1,0 +1,75 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SonarQube Advanced Security",
+    "publisher": "Sonar",
+    "description": "Secure your entire codebase\u2014first-party, third-party, and everything in between. Seamlessly integrated into your workflow, SonarQube detects and fixes vulnerabilities, ensures license compliance, and generates Software Bills of Materials",
+    "website_url": "https://sonarsource.com/solutions/security",
+    "capabilities": [
+      "SBOM",
+      "CDXA"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "AZURE_PIPELINE_EXTENSION",
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION",
+      "GITLAB_CI_TEMPLATE",
+      "JENKINS_PLUGIN",
+      "MAVEN_PLUGIN"
+    ],
+    "library": [
+      "JAVA",
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      ".NET",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "KOTLIN",
+      "NODE.JS",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SCALA"
+    ]
+  }
+}

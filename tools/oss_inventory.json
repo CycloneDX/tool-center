@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "OSS Inventory",
+    "publisher": "Thiago Pinto",
+    "description": "A web application for importing, storing, and visualizing CycloneDX SBOMs, allowing organizations to track software components across projects.",
+    "repository_url": "https://github.com/thspinto/oss_inventory",
+    "website_url": "https://github.com/thspinto/oss_inventory",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "RESOURCE_REPORTING"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

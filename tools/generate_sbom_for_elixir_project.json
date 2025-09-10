@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Generate SBoM for Elixir project",
+    "publisher": "Red Shirts",
+    "description": "GitHub Action to generate CycloneDX Software Bill-of-Materials (SBOM) for Erlang/Elixir Mix projects",
+    "repository_url": "https://github.com/red-shirts/action-mix-sbom",
+    "website_url": "https://github.com/marketplace/actions/generate-sbom-for-elixir-project",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [],
+    "transform": [],
+    "packaging": [
+      "GITHUB_ACTION",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "ERLANG_ELIXIR"
+    ]
+  }
+}

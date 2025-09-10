@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX CLI",
+    "publisher": "CycloneDX",
+    "description": "CLI tool for SBOM analysis, merging, diffs, format conversions, signing, and validation. Supports CycloneDX XML/JSON/Protobuf/CSV, SPDX JSON, and more.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-cli",
+    "website_url": "https://cyclonedx.org/",
+    "capabilities": [
+      "SBOM",
+      "SAASBOM",
+      "OBOM",
+      "MBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "TRANSFORM",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      ".NET"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": []
+  }
+}

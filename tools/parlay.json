@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Parlay",
+    "publisher": "Snyk",
+    "description": "Parlay is an Apache-licensed CLI written in Go that takes CycloneDX 1.4 JSON/XML or SPDX 2.3 SBOMs and enriches them with licence, vulnerability, maintainer and scorecard data from services like ecosyste.ms, Snyk and OpenSSF.",
+    "repository_url": "https://github.com/snyk/parlay",
+    "website_url": "https://github.com/snyk/parlay",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX PHP Composer Generate SBOM",
+    "publisher": "CycloneDX",
+    "description": "GitHub Action to create a CycloneDX Software Bill-of-Materials (SBOM) for PHP Composer projects (note: considered deprecated)",
+    "repository_url": "https://github.com/CycloneDX/gh-php-composer-generate-sbom",
+    "website_url": "https://github.com/marketplace/actions/cyclonedx-php-composer-generate-sbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "PHP"
+    ]
+  }
+}

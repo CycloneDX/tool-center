@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "cdx-central",
+    "publisher": "nscuro",
+    "description": "CLI utility that downloads public CycloneDX SBOMs from Maven Central for selected artifacts.",
+    "repository_url": "https://github.com/nscuro/cdx-central",
+    "website_url": "https://github.com/nscuro/cdx-central",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "analysis": [],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

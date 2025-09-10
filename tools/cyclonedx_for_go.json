@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for Go",
+    "publisher": "Ozon",
+    "description": "Command-line utility and Go library that generates CycloneDX SBOMs from Go module projects for supply-chain transparency.",
+    "repository_url": "https://github.com/ozonru/cyclonedx-go",
+    "website_url": "https://github.com/ozonru/cyclonedx-go",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "supportedLanguages": [
+      "GO"
+    ]
+  }
+}

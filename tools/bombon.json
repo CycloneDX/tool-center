@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "bombon",
+    "publisher": "nikstur",
+    "description": "CLI and Nix library that generates CycloneDX v1.5 SBOMs for Nix packages, including build-time and vendored dependencies, compliant with BSI TR-03183 and US EO 14028.",
+    "repository_url": "https://github.com/nikstur/bombon",
+    "website_url": "https://github.com/nikstur/bombon",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "LIBRARY",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "RUST"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3"
+    ]
+  }
+}

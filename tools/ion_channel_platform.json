@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Ion Channel Platform",
+    "publisher": "Ion Channel",
+    "description": "Risk management platform that enables analysis, exchange and continuous monitoring of Software Bills of Materials (SBOMs) to actively manage third party risk and compliance",
+    "website_url": "https://www.exiger.com/products/ion-channel/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ]
+  }
+}

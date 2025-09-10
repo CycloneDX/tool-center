@@ -1,0 +1,371 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "$comment": "CycloneDX Tool Center JSON schema is published under the terms of the Creative Commons Attribution-ShareAlike 4.0 International license.",
+  "title": "CycloneDX Tool Center v2 Tool",
+  "type": "object",
+  "required": [
+    "specVersion",
+    "tool"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri-reference",
+      "examples": [
+        "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json"
+      ]
+    },
+    "$comment": {
+      "type": "string"
+    },
+    "specVersion": {
+      "type": "string",
+      "enum": [
+        "2.0"
+      ],
+      "description": "The version of the Tool Center specification being used. Must be \"2.0\" for this schema."
+    },
+    "tool": {
+      "$ref": "#/definitions/tool",
+      "description": "A list of tool entries describing individual tools and their characteristics. Each entry conforms to the tool object definition."
+    }
+  },
+  "definitions": {
+    "tool": {
+      "type": "object",
+      "required": [
+        "name",
+        "publisher",
+        "description"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The name of the tool."
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The individual, organisation, or vendor responsible for publishing or maintaining the tool."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 250,
+          "description": "A short, plain-text description of the tool. Descriptions must not exceed 250 characters."
+        },
+        "repository_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL to the source code repository, if publicly available."
+        },
+        "website_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL to the tool's main website or documentation."
+        },
+        "capabilities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "AI/ML-BOM",
+              "CBOM",
+              "CDXA",
+              "HBOM",
+              "MBOM",
+              "OBOM",
+              "RELEASE_NOTES",
+              "SAASBOM",
+              "SBOM",
+              "VDR/VEX"
+            ],
+            "meta:enum": {
+              "AI/ML-BOM": "AI/ML Bill of Materials",
+              "CBOM": "Cryptography Bill of Materials",
+              "CDXA": "CycloneDX Attestations",
+              "HBOM": "Hardware Bill of Materials",
+              "MBOM": "Manufacturing Bill of Materials (Formulation)",
+              "OBOM": "Operations Bill of Materials",
+              "RELEASE_NOTES": "Standardized Release Notes Format",
+              "SAASBOM": "Software as-a Service Bill of Materials",
+              "SBOM": "Software Bill of Materials",
+              "VDR/VEX": "Vulnerability Disclosure Report and Vulnerability eXploitability Exchange"
+            }
+          },
+          "description": "Lists the primary capabilities supported by the tool. Refer to [https://cyclonedx.org/capabilities/](https://cyclonedx.org/capabilities) for more information on the capabilities supported by CycloneDX."
+        },
+        "availability": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "COMMERCIAL_LICENSE",
+              "FREEMIUM",
+              "OPEN_SOURCE",
+              "OSI_APPROVED",
+              "SUBSCRIPTION"
+            ],
+            "meta:enum": {
+              "COMMERCIAL_LICENSE": "Requires a proprietary or paid license; not open source and typically restricts redistribution or modification.",
+              "FREEMIUM": "Core features are free to use, with optional paid features or upgrades.",
+              "OPEN_SOURCE": "Freely available under an open-source license.",
+              "OSI_APPROVED": "The tool is licensed under an OSI-approved open-source license.",
+              "SUBSCRIPTION": "Access is provided through a recurring payment model, such as monthly or annually."
+            }
+          },
+          "description": "Indicates the availability or license model."
+        },
+        "functions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ANALYSIS",
+              "AUTHOR",
+              "DISTRIBUTE",
+              "PACKAGE_MANAGER_INTEGRATION",
+              "SIGNING/NOTARY",
+              "TRANSFORM"
+            ],
+            "meta:enum": {
+              "ANALYSIS": "Tools that can analyze CycloneDX BOMs.",
+              "AUTHOR": "Tools that human authors can use to create CycloneDX BOMs.",
+              "DISTRIBUTE": "Tools used to capture and distribute CycloneDX BOMs.",
+              "PACKAGE_MANAGER_INTEGRATION": "Tools that integrate with build systems and package managers.",
+              "SIGNING/NOTARY": "Tools used to sign or notarize software and CycloneDX BOMs.",
+              "TRANSFORM": "Tools that transform CycloneDX into other formats or transform other formats into CycloneDX."
+            }
+          },
+          "description": "Describes what the tool does."
+        },
+        "analysis": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "LICENSE_REPORTING",
+              "OUTDATED_COMPONENTS",
+              "POLICY_EVALUATION",
+              "RESOURCE_REPORTING",
+              "SECURITY_VULNERABILITIES"
+            ],
+            "meta:enum": {
+              "LICENSE_REPORTING": "Extracts and reports license data associated with BOM components to support legal compliance, attribution, and license compatibility analysis. May vary depending on whether components are libraries, containers, or services.",
+              "OUTDATED_COMPONENTS": "Identifies components or services in the BOM that are outdated, deprecated, or no longer supported. This may include checking for newer versions of libraries, services, or platforms.",
+              "POLICY_EVALUATION": "Evaluates BOM contents against defined policies, such as allowed licenses, approved component lists, or internal security/compliance rules. Policies may differ based on BOM type (e.g., stricter rules for embedded systems vs. cloud services).",
+              "RESOURCE_REPORTING": "Analyzes and reports on the resource characteristics of components or services defined in the BOM, such as CPU usage, storage, memory footprint, or cloud infrastructure details.",
+              "SECURITY_VULNERABILITIES": "Performs security vulnerability analysis based on the contents of a BOM. For SBOMs, this typically involves identifying known vulnerabilities in software components (e.g., via CVEs). For SaaSBOMs or other service-inclusive BOMs, the analysis may expand to include service exposure, data handling practices, or configuration weaknesses."
+            }
+          },
+          "description": "Specifies the types of analysis the tool support.s"
+        },
+        "transform": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "BOM_SERIALIZATION_FORMAT",
+              "BOM_STANDARD",
+              "BOM_VERSION"
+            ],
+            "meta:enum": {
+              "BOM_SERIALIZATION_FORMAT": "Transforms the BOM between supported serialization formats such as XML and JSON.",
+              "BOM_STANDARD": "Supports conversion between different BOM standards (e.g., CycloneDX, SPDX).",
+              "BOM_VERSION": "Upgrades or downgrades a BOM to a different version of the same standard."
+            }
+          },
+          "description": "Lists the types of transformations the tool can perform."
+        },
+        "packaging": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "APPLICATION",
+              "AZURE_PIPELINE_EXTENSION",
+              "COMMAND_LINE_UTILITY",
+              "COMPOSER_PLUGIN",
+              "CONAN_EXTENSION",
+              "CONTAINER_IMAGE",
+              "GITHUB_ACTION",
+              "GITHUB_APP",
+              "GITLAB_CI_TEMPLATE",
+              "JENKINS_PLUGIN",
+              "LIBRARY",
+              "MAVEN_PLUGIN",
+              "ROLLUP_PLUGIN",
+              "WEBPACK_PLUGIN",
+              "YARN_PLUGIN"
+            ],
+            "meta:enum": {
+              "AZURE_PIPELINE_EXTENSION": "Extension or task used within Azure DevOps pipelines.",
+              "APPLICATION": "Standalone graphical or web-based application intended for end users.",
+              "COMMAND_LINE_UTILITY": "Tool executed via a command-line interface (CLI), often scriptable and automation-friendly.",
+              "COMPOSER_PLUGIN": "Plugin designed for use within the Composer package manager.",
+              "CONAN_EXTENSION": "Extension designed for use within the Conan package manager.",
+              "CONTAINER_IMAGE": "Packaged as a container image (e.g., Docker), ready for deployment in containerised environments.",
+              "GITHUB_ACTION": "Reusable workflow component that runs as part of GitHub Actions CI/CD pipelines.",
+              "GITHUB_APP": "GitHub-integrated application with extended API access and repository permissions.",
+              "GITLAB_CI_TEMPLATE": "Reusable CI/CD configuration designed for GitLab pipelines.",
+              "JENKINS_PLUGIN": "Plugin or scripted integration compatible with Jenkins pipelines.",
+              "LIBRARY": "Software component intended for integration into other tools or applications via code.",
+              "MAVEN_PLUGIN": "Plugin designed for use within the Maven build system.",
+              "ROLLUP_PLUGIN": "Plugin designed for use within the Rollup build system.",
+              "WEBPACK_PLUGIN": "Plugin designed for use within the webpack build system.",
+              "YARN_PLUGIN": "Plugin designed for use within the yarn package manager."
+            }
+          },
+          "description": "Specifies the distribution or integration format of the tool, reflecting how it is delivered, executed, or embedded within user environments and CI/CD systems."
+        },
+        "library": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "C/C++",
+              "C#",
+              ".NET",
+              "ERLANG_ELIXIR",
+              "FORTRAN",
+              "GO",
+              "GROOVY",
+              "JAVA",
+              "JAVASCRIPT_TYPESCRIPT",
+              "KOTLIN",
+              "NODE.JS",
+              "OCAML",
+              "PERL",
+              "PHP",
+              "PYTHON",
+              "RUBY",
+              "RUST",
+              "SCALA",
+              "SHELL",
+              "SWIFT"
+            ],
+            "description": "Languages or ecosystems in which the tool is implemented or provides libraries."
+          }
+        },
+        "platform": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "LINUX",
+              "MAC",
+              "WINDOWS"
+            ]
+          },
+          "description": "The operating systems the tool supports."
+        },
+        "lifecycle": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "DESIGN",
+              "PRE-BUILD",
+              "BUILD",
+              "POST-BUILD",
+              "OPERATIONS",
+              "DISCOVERY",
+              "DECOMMISSION"
+            ],
+            "meta:enum": {
+              "DESIGN": "BOM produced early in the development lifecycle containing an inventory of components and services that are proposed or planned to be used. The inventory may need to be procured, retrieved, or resourced prior to use.",
+              "PRE-BUILD": "BOM consisting of information obtained prior to a build process and may contain source files and development artifacts and manifests. The inventory may need to be resolved and retrieved prior to use.",
+              "BUILD": "BOM consisting of information obtained during a build process where component inventory is available for use. The precise versions of resolved components are usually available at this time as well as the provenance of where the components were retrieved from.",
+              "POST-BUILD": "BOM consisting of information obtained after a build process has completed and the resulting components(s) are available for further analysis. Built components may exist as the result of a CI/CD process, may have been installed or deployed to a system or device, and may need to be retrieved or extracted from the system or device.",
+              "OPERATIONS": "BOM produced that represents inventory that is running and operational. This may include staging or production environments and will generally encompass multiple SBOMs describing the applications and operating system, along with HBOMs describing the hardware that makes up the system. Operations Bill of Materials (OBOM) can provide full-stack inventory of runtime environments, configurations, and additional dependencies.",
+              "DISCOVERY": "BOM consisting of information observed through network discovery providing point-in-time enumeration of embedded, on-premise, and cloud-native services such as server applications, connected devices, microservices, and serverless functions.",
+              "DECOMMISSION": "BOM containing inventory that will be, or has been retired from operations."
+            },
+            "description": "Specifies the phases of the CycloneDX-defined software lifecycle that the tool supports. This helps indicate when in the software lifecycle the tool is capable of generating, consuming, or modifying CycloneDX artifacts."
+          }
+        },
+        "supportedStandards": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "CPE",
+              "CYCLONEDX",
+              "OMNIBOR",
+              "PACKAGE_URL",
+              "SLSA",
+              "SPDX",
+              "SWID"
+            ],
+            "meta:enum": {
+              "CPE": "Common Platform Enumeration (CPE) – A naming scheme for classifying operating systems, applications, and hardware.",
+              "CYCLONEDX": "CycloneDX – A Bill of Materials (BOM) standard and transparency expression language.",
+              "OMNIBOR": "OmniBOR – A standard for embedding object references to improve traceability and attribution in software artifacts.",
+              "PACKAGE_URL": "Package-URL (PURL) – A standard format for identifying and locating software packages across ecosystems.",
+              "SLSA": "Supply chain Levels for Software Artifacts (SLSA) – A framework for securing software supply chains.",
+              "SPDX": "Software Package Data Exchange (SPDX) – A standard format for communicating software bill of materials (SBOM) information.",
+              "SWID": "Software Identification (SWID) – An XML-based tag format for uniquely identifying software products and their versions."
+            }
+          },
+          "description": "Software supply chain standards that the tool supports."
+        },
+        "cycloneDxVersion": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "CYCLONEDX_V1.6",
+              "CYCLONEDX_V1.5",
+              "CYCLONEDX_V1.4",
+              "CYCLONEDX_V1.3",
+              "CYCLONEDX_V1.2",
+              "CYCLONEDX_V1.1",
+              "CYCLONEDX_V1.0"
+            ],
+            "meta:enum": {
+              "CYCLONEDX_V1.6": "CycloneDX v1.6",
+              "CYCLONEDX_V1.5": "CycloneDX v1.5",
+              "CYCLONEDX_V1.4": "CycloneDX v1.4",
+              "CYCLONEDX_V1.3": "CycloneDX v1.3",
+              "CYCLONEDX_V1.2": "CycloneDX v1.2",
+              "CYCLONEDX_V1.1": "CycloneDX v1.1",
+              "CYCLONEDX_V1.0": "CycloneDX v1.0"
+            }
+          },
+          "description": "Specific versions of the CycloneDX specification that the tool supports."
+        },
+        "supportedLanguages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "C/C++",
+              ".NET",
+              "ERLANG_ELIXIR",
+              "FORTRAN",
+              "GO",
+              "GROOVY",
+              "JAVA",
+              "JAVASCRIPT/TYPESCRIPT",
+              "KOTLIN",
+              "NIM",
+              "NODE.JS",
+              "PERL",
+              "PHP",
+              "PYTHON",
+              "RUBY",
+              "RUST",
+              "SCALA",
+              "SWIFT"
+            ],
+            "description": "Indicates the programming languages or ecosystems of the artifacts that the tool can analyse, scan, or generate metadata for — not the language the tool itself is written in."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Rezilion Dynamic SBOM",
+    "publisher": "Rezilion",
+    "description": "Continuous, runtime-aware SBOM platform that inventories every file, package and dependency across Windows and Linux hosts, containers and CI/CD pipelines, exports CycloneDX/VEX and validates vulnerability exploitability in real time.",
+    "website_url": "https://www.rezilion.com/platform/dynamic-sbom",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "JENKINS_PLUGIN",
+      "GITLAB_CI_TEMPLATE"
+    ],
+    "platform": [
+      "LINUX",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PYTHON",
+      "RUBY"
+    ]
+  }
+}

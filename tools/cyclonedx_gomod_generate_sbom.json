@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX GoMod Generate SBOM",
+    "publisher": "CycloneDX",
+    "description": "GitHub action which generates CycloneDX SBOMs from Go modules, providing integration into CI/CD workflows for Go projects.",
+    "repository_url": "https://github.com/CycloneDX/gh-gomod-generate-sbom",
+    "website_url": "https://github.com/marketplace/actions/cyclonedx-gomod-generate-sbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "GO"
+    ]
+  }
+}

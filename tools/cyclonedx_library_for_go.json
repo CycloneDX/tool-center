@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX library for Go",
+    "publisher": "CycloneDX",
+    "description": "Go library that can parse, create and serialize CycloneDX Software Bill of Materials (SBOM) in JSON or XML.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-go",
+    "website_url": "https://github.com/CycloneDX/cyclonedx-go",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DESIGN",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "GO"
+    ]
+  }
+}

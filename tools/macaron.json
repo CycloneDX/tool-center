@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "macaron",
+    "publisher": "Oracle",
+    "description": "Macaron is a supply chain security analysis tool and policy engine that checks conformance to frameworks such as SLSA, integrating CycloneDX SBOM generators or consuming existing SBOMs for automated analysis of build integrity and dependencies.",
+    "repository_url": "https://github.com/oracle/macaron",
+    "website_url": "https://oracle.github.io/macaron/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "PYTHON",
+      "SHELL"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ]
+  }
+}

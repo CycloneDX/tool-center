@@ -1,0 +1,79 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Spectra Assure",
+    "publisher": "ReversingLabs",
+    "description": "Spectra Assure scans binary software packages, container images, and VM disk images to detect malware, tampering, vulnerabilities, and other exposures. CycloneDX SBOM, SaaSBOM, ML-BOM, and CBOM are outputs.",
+    "repository_url": "https://github.com/reversinglabs/spectra-assure-sdk",
+    "website_url": "https://www.reversinglabs.com/products/software-supply-chain-security",
+    "capabilities": [
+      "SBOM",
+      "SAASBOM",
+      "CBOM",
+      "AI/ML-BOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION",
+      "GITLAB_CI_TEMPLATE",
+      "AZURE_PIPELINE_EXTENSION",
+      "LIBRARY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CPE",
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PYTHON",
+      "PHP",
+      "RUBY",
+      "RUST"
+    ]
+  }
+}

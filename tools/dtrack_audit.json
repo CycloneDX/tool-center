@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "dtrack-audit",
+    "publisher": "OZON",
+    "description": "Command-line client for OWASP Dependency-Track that publishes SBOMs and displays vulnerability information from the command line, designed for CI/CD integration",
+    "repository_url": "https://github.com/ozontech/dtrack-audit",
+    "website_url": "https://github.com/ozontech/dtrack-audit",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "DtrackAuditor",
+    "publisher": "Thinksabin",
+    "description": "Python CLI tool to upload CycloneDX SBOMs to Dependency-Track, analyze vulnerabilities, enforce policy, and fail CI builds based on thresholds.",
+    "repository_url": "https://github.com/thinksabin/DTrackAuditor",
+    "website_url": "https://github.com/thinksabin/DTrackAuditor",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

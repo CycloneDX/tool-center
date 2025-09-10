@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "cyclonedx-enrich",
+    "publisher": "fnxpt",
+    "description": "Enrich CycloneDX SBOM files by applying enrichers to improve data quality, including licenses, hashes, properties, and references.",
+    "repository_url": "https://github.com/fnxpt/cyclonedx-enrich",
+    "website_url": "https://github.com/fnxpt/cyclonedx-enrich",
+    "capabilities": [
+      "SBOM",
+      "CBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON",
+      "RUBY"
+    ]
+  }
+}

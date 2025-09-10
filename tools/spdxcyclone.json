@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "spdxcyclone",
+    "publisher": "SPDX",
+    "description": "Java utility that converts Software Bill of Materials (SBOM) documents from CycloneDX format to SPDX format, supporting multiple serialization options for both standards.",
+    "repository_url": "https://github.com/spdx/cdx2spdx",
+    "website_url": "https://github.com/spdx/cdx2spdx",
+    "capabilities": [],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "TRANSFORM"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": []
+  }
+}

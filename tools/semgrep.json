@@ -1,0 +1,76 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Semgrep",
+    "publisher": "Semgrep Inc",
+    "description": "Semgrep is an application security platform where developers can scan for vulnerabilities in code (SAST), in OSS dependencies (SCA), and secrets. Semgrep creates CycloneDX SBOMs that enrich vulnerabilities with reachability analysis.",
+    "website_url": "https://semgrep.dev",
+    "repository_url": "https://github.com/semgrep/semgrep",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION",
+      "LIBRARY"
+    ],
+    "library": [
+      "PYTHON",
+      "OCAML"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SCALA",
+      "SWIFT",
+      "KOTLIN",
+      "GROOVY",
+      "FORTRAN"
+    ]
+  }
+}
