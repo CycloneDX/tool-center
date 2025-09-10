@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for SBT (Scala)",
+    "publisher": "Fabrizio Di Giuseppe",
+    "description": "SBT plugin that generates CycloneDX SBOMs (JSON or XML) for Scala/Java builds, supporting schema v1.6 and integrating smoothly with Dependency-Track.",
+    "repository_url": "https://github.com/sbt/sbt-sbom",
+    "website_url": "https://github.com/sbt/sbt-sbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "SCALA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "SCALA"
+    ]
+  }
+}

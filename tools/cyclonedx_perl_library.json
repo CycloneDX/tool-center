@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX Perl Library",
+    "publisher": "Giuseppe Di Terlizzi",
+    "description": "Perl library for generating CycloneDX SBOMs.",
+    "repository_url": "https://github.com/giterlizzi/perl-SBOM-CycloneDX",
+    "website_url": "https://github.com/giterlizzi/perl-SBOM-CycloneDX",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "PERL"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3"
+    ],
+    "supportedLanguages": [
+      "PERL"
+    ]
+  }
+}

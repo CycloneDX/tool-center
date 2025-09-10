@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "FACT",
+    "publisher": "aDolus Technology Inc.",
+    "description": "The aDolus FACT platform is an advanced aggregation, analytics, and correlation engine that generates NTIA-compliant SBOMs (including CycloneDX) and provides continuous cybersecurity risk intelligence across the software supply chain.",
+    "website_url": "https://adolus.com",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "lifecycle": [
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "SWID"
+    ]
+  }
+}

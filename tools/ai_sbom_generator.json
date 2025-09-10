@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "AI SBOM Generator",
+    "publisher": "Aetheris AI",
+    "description": "Generate AI SBOM (AIBOM, AI/ML-BOM) in CycloneDX format for models on Hugging Face.",
+    "repository_url": "https://github.com/aetheris-ai/aibom-generator/",
+    "website_url": "https://sbom.aetheris.ai",
+    "capabilities": [
+      "AI/ML-BOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ]
+  }
+}

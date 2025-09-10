@@ -1,0 +1,32 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Beniva Software Bill of Materials (SBOM)",
+    "publisher": "Beniva",
+    "description": "Beniva SBOM allows you to consume CycloneDX SBOM and Vulnerability Exploitability eXchange (VEX) within the ServiceNow platform which increases visibility of vulnerabilities and reduces time to remediate.",
+    "website_url": "https://store.servicenow.com/sn_appstore_store.do#!/store/application/1f62663a1ba19dd06921a821604bcb98",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "lifecycle": [
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ]
+  }
+}

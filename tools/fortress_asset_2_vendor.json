@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Fortress Asset 2 Vendor",
+    "publisher": "Fortress Information Security",
+    "description": "Comprehensive cyber supply chain risk management platform that ingests, analyzes and securely shares SBOMs, HBOMs and other supply chain attestations via SaaS and permissioned blockchain.",
+    "website_url": "https://assettovendor.com/",
+    "repository_url": "https://assettovendor.com",
+    "capabilities": [
+      "SBOM",
+      "HBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "DISTRIBUTE",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

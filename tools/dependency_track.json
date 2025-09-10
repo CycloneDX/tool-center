@@ -1,0 +1,75 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Dependency-Track",
+    "publisher": "OWASP",
+    "description": "An intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain by leveraging SBOMs",
+    "repository_url": "https://github.com/DependencyTrack/dependency-track",
+    "website_url": "https://dependencytrack.org/",
+    "capabilities": [
+      "HBOM",
+      "OBOM",
+      "SAASBOM",
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "CONTAINER_IMAGE",
+      "APPLICATION"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "CPE",
+      "SWID"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON",
+      "RUBY",
+      "PHP",
+      "RUST",
+      "C/C++",
+      ".NET",
+      "PERL",
+      "ERLANG_ELIXIR"
+    ]
+  }
+}

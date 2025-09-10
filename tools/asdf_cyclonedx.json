@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "asdf-cyclonedx",
+    "publisher": "Xeed.IO, LLC",
+    "description": "asdf plugin that installs and manages CycloneDX CLI versions, enabling SBOM tooling in any asdf-managed environment.",
+    "repository_url": "https://github.com/xeedio/asdf-cyclonedx",
+    "website_url": "https://github.com/xeedio/asdf-cyclonedx",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "SHELL"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ]
+  }
+}

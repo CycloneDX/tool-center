@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Hermeto",
+    "publisher": "The Hermeto Project",
+    "description": "Hermeto is a CLI tool that pre-fetches your project's dependencies, which enables network-isolated builds, which enables the production of high-accuracy SBOMs",
+    "repository_url": "https://github.com/hermetoproject/hermeto",
+    "website_url": "https://hermetoproject.github.io/hermeto/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "SLSA",
+      "PACKAGE_URL"
+    ],
+    "supportedLanguages": [
+      "RUBY",
+      "RUST",
+      "GO",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON"
+    ]
+  }
+}

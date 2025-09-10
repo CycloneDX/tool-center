@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SBOM-Operator",
+    "publisher": "Christian Kotzbauer",
+    "description": "Catalogue all container images running in a Kubernetes cluster and publish Software Bill of Materials (SBOM) documents, generated with Syft, to multiple back-ends.",
+    "repository_url": "https://github.com/ckotzbauer/sbom-operator",
+    "website_url": "https://github.com/ckotzbauer/sbom-operator",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "DISTRIBUTE"
+    ],
+    "analysis": [],
+    "transform": [],
+    "packaging": [
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": []
+  }
+}

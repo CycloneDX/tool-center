@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SonarQube",
+    "publisher": "SonarSource",
+    "description": "SonarQube allows developers and development teams to write clean code and remediate existing code organically, so they can focus on the work they love and maximize the value they generate for businesses.",
+    "repository_url": "https://github.com/SonarSource/sonarqube",
+    "website_url": "https://www.sonarsource.com/products/sonarqube/",
+    "availability": [
+      "OPEN_SOURCE",
+      "FREEMIUM",
+      "COMMERCIAL_LICENSE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "SWIFT",
+      "SCALA",
+      "KOTLIN"
+    ]
+  }
+}

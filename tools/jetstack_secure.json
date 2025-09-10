@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Jetstack Secure",
+    "publisher": "Jetstack",
+    "description": "Manages machine identities across Cloud Native Kubernetes and OpenShift environments, providing a detailed view of enterprise security posture for TLS certificates and PKI.",
+    "repository_url": "https://github.com/jetstack/jetstack-secure",
+    "website_url": "https://www.jetstack.io/jetstack-secure/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [],
+    "packaging": [
+      "CONTAINER_IMAGE",
+      "APPLICATION"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": []
+  }
+}

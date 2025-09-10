@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Technolinator",
+    "publisher": "MediaMarktSaturn Technology",
+    "description": "GitHub App that generates CycloneDX SBOMs with cdxgen, scans them for vulnerabilities using grype, and uploads results to Dependency-Track.",
+    "repository_url": "https://github.com/MediaMarktSaturn/technolinator",
+    "website_url": "https://github.com/MediaMarktSaturn/technolinator",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "GITHUB_APP",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}

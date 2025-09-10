@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "DaggerBoard",
+    "publisher": "NewYork-Presbyterian Hospital",
+    "description": "Vulnerability-scanning application that ingests CycloneDX or SPDX SBOM files, analyses listed dependencies for known CVEs, and presents results through a web dashboard.",
+    "repository_url": "https://github.com/nyph-infosec/daggerboard",
+    "website_url": "https://github.com/nyph-infosec/daggerboard",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "PYTHON",
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": []
+  }
+}

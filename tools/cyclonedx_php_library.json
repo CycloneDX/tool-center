@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX PHP Library",
+    "publisher": "CycloneDX",
+    "description": "PHP library that supplies data-models, serializers, validators and utilities for creating, parsing and validating CycloneDX BOM documents in JSON and XML formats.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-php-library",
+    "website_url": "https://packagist.org/packages/cyclonedx/cyclonedx-library",
+    "capabilities": [
+      "SBOM",
+      "HBOM",
+      "OBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "PHP"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.1"
+    ],
+    "supportedLanguages": [
+      "PHP"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Project Piper",
+    "publisher": "SAP",
+    "description": "Project Piper is an open-source Jenkins shared library and CLI that automates SAP-centric CI/CD pipelines and can generate CycloneDX SBOMs for Maven, Python, Go, container, and other builds.",
+    "repository_url": "https://github.com/SAP/jenkins-library",
+    "website_url": "https://www.project-piper.io/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [],
+    "transform": [],
+    "packaging": [
+      "LIBRARY",
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "PYTHON",
+      "GO",
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

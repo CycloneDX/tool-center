@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "kbom - Kubernetes Bill of Materials powered by KSOC",
+    "publisher": "KSOC",
+    "description": "kbom is an open-source CLI tool from KSOC, written in Go, that generates detailed CycloneDX SBOMs for Kubernetes clusters, including nodes, control plane, OS, and cloud infrastructure details.",
+    "repository_url": "https://github.com/rad-security/kbom",
+    "website_url": "https://github.com/rad-security/kbom",
+    "capabilities": [
+      "SBOM",
+      "OBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "RESOURCE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ]
+  }
+}

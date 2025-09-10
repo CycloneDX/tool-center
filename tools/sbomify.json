@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "sbomify",
+    "publisher": "sbomify",
+    "description": "sbomify is a comprehensive SBOM management platform that enables secure sharing and analysis of Software Bill of Materials. Seamlessly integrates with CI/CD pipelines.",
+    "website_url": "https://sbomify.com",
+    "repository_url": "https://github.com/sbomify/sbomify",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "DISTRIBUTE",
+      "TRANSFORM"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

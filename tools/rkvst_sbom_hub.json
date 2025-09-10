@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "RKVST SBOM Hub",
+    "publisher": "RKVST",
+    "description": "Free SaaS repository to discover, store and permission-share CycloneDX v1.4 SBOMs with immutable provenance, VEX support and continuous assurance.",
+    "repository_url": "https://github.com/jitsuin-inc/archivist-samples",
+    "website_url": "https://www.datatrails.ai/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "FREEMIUM"
+    ],
+    "functions": [
+      "DISTRIBUTE",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [],
+    "transform": [],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SWID"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

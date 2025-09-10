@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Auditjs",
+    "publisher": "Sonatype",
+    "description": "Audits JavaScript projects to identify known vulnerabilities and outdated package versions using the OSS Index v3 REST API",
+    "repository_url": "https://github.com/sonatype-nexus-community/auditjs",
+    "website_url": "https://github.com/sonatype-nexus-community/auditjs",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}
