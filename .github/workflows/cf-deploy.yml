@@ -1,0 +1,16 @@
+name: Publish
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # every hour
+  workflow_dispatch:
+
+# https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token
+permissions: { }
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Deploy Hook
+        run: curl -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}"
