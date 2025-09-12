@@ -45,6 +45,3 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        
-      - name: Trigger Cloudflare Deploy Hook
-        run: curl -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}"
