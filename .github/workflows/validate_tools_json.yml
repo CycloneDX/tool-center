@@ -2,20 +2,32 @@ name: Validate tools.json
 
 on:
   push:
-    paths: [ "tools.json", "tools.schema.json", ".github/workflows/validate_tools_json.yml" ]
+    branches: [ 'master', 'main' ]
+    paths:
+      - "tools.json"
+      - "schemas/tools.schema.json"
+      - ".github/workflows/validate_tools_json.yml"
   pull_request:
-    paths: [ "tools.json", "tools.schema.json", ".github/workflows/validate_tools_json.yml" ]
+    branches: [ 'master', 'main' ]
+    paths:
+      - "tools.json"
+      - "schemas/tools.schema.json"
+      - ".github/workflows/validate_tools_json.yml"
   workflow_dispatch:
 
 # https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token
-permissions: {}
+permissions: { }
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,4 +38,4 @@ jobs:
         run: pip install check-jsonschema
 
       - name: Validate tools.json
-        run: check-jsonschema --schemafile tools.schema.json tools.json
+        run: check-jsonschema --schemafile schemas/tools.schema.json tools.json

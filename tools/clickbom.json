@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ClickBOM",
+    "publisher": "ClickHouse",
+    "description": "Downloads and merges SBOMs from various sources. Converts to CycloneDX and SPDX formats. Uploads to cloud storage and ClickHouse for analytics.",
+    "repository_url": "https://github.com/ClickHouse/ClickBOM",
+    "website_url": "https://github.com/marketplace/actions/clickbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "DISTRIBUTE",
+      "TRANSFORM"
+    ],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "DISCOVERY",
+      "OPERATIONS",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ]
+  }
+}

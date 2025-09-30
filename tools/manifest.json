@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Manifest",
+    "publisher": "Manifest",
+    "description": "Manifest is a subscription SBOM management platform that auto-generates, aggregates, enriches, analyzes, and securely shares CycloneDX or SPDX SBOMs via web app and GitHub Action integration.",
+    "repository_url": "https://github.com/manifest-cyber/manifest-github-action",
+    "website_url": "https://manifestcyber.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ]
+  }
+}

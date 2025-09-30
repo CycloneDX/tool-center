@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Contrast Security",
+    "publisher": "Contrast Security",
+    "description": "Automatically generates component inventory from runtime analysis (IAST or RASP) and generates CycloneDX SBOMs",
+    "website_url": "https://www.contrastsecurity.com/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "RESOURCE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "LIBRARY",
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      ".NET",
+      "PYTHON",
+      "GO",
+      "PHP",
+      "RUBY"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Bitbucket Pipe for SBOM Generation",
+    "publisher": "ShiftLeftCyber",
+    "description": "Integrate this Bitbucket Pipe into your CI/CD pipeline to automatically generate a Software Bill of Materials (SBOM) for any project.",
+    "repository_url": "https://github.com/shiftleftcyber/syft-bitbucket-pipe",
+    "website_url": "https://shiftleftcyber.io",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "library": [
+      "SHELL"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "GITHUB_ACTION",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PERL",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SWIFT",
+      "ERLANG_ELIXIR",
+      "SCALA"
+    ]
+  }
+}

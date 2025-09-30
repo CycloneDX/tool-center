@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX Python Library",
+    "publisher": "CycloneDX",
+    "description": "This Python package provides data models, validators and more, to help you create/render/read CycloneDX documents.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+    "website_url": "https://pypi.org/project/cyclonedx-python-lib/",
+    "capabilities": [
+      "SBOM",
+      "CBOM",
+      "MBOM",
+      "OBOM",
+      "SAASBOM",
+      "RELEASE_NOTES",
+      "VDR/VEX",
+      "CDXA",
+      "HBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SWID"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.1",
+      "CYCLONEDX_V1.0"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

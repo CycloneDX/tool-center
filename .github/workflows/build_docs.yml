@@ -3,13 +3,17 @@ name: Build Docs
 on:
   push:
     branches: ['master', 'main']
+    paths:
+      - "schemas/*"
+      - ".github/workflows/build_docs.yml"
   workflow_dispatch:
 
-env:
-  PYTHON_VERSION_DEFAULT: "3.10"
-
 # https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token
-permissions: {}
+permissions: { }
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   docs_json:
@@ -24,8 +28,7 @@ jobs:
       - name: Setup Python Environment
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ env.PYTHON_VERSION_DEFAULT }}
-          architecture: 'x64'
+          python-version: 3.x
 
       - name: Generate Schema documentation
         run: ./gen.sh
@@ -45,6 +48,3 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        
-      - name: Trigger Cloudflare Deploy Hook
-        run: curl -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}"

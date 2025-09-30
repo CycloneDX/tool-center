@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SecObserve",
+    "publisher": "MaibornWolff",
+    "description": "Open-source platform that aggregates findings and CycloneDX SBOMs from many scanners, lets teams assess security and license risks, and reports results via dashboards and APIs.",
+    "repository_url": "https://github.com/MaibornWolff/SecObserve",
+    "website_url": "https://maibornwolff.github.io/SecObserve",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "PYTHON",
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "KOTLIN"
+    ]
+  }
+}

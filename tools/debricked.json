@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Debricked",
+    "publisher": "OpenText",
+    "description": "Debricked lets teams automatically find, fix and prevent open-source vulnerabilities, avoid non-compliant licences and pick healthier dependencies, with CycloneDX SBOM import/export, CLI and SaaS dashboards.",
+    "repository_url": "https://github.com/debricked/cli",
+    "website_url": "https://debricked.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "FREEMIUM"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DESIGN",
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "PHP",
+      "PYTHON",
+      "RUBY"
+    ]
+  }
+}

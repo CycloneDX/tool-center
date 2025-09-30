@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Go Sonatypes",
+    "publisher": "Sonatype",
+    "description": "Common utility packages for working with OSS Index, Nexus IQ Server, CycloneDX SBOMs or getting a user-agent",
+    "repository_url": "https://github.com/sonatype-nexus-community/go-sona-types",
+    "website_url": "https://github.com/sonatype-nexus-community/go-sona-types",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "GO"
+    ]
+  }
+}

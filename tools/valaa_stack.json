@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Valaa Stack",
+    "publisher": "Valaa Technologies",
+    "description": "SBoMDoc is a VDoc extension which uses CycloneDX namespaces and can emit BOM documents in various formats",
+    "repository_url": "https://github.com/valaatech/kernel",
+    "website_url": "https://valospace.org/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "TRANSFORM"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "JDisc Discovery",
+    "publisher": "JDisc",
+    "description": "Network discovery and IT inventory tool that can discover CycloneDX SBOMs on enterprise assets and ingest component inventory into the platform.",
+    "website_url": "https://www.jdisc.com/",
+    "repository_url": "https://www.jdisc.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "RESOURCE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DISCOVERY",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

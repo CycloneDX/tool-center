@@ -1,0 +1,74 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Cybeats SBOM Studio",
+    "publisher": "Cybeats Technologies Inc.",
+    "description": "Enterprise solution to manage SBOMs at scale and proactively discover and reduce risk across the entire software supply chain, from development through deployment.",
+    "repository_url": "https://github.com/cybeats",
+    "website_url": "https://www.cybeats.com/product/sbom-studio",
+    "capabilities": [
+      "SBOM",
+      "SAASBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "TRANSFORM",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "RESOURCE_REPORTING",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PYTHON",
+      "RUBY",
+      "RUST"
+    ]
+  }
+}

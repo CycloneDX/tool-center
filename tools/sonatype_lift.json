@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Sonatype Lift",
+    "publisher": "Sonatype",
+    "description": "Cloud-native, collaborative code analysis platform that analyzes pull requests to find and fix security, performance, reliability, and style issues while generating CycloneDX SBOMs.",
+    "website_url": "https://lift.sonatype.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE",
+      "FREEMIUM"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [],
+    "packaging": [
+      "GITHUB_APP",
+      "APPLICATION"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON",
+      "GO",
+      "PHP",
+      "RUBY"
+    ]
+  }
+}

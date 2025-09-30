@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for PHP Composer",
+    "publisher": "CycloneDX",
+    "description": "Create CycloneDX Software Bill of Materials (SBOM) from PHP Composer projects.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-php-composer",
+    "website_url": "https://packagist.org/packages/cyclonedx/cyclonedx-php-composer",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMPOSER_PLUGIN",
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.1"
+    ],
+    "library": [
+      "PHP"
+    ],
+    "supportedLanguages": [
+      "PHP"
+    ]
+  }
+}

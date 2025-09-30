@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Apiiro",
+    "publisher": "Apiiro",
+    "description": "Application Security Posture Management (ASPM) platform that proactively identifies and remediates critical risks in cloud-native applications across the software supply chain.",
+    "website_url": "https://apiiro.com/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DESIGN",
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "JAVA",
+      "PYTHON",
+      "GO",
+      ".NET",
+      "RUST"
+    ]
+  }
+}

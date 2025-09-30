@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SCANOSS",
+    "publisher": "SCANOSS",
+    "description": "Open source software identification and inventory tool that provides insights into license compliance, security vulnerabilities, and software composition analysis",
+    "repository_url": "https://github.com/scanoss/engine",
+    "website_url": "https://www.scanoss.com/",
+    "capabilities": [],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON"
+    ]
+  }
+}

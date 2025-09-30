@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "cyclonedx-npm-pipe",
+    "publisher": "ShiftLeftCyber",
+    "description": "Bitbucket Pipe that packages cdxgen in a Docker image to generate CycloneDX v1.6 SBOMs for Node.js/npm projects in CI pipelines.",
+    "repository_url": "https://github.com/ccideas/cyclonedx-npm-pipe",
+    "website_url": "https://shiftleftcyber.io",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "packaging": [
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "SHELL"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "NODE.JS"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Amazon Inspector SBOM Generator",
+    "publisher": "Amazon Inspector",
+    "description": "Amazon Inspector SBOM Generator (inspector-sbomgen) outputs CycloneDX 1.4 or SPDX 2.3 SBOMs for archives, container images, directories, local systems, and Go/Rust binaries, providing metadata for vulnerability scans with the Inspector ScanSBOM API.",
+    "website_url": "https://docs.aws.amazon.com/inspector/latest/user/sbom-generator.html",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST"
+    ]
+  }
+}

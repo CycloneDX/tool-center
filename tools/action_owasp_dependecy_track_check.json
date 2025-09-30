@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "action-owasp-dependecy-track-check",
+    "publisher": "Quobis",
+    "description": "GitHub Action that builds a CycloneDX SBOM for Node.js, Python, Go, Ruby, Java, .NET and PHP projects, converts it to v1.2 when necessary, and uploads it to an OWASP Dependency-Track server for automatic vulnerability analysis.",
+    "repository_url": "https://github.com/Quobis/action-owasp-dependecy-track-check",
+    "website_url": "https://github.com/Quobis/action-owasp-dependecy-track-check",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "SHELL"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "NODE.JS",
+      "PYTHON",
+      "GO",
+      "RUBY",
+      "JAVA",
+      ".NET",
+      "PHP",
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "sbom-submission-action",
+    "publisher": "TietoEVRY",
+    "description": "GitHub Action that uploads CycloneDX SBOM files to GitHub\u2019s dependency submission API, enabling Dependabot security analysis downstream.",
+    "repository_url": "https://github.com/evryfs/sbom-dependency-submission-action",
+    "website_url": "https://github.com/marketplace/actions/sbom-submission-action",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "analysis": [],
+    "transform": [],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": []
+  }
+}

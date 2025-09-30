@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "OpenRewrite",
+    "publisher": "OpenRewrite Project",
+    "description": "Open-source automated refactoring ecosystem for code transformation, security remediation, and dependency management through reusable recipes and build tool plugins.",
+    "repository_url": "https://github.com/openrewrite/rewrite",
+    "website_url": "https://docs.openrewrite.org/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "TRANSFORM",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "RESOURCE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "LIBRARY",
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY",
+      "MAVEN_PLUGIN"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "JAVA",
+      "KOTLIN",
+      "GROOVY",
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

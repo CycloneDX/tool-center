@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ARIANNA",
+    "publisher": "Security Pattern",
+    "description": "SBOM, HBOM and vulnerability management platform for intelligent connect devices. Show compliance to regulations and standards and manage risk across the entire product lifecycle.",
+    "website_url": "https://www.securitypattern.com/arianna-security-management-platform",
+    "capabilities": [
+      "SBOM",
+      "HBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DESIGN",
+      "BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CPE",
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "PYTHON",
+      "PHP"
+    ]
+  }
+}

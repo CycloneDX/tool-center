@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CodeNotary CAS",
+    "publisher": "CodeNotary",
+    "description": "CAS is an open source attestation service for the community. Notarize and authorize files, directories, git repos and Build SBOMs of containers.",
+    "repository_url": "https://github.com/codenotary/cas",
+    "website_url": "https://cas.codenotary.com/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "SIGNING/NOTARY",
+      "AUTHOR"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ]
+  }
+}

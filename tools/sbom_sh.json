@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SBOM.sh",
+    "publisher": "Codenotary Inc",
+    "description": "SBOM.sh is a free service to store, visualize and globally share CycloneDX SBOM files by simply using HTTP requests or curl.",
+    "repository_url": "https://github.com/codenotary/sbom.sh-container",
+    "website_url": "https://sbom.sh",
+    "capabilities": [
+      "SBOM",
+      "RELEASE_NOTES"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "FREEMIUM"
+    ],
+    "functions": [
+      "DISTRIBUTE",
+      "AUTHOR",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "SHELL"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3"
+    ],
+    "supportedLanguages": [
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST"
+    ]
+  }
+}

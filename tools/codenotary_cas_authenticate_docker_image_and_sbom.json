@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Codenotary CAS Authenticate Docker Image and SBOM",
+    "publisher": "Codenotary",
+    "description": "A GitHub Action which authenticates notarized Docker images and SBOMs.",
+    "repository_url": "https://github.com/codenotary/cas-authenticate-docker-bom-github-action",
+    "website_url": "https://cas.codenotary.com/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "SIGNING/NOTARY"
+    ],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ]
+  }
+}

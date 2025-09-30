@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for Conan1",
+    "publisher": "CycloneDX",
+    "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects using Conan1 (note: considered deprecated)",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-conan",
+    "website_url": "https://pypi.org/project/cyclonedx-conan/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "platform": [
+      "WINDOWS",
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "supportedLanguages": [
+      "C/C++"
+    ]
+  }
+}

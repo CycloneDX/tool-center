@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Chelsea",
+    "publisher": "Sonatype",
+    "description": "Dependency vulnerability auditor for Ruby",
+    "repository_url": "https://github.com/sonatype-nexus-community/chelsea",
+    "website_url": "https://github.com/sonatype-nexus-community/chelsea",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "RUBY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "RUBY"
+    ]
+  }
+}

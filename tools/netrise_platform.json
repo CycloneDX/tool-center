@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "NetRise Platform",
+    "publisher": "NetRise",
+    "description": "The NetRise Platform generates SBOMs for binary code and post-build artifacts. It can ingest and analyze 3rd party SBOMs and provide guidance on risk mitigation, including CVEs, hardcoded credentials, cryptographic risk, and misconfigured services.",
+    "website_url": "https://www.netrise.io/",
+    "repository_url": "https://github.com/netriseinc",
+    "capabilities": [
+      "SBOM",
+      "CBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "RESOURCE_REPORTING",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_STANDARD"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_ACTION"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "WINDOWS",
+      "MAC"
+    ],
+    "lifecycle": [
+      "DISCOVERY",
+      "OPERATIONS",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "CPE",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      ".NET",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "PYTHON"
+    ]
+  }
+}

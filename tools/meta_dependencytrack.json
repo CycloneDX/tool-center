@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "meta-dependencytrack",
+    "publisher": "BG Networks",
+    "description": "meta-dependencytrack is a Yocto meta-layer which produces a CycloneDX Software Bill of Materials (aka SBOM) from your root filesystem and then uploads it to a Dependency-Track server against the project of your choice",
+    "repository_url": "https://github.com/bgnetworks/meta-dependencytrack",
+    "website_url": "https://github.com/bgnetworks/meta-dependencytrack",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "DISTRIBUTE",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "PYTHON",
+      "SHELL"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "bogrod",
+    "publisher": "productaize",
+    "description": "A command line tool to manage SBOM and VEX like source code and to distribute SBOMs to notaries.",
+    "repository_url": "https://github.com/productaize/bogrod",
+    "website_url": "https://github.com/productaize/bogrod",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

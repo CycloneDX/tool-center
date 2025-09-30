@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "mdbom",
+    "publisher": "Robert Hansel",
+    "description": "A simple command line tool to transform CycloneDX SBoMs to markdown.",
+    "repository_url": "https://github.com/HaRo87/mdbom",
+    "website_url": "https://haro87.github.io/mdbom/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "TRANSFORM"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "PYTHON",
+      "JAVASCRIPT/TYPESCRIPT",
+      "GO"
+    ]
+  }
+}

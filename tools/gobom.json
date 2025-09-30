@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "gobom",
+    "publisher": "Mattermost",
+    "description": "An extensible CycloneDX BOM generator and Dependency-Track API client written in Go; supports Go, npm, CocoaPods and Gradle projects and uploads SBOMs for analysis.",
+    "repository_url": "https://github.com/mattermost/gobom",
+    "website_url": "https://github.com/mattermost/gobom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "DISTRIBUTE",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "supportedLanguages": [
+      "GO",
+      "JAVASCRIPT/TYPESCRIPT",
+      "JAVA",
+      "SWIFT"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+name: Assemble tools.json
+
+on:
+  push:
+    branches: [ 'master', 'main' ]
+    paths:
+      - "tools/*"
+      - ".github/workflows/assemble_tools_json.yml"
+  workflow_dispatch:
+
+# https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token
+permissions: { }
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  assemble:
+    name: assemble tools.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: assemble tools.json
+        run: helpers/tools-assemble.py
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tools.json
+          path: tools.json
+
+  validate:
+    needs:
+      - assemble
+    name: validate tools.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Install check-jsonschema
+        run: pip install check-jsonschema
+      - name: Download artifact
+        uses: actions/download-artifact@v5
+        with:
+          name: tools.json
+      - name: Validate tools.json
+        run: check-jsonschema --schemafile schemas/tools.schema.json tools.json
+
+  push-back:
+    needs:
+      - assemble
+      - validate
+    name: push tools.json
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed for git push
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Download artifact
+        uses: actions/download-artifact@v5
+        with:
+          name: tools.json
+      - name: diff
+        run: git diff tools.json
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Commit tools.json
+        run: |
+          git add tools.json
+          git commit -s -m "Update tools.json [automated commit]" || echo "No changes to commit"
+      - name: git push back
+        run: git push
+
+  publish:
+    name: deploy
+    needs:
+      - push-back
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Deploy Hook
+        run: curl -X POST '${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}'
+

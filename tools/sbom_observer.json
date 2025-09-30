@@ -1,0 +1,85 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SBOM Observer",
+    "publisher": "Bytesafe",
+    "description": "SBOM Observer provides a comprehensive SBOM workflow to help you manage your software supply chain. Leverage the powerful combination of the Policy Engine and Operational Model to guarantee the security and compliance of your software.",
+    "website_url": "https://sbom.observer/",
+    "repository_url": "https://github.com/marketplace/actions/sbom-observer-scan-and-upload",
+    "capabilities": [
+      "SBOM",
+      "RELEASE_NOTES",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "DISTRIBUTE",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "RESOURCE_REPORTING",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY",
+      "GITHUB_ACTION",
+      "CONTAINER_IMAGE"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "SLSA"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PERL",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SWIFT",
+      "ERLANG_ELIXIR",
+      "SCALA",
+      "KOTLIN",
+      "GROOVY",
+      "FORTRAN"
+    ]
+  }
+}

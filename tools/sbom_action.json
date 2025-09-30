@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "sbom-action",
+    "publisher": "Pete Wagner",
+    "description": "GitHub Action that fetches and diffs CycloneDX SBOMs for container images, posting comments or opening pull requests when package or vulnerability changes are detected.",
+    "repository_url": "https://github.com/thepwagner/sbom-action",
+    "website_url": "https://github.com/thepwagner/sbom-action",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "OUTDATED_COMPONENTS"
+    ],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "MedScan",
+    "publisher": "MedSec",
+    "description": "Consumes SBOMs to help hospitals manage medical device assets, providing vulnerability and resource analysis for compliance and risk management.",
+    "repository_url": "https://www.medsec.com/",
+    "website_url": "https://www.medsec.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "RESOURCE_REPORTING"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

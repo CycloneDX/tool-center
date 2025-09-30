@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "swift-package-sbom-generator",
+    "publisher": "Mattt",
+    "description": "A software bill of materials (SBOM) generator for Swift packages",
+    "repository_url": "https://github.com/mattt/swift-package-sbom",
+    "website_url": "https://github.com/mattt/swift-package-sbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "SWIFT"
+    ],
+    "platform": [
+      "MAC"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "SWIFT"
+    ]
+  }
+}

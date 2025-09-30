@@ -1,0 +1,78 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ProCap360",
+    "publisher": "Internet Infrastructure Services Corp.",
+    "description": "An advanced SBOM, RBOM and AIBOM  cybersecurity risk management tool using novel knowledge graph technology to enhance software supply chain security and visually display real time application assurance.",
+    "repository_url": "https://github.com/ProCap360",
+    "website_url": "https://procap360.com",
+    "capabilities": [
+      "SBOM",
+      "SAASBOM",
+      "CBOM",
+      "HBOM",
+      "OBOM",
+      "AI/ML-BOM",
+      "VDR/VEX",
+      "CDXA",
+      "RELEASE_NOTES"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "DISTRIBUTE",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "SIGNING/NOTARY",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION",
+      "RESOURCE_REPORTING",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "AZURE_PIPELINE_EXTENSION"
+    ],
+    "library": [
+      "GO",
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "C/C++"
+    ]
+  }
+}

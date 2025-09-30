@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ONEKEY firmware analysis platform",
+    "publisher": "ONEKEY",
+    "description": "Cloud-based platform that automatically extracts firmware images, enumerates components, and produces CycloneDX SBOM and vulnerability reports.",
+    "website_url": "https://onekey.com/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "OUTDATED_COMPONENTS",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}

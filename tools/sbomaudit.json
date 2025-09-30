@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SBOMAudit",
+    "publisher": "Anthony Harrison",
+    "description": "SBOMAudit is a command-line utility that audits CycloneDX or SPDX SBOMs against NTIA minimum requirements, license policies, allow/deny lists, and package age to flag outdated or non-compliant components.",
+    "repository_url": "https://github.com/anthonyharrison/sbomaudit",
+    "website_url": "https://pypi.org/project/sbomaudit/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "CPE",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3"
+    ],
+    "supportedLanguages": [
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "PERL",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SWIFT"
+    ]
+  }
+}

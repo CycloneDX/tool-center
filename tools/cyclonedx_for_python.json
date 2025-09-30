@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for Python",
+    "publisher": "CycloneDX",
+    "description": "Generates CycloneDX SBOMs from Python (virtual) environments, requirement files, and manifests (Poetry, PipEnv, etc)",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-python",
+    "website_url": "https://pypi.org/project/cyclonedx-bom/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.1",
+      "CYCLONEDX_V1.0"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

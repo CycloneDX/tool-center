@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "LicenseComplianceTool",
+    "publisher": "medavis GmbH",
+    "description": "Creates license manifests from CycloneDX SBOMs. Provides a Jenkins build step and CLI to list third-party components, their licenses, and download license texts to aid open-source compliance.",
+    "repository_url": "https://github.com/medavis-gmbh/LicenseComplianceTool",
+    "website_url": "https://github.com/medavis-gmbh/LicenseComplianceTool",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "JENKINS_PLUGIN",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "NODE.JS",
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

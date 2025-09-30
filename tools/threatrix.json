@@ -1,0 +1,77 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Threatrix",
+    "publisher": "Threatrix",
+    "description": "Threatrix CodeCertify platform provides a solution for producing a comprehensive and accurate, singular, CycloneDX bill of materials from multiple sources.",
+    "website_url": "https://threatrix.io",
+    "repository_url": "https://threatrix.io",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "TRANSFORM",
+      "DISTRIBUTE",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "GITHUB_APP",
+      "GITHUB_ACTION",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PERL",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SWIFT",
+      "ERLANG_ELIXIR",
+      "SCALA",
+      "KOTLIN",
+      "GROOVY",
+      "FORTRAN",
+      "NIM"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Salus",
+    "publisher": "Coinbase",
+    "description": "Salus is a tool for coordinating the execution of security scanners. Salus can generate CycloneDX SBOMs from many language ecosystems.",
+    "repository_url": "https://github.com/coinbase/salus",
+    "website_url": "https://github.com/coinbase/salus",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "supportedLanguages": [
+      "RUBY",
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "PYTHON",
+      "GO",
+      "RUST"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "yasca (Yet Another SCA tool)",
+    "publisher": "Javi",
+    "description": "Yasca (Yet Another SCA tool) is an open-source Python utility and GitHub Action that scans Maven projects against GitHub Security Advisories, detects vulnerable or outdated dependencies, and exports CycloneDX SBOMs.",
+    "repository_url": "https://github.com/javixeneize/zasca",
+    "website_url": "https://github.com/javixeneize/zasca",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "JAVA"
+    ]
+  }
+}

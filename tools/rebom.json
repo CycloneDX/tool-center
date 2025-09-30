@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Rebom",
+    "publisher": "Reliza",
+    "description": "Open source catalog for storing, managing, and distributing CycloneDX Software Bills of Materials (SBOMs) in JSON format, with features for validation, merging, and analysis.",
+    "repository_url": "https://github.com/relizaio/rebom",
+    "website_url": "https://rebomdemo.relizahub.com",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "DISTRIBUTE",
+      "ANALYSIS",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_VERSION",
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "CONTAINER_IMAGE",
+      "APPLICATION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "OPERATIONS",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

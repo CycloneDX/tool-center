@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX .NET Generate SBOM",
+    "publisher": "CycloneDX",
+    "description": "GitHub Action to create a CycloneDX Software Bill-of-Materials (SBOM) for .NET projects supporting multiple project formats and recursive analysis",
+    "repository_url": "https://github.com/CycloneDX/gh-dotnet-generate-sbom",
+    "website_url": "https://github.com/marketplace/actions/cyclonedx-dotnet-generate-sbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      ".NET"
+    ]
+  }
+}

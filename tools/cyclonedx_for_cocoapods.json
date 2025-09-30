@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for Cocoapods",
+    "publisher": "CycloneDX",
+    "description": "Creates CycloneDX SBOMs for Objective-C and Swift projects that use CocoaPods.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-cocoapods",
+    "website_url": "https://github.com/CycloneDX/cyclonedx-cocoapods",
+    "capabilities": [
+      "SBOM",
+      "OBOM",
+      "MBOM",
+      "SAASBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "RUBY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "SWIFT"
+    ]
+  }
+}

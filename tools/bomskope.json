@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "BOMSkope",
+    "publisher": "Netskope",
+    "description": "BOMSkope is a Software Bill of Materials manager designed to streamline the tracking of vendor components. It enables the identification and monitoring of vulnerabilities in vendor software, enhancing visibility into your overall security posture.",
+    "repository_url": "https://github.com/netskopeoss/BOMSkope",
+    "website_url": "https://github.com/netskopeoss/BOMSkope",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": []
+  }
+}

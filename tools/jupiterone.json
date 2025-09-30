@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "JupiterOne",
+    "publisher": "JupiterOne",
+    "description": "Easily identify, map, analyze, and secure cyber assets and attack surface. Gain full visibility into complex cloud environments to uncover threats, close compliance gaps, and prioritize risk.",
+    "website_url": "https://jupiterone.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "RESOURCE_REPORTING",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [],
+    "platform": [
+      "WINDOWS",
+      "MAC",
+      "LINUX"
+    ],
+    "lifecycle": [
+      "DISCOVERY",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": []
+  }
+}

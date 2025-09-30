@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Covenant",
+    "publisher": "Patrik Svensson",
+    "description": "Command-line tool that creates SBOMs from .NET and NPM projects or existing CycloneDX BOMs, outputting CycloneDX or SPDX formats.",
+    "repository_url": "https://github.com/patriksvensson/covenant",
+    "website_url": "https://github.com/patriksvensson/covenant",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      ".NET"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "supportedLanguages": [
+      ".NET",
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS"
+    ]
+  }
+}

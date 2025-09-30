@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SBOM Scorecard",
+    "publisher": "eBay",
+    "description": "SBOM Scorecard evaluates SBOMs for specification compliance, generation metadata, and package details, supporting CycloneDX, SPDX, and Syft formats.",
+    "repository_url": "https://github.com/eBay/sbom-scorecard",
+    "website_url": "https://github.com/eBay/sbom-scorecard",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "library": [
+      "GO"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3"
+    ],
+    "supportedLanguages": [
+      "GO"
+    ]
+  }
+}

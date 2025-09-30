@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SBOMTrend",
+    "publisher": "Anthony Harrison",
+    "description": "A command line tool which analyses a set of SBOMs to identify license and version changes in components.",
+    "repository_url": "https://github.com/anthonyharrison/sbomtrend",
+    "website_url": "https://pypi.org/project/sbomtrend/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_STANDARD"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "sbom-swissarmy-bitbucket-pipe",
+    "publisher": "ShiftLeftCyber",
+    "description": "A Bitbucket Pipe containing a collection of open source tools to perform additional analysis on a CycloneDX or SPDX SBOM.",
+    "repository_url": "https://github.com/shiftleftcyber/sbom-utilities-pipe",
+    "website_url": "https://shiftleftcyber.io",
+    "capabilities": [
+      "SBOM",
+      "SAASBOM",
+      "CBOM",
+      "AI/ML-BOM",
+      "HBOM",
+      "MBOM",
+      "OBOM",
+      "RELEASE_NOTES",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "DISTRIBUTE",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "TRANSFORM",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "RESOURCE_REPORTING",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DESIGN",
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY",
+      "DECOMMISSION"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL",
+      "CPE",
+      "OMNIBOR",
+      "SWID"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PERL",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SWIFT",
+      "ERLANG_ELIXIR",
+      "SCALA",
+      "KOTLIN",
+      "GROOVY",
+      "FORTRAN"
+    ]
+  }
+}

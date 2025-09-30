@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "BOMnipotent",
+    "publisher": "Weichwerke Heidrich Software",
+    "description": "A server application for managing and distributing SBOMs and CSAF documents. Integrates with tools for vulnerability scanning.",
+    "website_url": "https://www.bomnipotent.de",
+    "repository_url": "https://github.com/Weichwerke-Heidrich-Software/bomnipotent_doc",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "library": [
+      "SHELL"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "CPE"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": []
+  }
+}

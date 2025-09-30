@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Reliza Hub",
+    "publisher": "Reliza",
+    "description": "Publishes and ingests SBOMs for metadata management, compliance, and distribution. Supports CycloneDX and SPDX standards for software supply chain transparency.",
+    "repository_url": "https://relizahub.com/",
+    "website_url": "https://relizahub.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "DISTRIBUTE",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "RESOURCE_REPORTING",
+      "LICENSE_REPORTING"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "WINDOWS",
+      "MAC"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "DISCOVERY",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": []
+  }
+}

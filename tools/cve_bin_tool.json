@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "cve-bin-tool",
+    "publisher": "Intel",
+    "description": "Command-line scanner that identifies vulnerable components in binaries, accepts/generates SBOMs, and reports CVEs. Supports 400+ checkers for open source libraries with CycloneDX output.",
+    "repository_url": "https://github.com/intel/cve-bin-tool",
+    "website_url": "https://cve-bin-tool.readthedocs.io/en/latest/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "CPE",
+      "SPDX",
+      "SWID"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "PYTHON",
+      "JAVASCRIPT/TYPESCRIPT",
+      "ERLANG_ELIXIR",
+      "GO",
+      "RUST"
+    ]
+  }
+}

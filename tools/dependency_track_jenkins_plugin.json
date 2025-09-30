@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Dependency-Track Jenkins Plugin",
+    "publisher": "OWASP",
+    "description": "Jenkins plugin that publishes CycloneDX Software Bill-of-Materials (SBOM) to the Dependency-Track platform for vulnerability analysis and policy evaluation",
+    "repository_url": "https://github.com/jenkinsci/dependency-track-plugin",
+    "website_url": "https://plugins.jenkins.io/dependency-track/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [],
+    "packaging": [
+      "JENKINS_PLUGIN"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Rollup Plugin SBOM",
+    "publisher": "Jan Biasi",
+    "description": "Creates CycloneDX SBOMs for frontend Javascript apps bundled with rollup or vite.",
+    "repository_url": "https://github.com/janbiasi/rollup-plugin-sbom",
+    "website_url": "https://www.npmjs.com/package/rollup-plugin-sbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "packaging": [
+      "ROLLUP_PLUGIN"
+    ]
+  }
+}

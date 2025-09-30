@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SRC:CLR SBOM Generator",
+    "publisher": "Veracode",
+    "description": "Generates a Software Bill of Materials in CycloneDX JSON Format from Veracode SCA Agent results",
+    "repository_url": "https://github.com/veracode/srcclr_sbom_gen",
+    "website_url": "https://github.com/veracode/srcclr_sbom_gen",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "TRANSFORM"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "transform": [
+      "BOM_STANDARD"
+    ]
+  }
+}

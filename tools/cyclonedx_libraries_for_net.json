@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX Libraries for .NET",
+    "publisher": "CycloneDX",
+    "description": ".NET libraries to consume and produce CycloneDX Software Bill of Materials (SBOM).",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-dotnet-library",
+    "website_url": "https://www.nuget.org/profiles/CycloneDX",
+    "capabilities": [
+      "SBOM",
+      "SAASBOM",
+      "OBOM",
+      "MBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      ".NET"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DESIGN",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SWID"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      ".NET"
+    ]
+  }
+}

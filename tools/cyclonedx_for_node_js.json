@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for Node.js",
+    "publisher": "OWASP Foundation (CycloneDX Project)",
+    "description": "This is a so-called meta-package, it does not ship any own functionality, but it is a collection of optional dependencies with one purpose in common: generate CycloneDX Software-Bill-of-Materials (SBOM) from node-based projects.",
+    "repository_url": "https://github.com/CycloneDX/cyclonedx-node-module",
+    "website_url": "https://www.npmjs.com/package/@cyclonedx/bom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "NODE.JS"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS"
+    ]
+  }
+}

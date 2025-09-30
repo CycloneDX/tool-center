@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Flawnter",
+    "publisher": "CyberTest",
+    "description": "Flawnter is a zero-trust static, dynamic and composition analysis platform that detects code flaws, vulnerabilities and license risks, and generates CycloneDX/SPDX SBOMs during every scan.",
+    "website_url": "https://www.flawnter.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [],
+    "supportedLanguages": [
+      "C/C++",
+      ".NET",
+      "JAVA",
+      "KOTLIN",
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "GO",
+      "RUBY",
+      "RUST",
+      "SWIFT"
+    ]
+  }
+}

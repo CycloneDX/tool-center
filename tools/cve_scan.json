@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CVE Scan",
+    "publisher": "The Embedded Kit",
+    "description": "Detect and mitigate vulnerabilities in embedded systems. Generate SBOMs, cross-reference public databases, integrate with CI pipelines, and use filtering/annotations for streamlined security maintenance.",
+    "website_url": "https://theembeddedkit.io/cve-scan-linux-vulnerability-scanner/",
+    "repository_url": "https://theembeddedkit.io/cve-scan-linux-vulnerability-scanner/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "PYTHON",
+      "JAVASCRIPT/TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ]
+  }
+}

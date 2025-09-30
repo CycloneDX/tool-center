@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "apt2sbom",
+    "publisher": "Eliot Lear",
+    "description": "Python tool that builds a Software Bill of Materials (SBOM) from APT and Python package information on Ubuntu systems, with CLI and HTTP interfaces.",
+    "repository_url": "https://github.com/sbomtools/apt2sbom",
+    "website_url": "https://github.com/sbomtools/apt2sbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION",
+      "AUTHOR"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "APPLICATION"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "DISCOVERY",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ]
+  }
+}

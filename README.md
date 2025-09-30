@@ -2,7 +2,8 @@
 
 The CycloneDX Tool Center is the largest publicly available collection of SBOM (Software Bill of Materials) and xBOM (e.g., SaaSBOM, CBOM, HBOM) products, projects, and services. It serves as a centralized resource for anyone looking to explore, evaluate, or integrate BOM-related capabilities into their toolchains and workflows. The Tool Center is an integral part of the [CycloneDX website](https://cyclonedx.org).
 
-As of March 2025, the CycloneDX Tool Center leverages a JSON Schema in which `tools.json` must validate against. [View the human-readable documentation for the JSON Schema](https://cyclonedx.github.io/tool-center/).
+As of March 2025, the CycloneDX Tool Center leverages a JSON Schema in which `tools.json` must validate against. [View the human-readable documentation for the JSON Schema](https://cyclonedx.github.io/tool-center/).  
+As of September 2025, the `tools.json` is assembled automatically from the individual JSON files in the `tools/` folder. Do not modify `tools.json` directly, instead add/modify individual files in the `tools/`folder.
 
 ## License
 
@@ -16,8 +17,8 @@ Contributions are welcome! If you know of a tool, product, or service related to
 - Any provided metadata or descriptions are accurate and up-to-date.
 - Licensing and attribution requirements for tools are respected.
 
-Editing the `tools.json` file manually can be complicated. An alternative is to use
-[MetaConfigurator](https://metaconfigurator.github.io/meta-configurator/?schema=https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/tools.schema.json&data=https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/tools.json&settings=https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/metaConfiguratorSettings.json) to make changes then download the edited data.
+Creating/editing a file in the `tools/` folder manually can be complicated. An alternative is to use
+[MetaConfigurator](https://www.metaconfigurator.org?schema=https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/schemas/tool.schema.json&settings=https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/metaConfiguratorSettings.json) to make changes then download the edited data.
 
 ## Community & Support
 
