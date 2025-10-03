@@ -5,7 +5,7 @@
       "name":"SBOM-HQ",
       "publisher":"Eracent Inc.",
       "description":"Analyzes SBOMs for vulnerabilities, licenses, and component lifecycle. Offers advanced built-in and customizable reports, alerting, and fine-grained access control. Scales from small teams to large enterprises.",
-      "website_url":"https://eracent.com/sbom-hq/",
+      "website_url":"https://sbomhq.com/",
       "capabilities":[
          "SBOM",
          "CBOM",
