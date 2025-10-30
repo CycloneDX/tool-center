@@ -1,7 +1,7 @@
 {
       "name": "Boostsecurity.io",
       "publisher": "Boostsecurity.io",
-      "description": "The zero friction platform for AppSec Testing and Application Security Posture Management (ASPM) securing both Software Supply Chains and AI Development.",
+      "description": "AppSec Testing and Application Security Posture Management (ASPM) platform allowing detection and management of code risk with runtime cloud context and a focus on securing the full Software Supply Chain.",
       "website_url": "https://boostsecurity.io/",
       "capabilities": [
         "SBOM"
