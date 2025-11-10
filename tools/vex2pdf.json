@@ -1,0 +1,51 @@
+{
+  "tool": {
+    "name": "vex2pdf",
+    "publisher": "Salem B.",
+    "description": "A Rust command-line tool and library to convert CycloneDX (VEX/VDR/SBOM) JSON or XML documents to PDF reports with support for vulnerability analysis visualization.",
+    "repository_url": "https://gitlab.com/jurassicLizard/vex2pdf",
+    "website_url": "https://crates.io/crates/vex2pdf",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "RESOURCE_REPORTING",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "LIBRARY",
+      "COMMAND_LINE_UTILITY",
+      "APPLICATION"
+    ],
+    "library": [
+      "RUST"
+    ],
+    "platform": [
+      "LINUX",
+      "WINDOWS",
+      "MAC"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ]
+  },
+  "specVersion": "2.0"
+}
