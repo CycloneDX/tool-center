@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2025-11-13T10:13:59Z",
+  "last_updated": "2025-11-13T10:35:14Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -1195,6 +1195,76 @@
       ],
       "supportedLanguages": [],
       "_fromFile": "bomskope.json"
+    },
+    {
+      "name": "Boostsecurity.io",
+      "publisher": "Boostsecurity.io",
+      "description": "AppSec Testing and Application Security Posture Management (ASPM) platform allowing detection and management of code risk with runtime cloud context and a focus on securing the full Software Supply Chain.",
+      "website_url": "https://boostsecurity.io/",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "COMMERCIAL_LICENSE",
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "AUTHOR",
+        "DISTRIBUTE",
+        "PACKAGE_MANAGER_INTEGRATION",
+        "TRANSFORM"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING",
+        "OUTDATED_COMPONENTS",
+        "POLICY_EVALUATION",
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [
+        "BOM_STANDARD"
+      ],
+      "packaging": [
+        "APPLICATION",
+        "COMMAND_LINE_UTILITY",
+        "GITHUB_APP"
+      ],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "DESIGN",
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "SPDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        "C/C++",
+        ".NET",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SWIFT"
+      ],
+      "_fromFile": "boostsecurity_io.json"
     },
     {
       "name": "build-info-go",
