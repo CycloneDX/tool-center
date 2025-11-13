@@ -19,9 +19,6 @@
       "RESOURCE_REPORTING",
       "SECURITY_VULNERABILITIES"
     ],
-    "transform": [
-      "BOM_SERIALIZATION_FORMAT"
-    ],
     "packaging": [
       "LIBRARY",
       "COMMAND_LINE_UTILITY",
