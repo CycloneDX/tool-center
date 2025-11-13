@@ -1,4 +1,5 @@
 {
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
   "tool": {
     "name": "vex2pdf",
     "publisher": "Salem B.",
