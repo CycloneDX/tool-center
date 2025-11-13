@@ -1,4 +1,7 @@
 {
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
       "name": "Boostsecurity.io",
       "publisher": "Boostsecurity.io",
       "description": "AppSec Testing and Application Security Posture Management (ASPM) platform allowing detection and management of code risk with runtime cloud context and a focus on securing the full Software Supply Chain.",
@@ -67,3 +70,4 @@
         "SWIFT"
       ]
     }
+}
