@@ -354,6 +354,7 @@
           "items": {
             "type": "string",
             "enum": [
+              "CYCLONEDX_V1.7",
               "CYCLONEDX_V1.6",
               "CYCLONEDX_V1.5",
               "CYCLONEDX_V1.4",
@@ -363,6 +364,7 @@
               "CYCLONEDX_V1.0"
             ],
             "meta:enum": {
+              "CYCLONEDX_V1.7": "CycloneDX v1.7",
               "CYCLONEDX_V1.6": "CycloneDX v1.6",
               "CYCLONEDX_V1.5": "CycloneDX v1.5",
               "CYCLONEDX_V1.4": "CycloneDX v1.4",
