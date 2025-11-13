@@ -6,7 +6,7 @@
     "publisher": "OWASP Foundation",
     "description": "CLI and plugin that generates CycloneDX Software Bill of Materials (SBOM) for during the esbuild process.",
     "repository_url": "https://github.com/CycloneDX/cyclonedx-esbuild",
-    "website_url": "https://github.com/CycloneDX/cyclonedx-esbuild?tab=readme-ov-file#readme",
+    "website_url": "https://www.npmjs.com/package/@cyclonedx/cyclonedx-esbuild",
     "capabilities": [
       "SBOM"
     ],

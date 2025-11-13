@@ -6,7 +6,7 @@
     "publisher": "Jan Kowalleck",
     "description": "Extensible Stylesheet Language Transformations (XSLT) to translate CycloneDX dependency graph to mermaid chart.",
     "repository_url": "https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1",
-    "website_url": "https://gist.github.com/jkowalleck",
+    "website_url": "https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1",
     "capabilities": [
       "SBOM"
     ],
@@ -36,6 +36,7 @@
       "CYCLONEDX"
     ],
     "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
       "CYCLONEDX_V1.6",
       "CYCLONEDX_V1.5",
       "CYCLONEDX_V1.4",
