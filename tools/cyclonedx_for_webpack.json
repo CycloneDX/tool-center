@@ -6,7 +6,7 @@
     "publisher": "OWASP Foundation",
     "description": "Webpack plugin that generates CycloneDX Software Bill of Materials (SBOM) for JavaScript/TypeScript bundles during the build process.",
     "repository_url": "https://github.com/CycloneDX/cyclonedx-webpack-plugin",
-    "website_url": "https://github.com/CycloneDX/cyclonedx-webpack-plugin",
+    "website_url": "https://www.npmjs.com/package/@cyclonedx/webpack-plugin",
     "capabilities": [
       "SBOM"
     ],
@@ -36,6 +36,7 @@
       "PACKAGE_URL"
     ],
     "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
       "CYCLONEDX_V1.6",
       "CYCLONEDX_V1.5",
       "CYCLONEDX_V1.4",
