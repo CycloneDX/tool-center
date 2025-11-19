@@ -2,11 +2,11 @@
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
   "specVersion": "2.0",
   "tool": {
-    "name": "AI SBOM Generator",
-    "publisher": "Aetheris AI",
-    "description": "Generate AI SBOM (AIBOM, AI/ML-BOM) in CycloneDX format for models on Hugging Face.",
-    "repository_url": "https://github.com/aetheris-ai/aibom-generator/",
-    "website_url": "https://sbom.aetheris.ai",
+    "name": "AIBOM Generator",
+    "publisher": "OWASP GenAI Security Project",
+    "description": "Generate AIBOM (AI SBOM, AI/ML-BOM) in CycloneDX format for models on Hugging Face.",
+    "repository_url": "https://huggingface.co/spaces/GenAISecurityProject/OWASP-AIBOM-Generator",
+    "website_url": "https://genai.owasp.org",
     "capabilities": [
       "AI/ML-BOM"
     ],
