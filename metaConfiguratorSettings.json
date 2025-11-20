@@ -1,5 +1,6 @@
 {
   "settingsVersion": "1.0.3",
+  "latestNewsHash": 0,
   "dataFormat": "json",
   "toolbarTitle": "CycloneDX ToolCenter Editor",
   "hideSchemaEditor": true,
@@ -9,7 +10,9 @@
     "maxDocumentSizeForCursorSynchronization": 1240000,
     "maxDocumentSizeForSchemaInference": 40960,
     "minObjectPropertyCountToPreserve": 16,
-    "maxShownChildrenInGuiEditor": 1000
+    "maxShownChildrenInGuiEditor": 1000,
+    "maxErrorsToShow": 15,
+    "maxErrorsToShowBulkValidation": 200
   },
   "codeEditor": {
     "fontSize": 14,
@@ -95,5 +98,20 @@
       "schemaDiagram",
       "tableView"
     ]
-  }
+  },
+  "schemaSelectionLists": [
+    {
+      "label": "CycloneDX Tool Centetr",
+      "schemas": [
+        {
+          "label": "Tool Schema",
+          "url": "https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/schemas/tool.schema.json"
+        },
+        {
+          "label": "Tools Schema",
+          "url": "https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/schemas/tools.schema.json"
+        }
+      ]
+    }
+  ]
 }
