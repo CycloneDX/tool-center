@@ -101,7 +101,7 @@
   },
   "schemaSelectionLists": [
     {
-      "label": "CycloneDX Tool Centetr",
+      "label": "CycloneDX ToolCenter",
       "schemas": [
         {
           "label": "Tool Schema",
