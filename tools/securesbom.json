@@ -20,8 +20,6 @@
       "PACKAGE_MANAGER_INTEGRATION",
       "SIGNING/NOTARY"
     ],
-    "analysis": [],
-    "transform": [],
     "packaging": [
       "COMMAND_LINE_UTILITY",
       "GITHUB_ACTION",
@@ -49,7 +47,6 @@
       "CYCLONEDX_V1.5",
       "CYCLONEDX_V1.6",
       "CYCLONEDX_V1.7"
-    ],
-    "supportedLanguages": []
+    ]
   }
 }
