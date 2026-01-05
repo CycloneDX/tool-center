@@ -47,7 +47,8 @@
     "cycloneDxVersion": [
       "CYCLONEDX_V1.4",
       "CYCLONEDX_V1.5",
-      "CYCLONEDX_V1.6"
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.7"
     ],
     "supportedLanguages": []
   }
