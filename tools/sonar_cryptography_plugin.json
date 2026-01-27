@@ -39,7 +39,7 @@
       "PACKAGE_URL"
     ],
     "cycloneDxVersion": [
-      "CYCLONEDX_V1.5"
+      "CYCLONEDX_V1.6"
     ],
     "supportedLanguages": [
       "JAVA",
