@@ -1,0 +1,14 @@
+{
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Qinsight Atlas",
+    "publisher": "Qinsight",
+    "description": "Cryptographic posture management platform that discovers, inventories and analyzes cryptographic assets across environments, can import/export CycloneDX-aligned CBOMs, and prioritizes remediation for PQC readiness.",
+    "website_url": "https://qinsight.com",
+    "capabilities": ["CBOM"],
+    "functions": ["AUTHOR", "ANALYSIS"],
+    "availability": ["COMMERCIAL_LICENSE", "SUBSCRIPTION"],
+    "packaging": ["APPLICATION"],
+    "lifecycle": ["DISCOVERY", "OPERATIONS"]
+  }
+}
