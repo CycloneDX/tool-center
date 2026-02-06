@@ -2,10 +2,10 @@
   "specVersion": "2.0",
   "tool": {
     "name": "Conviso Platform",
-    "publisher": "Conviso AppSec",
+    "publisher": "Conviso",
     "description": "Conviso Platform includes an SCA engine that detects multi-language ecosystems, generates CycloneDX/SPDX SBOMs, enriches results with vulnerabilities and licenses, and provides supply chain visibility.",
     "website_url": "https://www.convisoappsec.com/conviso-platform",
-    "repository_url": "https://github.com/convisoappsec/conviso-sca",
+    "repository_url": "",
     "capabilities": [
       "SBOM",
       "MBOM"
