@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-02T17:01:22Z",
+  "last_updated": "2026-02-09T12:11:43Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -10686,6 +10686,61 @@
         "CYCLONEDX_V1.4"
       ],
       "_fromFile": "sbomdiff.json"
+    },
+    {
+      "name": "SBOMHub CLI",
+      "publisher": "SBOMHub",
+      "description": "CLI tool that wraps Syft, Trivy, and cdxgen to generate SBOMs and upload them to SBOMHub with vulnerability scanning support.",
+      "repository_url": "https://github.com/youichi-uda/sbomhub-cli",
+      "website_url": "https://sbomhub.app",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "library": [
+        "GO"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ],
+      "supportedLanguages": [
+        "C/C++",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        ".NET",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST"
+      ],
+      "_fromFile": "sbomhub_cli.json"
     },
     {
       "name": "sbomify",
