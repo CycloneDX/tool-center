@@ -1,0 +1,56 @@
+{
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Conviso Platform",
+    "publisher": "Conviso",
+    "description": "Conviso Platform includes an SCA engine that detects multi-language ecosystems, generates CycloneDX/SPDX SBOMs, enriches results with vulnerabilities and licenses, and provides supply chain visibility.",
+    "website_url": "https://www.convisoappsec.com/conviso-platform",
+    "capabilities": [
+      "SBOM",
+      "MBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "TRANSFORM",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_STANDARD"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "PYTHON",
+      "NODE.JS",
+      "JAVASCRIPT/TYPESCRIPT",
+      "JAVA",
+      ".NET",
+      "GO",
+      "RUST",
+      "RUBY",
+      "PHP",
+      "ERLANG_ELIXIR"
+    ]
+  }
+}
