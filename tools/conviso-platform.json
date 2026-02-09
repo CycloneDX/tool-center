@@ -27,18 +27,6 @@
     "transform": [
       "BOM_STANDARD"
     ],
-    "packaging": [
-      "APPLICATION",
-      "COMMAND_LINE_UTILITY"
-    ],
-    "library": [
-      "PYTHON"
-    ],
-    "platform": [
-      "LINUX",
-      "MAC",
-      "WINDOWS"
-    ],
     "lifecycle": [
       "PRE-BUILD",
       "BUILD",
