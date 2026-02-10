@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-10T21:14:41Z",
+  "last_updated": "2026-02-10T21:37:55Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -4484,6 +4484,44 @@
       ],
       "supportedLanguages": [],
       "_fromFile": "cyclonedx_merge.json"
+    },
+    {
+      "name": "CycloneDX MSBuild Task",
+      "publisher": "Patrick Dwyer",
+      "description": "Generates CycloneDX Software Bill of Materials (SBOM) for .NET projects by integrating into the MSBuild process.",
+      "repository_url": "https://github.com/coderpatros/cyclonedx-dotnet-msbuild",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "analysis": [],
+      "transform": [],
+      "packaging": [],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7"
+      ],
+      "supportedLanguages": [
+        ".NET"
+      ],
+      "_fromFile": "cyclonedx_msbuild.json"
     },
     {
       "name": "CycloneDX .NET Generate SBOM",
