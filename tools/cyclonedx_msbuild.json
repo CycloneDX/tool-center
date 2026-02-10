@@ -13,7 +13,6 @@
       "OPEN_SOURCE"
     ],
     "functions": [
-      "AUTHOR",
       "PACKAGE_MANAGER_INTEGRATION"
     ],
     "analysis": [],
