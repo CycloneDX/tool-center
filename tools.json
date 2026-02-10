@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-09T15:37:43Z",
+  "last_updated": "2026-02-10T21:14:41Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -2933,11 +2933,14 @@
         "PACKAGE_URL"
       ],
       "cycloneDxVersion": [
-        "CYCLONEDX_V1.2",
-        "CYCLONEDX_V1.3",
-        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
         "CYCLONEDX_V1.5",
-        "CYCLONEDX_V1.6"
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
       ],
       "supportedLanguages": [],
       "_fromFile": "cyclonedx_cli.json"
@@ -3746,11 +3749,7 @@
         "PACKAGE_URL"
       ],
       "cycloneDxVersion": [
-        "CYCLONEDX_V1.6",
-        "CYCLONEDX_V1.5",
-        "CYCLONEDX_V1.4",
-        "CYCLONEDX_V1.3",
-        "CYCLONEDX_V1.2"
+        "CYCLONEDX_V1.7"
       ],
       "supportedLanguages": [
         ".NET"
@@ -4375,11 +4374,14 @@
         "SWID"
       ],
       "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
         "CYCLONEDX_V1.6",
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4",
         "CYCLONEDX_V1.3",
-        "CYCLONEDX_V1.2"
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
       ],
       "supportedLanguages": [
         ".NET"
@@ -4948,6 +4950,7 @@
         "PACKAGE_URL"
       ],
       "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
         "CYCLONEDX_V1.6",
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4",
