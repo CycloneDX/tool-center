@@ -1,38 +1,13 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-11T11:29:53Z",
+  "last_updated": "2026-02-11T11:31:43Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
     "url": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "tools": [
-    {
-      "name": "Qinsight Atlas",
-      "publisher": "Qinsight",
-      "description": "Cryptographic posture management platform that discovers, inventories and analyzes cryptographic assets across environments, can import/export CycloneDX-aligned CBOMs, and prioritizes remediation for PQC readiness.",
-      "website_url": "https://qinsight.com",
-      "capabilities": [
-        "CBOM"
-      ],
-      "functions": [
-        "AUTHOR",
-        "ANALYSIS"
-      ],
-      "availability": [
-        "COMMERCIAL_LICENSE",
-        "SUBSCRIPTION"
-      ],
-      "packaging": [
-        "APPLICATION"
-      ],
-      "lifecycle": [
-        "DISCOVERY",
-        "OPERATIONS"
-      ],
-      "_fromFile": "Qinsight-Atlas.json"
-    },
     {
       "name": "action-owasp-dependecy-track-check",
       "publisher": "Quobis",
@@ -8923,6 +8898,31 @@
       "cycloneDxVersion": [],
       "supportedLanguages": [],
       "_fromFile": "pulseuno_plugin_for_dimensions_cm.json"
+    },
+    {
+      "name": "Qinsight Atlas",
+      "publisher": "Qinsight",
+      "description": "Cryptographic posture management platform that discovers, inventories and analyzes cryptographic assets across environments, can import/export CycloneDX-aligned CBOMs, and prioritizes remediation for PQC readiness.",
+      "website_url": "https://qinsight.com",
+      "capabilities": [
+        "CBOM"
+      ],
+      "functions": [
+        "AUTHOR",
+        "ANALYSIS"
+      ],
+      "availability": [
+        "COMMERCIAL_LICENSE",
+        "SUBSCRIPTION"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "lifecycle": [
+        "DISCOVERY",
+        "OPERATIONS"
+      ],
+      "_fromFile": "qinsight-atlas.json"
     },
     {
       "name": "RapidFort",
