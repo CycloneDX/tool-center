@@ -2,7 +2,7 @@
   "tool": {
     "name": "Snyk",
     "publisher": "Snyk",
-    "description": "Snyk generates and scans BOMs providing visibility and risk insights into all of your developer assets including dependencies, container images, AI models, agents, tools, and MCPs. ",
+    "description": "Snyk generates and scans BOMs providing visibility and risk insights into your software supply chain.",
     "repository_url": "",
     "website_url": "https://snyk.io",
     "availability": [
@@ -10,7 +10,6 @@
       "SUBSCRIPTION"
     ],
     "capabilities": [
-      "AI/ML-BOM",
       "SBOM"
     ],
     "functions": [

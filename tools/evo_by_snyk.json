@@ -1,0 +1,24 @@
+{
+  "tool": {
+    "name": "Evo by Snyk",
+    "publisher": "Snyk",
+    "description": "Evo helps you generate an AI-BOM including models, datasets, agents, tools, and MCPs within your Python projects.",
+    "repository_url": "",
+    "website_url": "https://evo.ai.snyk.io",
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "capabilities": [
+      "AI/ML-BOM"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "supportedLanguages": [
+      "PYTHON"
+    ],
+    "lifecycle": [
+      "PRE-BUILD"
+    ]
+  }
+}
