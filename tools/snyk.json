@@ -1,4 +1,6 @@
 {
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
   "tool": {
     "name": "Snyk",
     "publisher": "Snyk",
