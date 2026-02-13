@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Snyk",
+    "publisher": "Snyk",
+    "description": "Snyk generates and scans BOMs providing visibility and risk insights into your software supply chain.",
+    "repository_url": "",
+    "website_url": "https://snyk.io",
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "capabilities": [
+      "SBOM"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      ".NET",
+      "ERLANG_ELIXIR",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON",
+      "PHP",
+      "RUBY",
+      "RUST",
+      "SCALA",
+      "SWIFT"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "POST-BUILD",
+      "BUILD"
+    ]
+  }
+}
