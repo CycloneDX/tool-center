@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-11T11:31:43Z",
+  "last_updated": "2026-02-13T12:40:04Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -5707,6 +5707,29 @@
       "_fromFile": "enso.json"
     },
     {
+      "name": "Evo by Snyk",
+      "publisher": "Snyk",
+      "description": "Evo helps you generate an AI-BOM including models, datasets, agents, tools, and MCPs within your Python projects.",
+      "repository_url": "",
+      "website_url": "https://evo.ai.snyk.io",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "capabilities": [
+        "AI/ML-BOM"
+      ],
+      "functions": [
+        "AUTHOR"
+      ],
+      "supportedLanguages": [
+        "PYTHON"
+      ],
+      "lifecycle": [
+        "PRE-BUILD"
+      ],
+      "_fromFile": "evo_by_snyk.json"
+    },
+    {
       "name": "EXPLIoT IoT Security Assessment Framework",
       "publisher": "EXPLIoT",
       "description": "EXPLIoT is an AGPLv3 Python framework and CLI for assessing and exploiting IoT devices; it offers 140+ plug-ins and can generate CycloneDX SBOMs from firmware filesystems.",
@@ -11391,6 +11414,44 @@
         "RUST"
       ],
       "_fromFile": "shiftleft_scan.json"
+    },
+    {
+      "name": "Snyk",
+      "publisher": "Snyk",
+      "description": "Snyk generates and scans BOMs providing visibility and risk insights into your software supply chain.",
+      "repository_url": "",
+      "website_url": "https://snyk.io",
+      "availability": [
+        "FREEMIUM",
+        "SUBSCRIPTION"
+      ],
+      "capabilities": [
+        "SBOM"
+      ],
+      "functions": [
+        "AUTHOR",
+        "ANALYSIS"
+      ],
+      "supportedLanguages": [
+        "C/C++",
+        ".NET",
+        "ERLANG_ELIXIR",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "PYTHON",
+        "PHP",
+        "RUBY",
+        "RUST",
+        "SCALA",
+        "SWIFT"
+      ],
+      "lifecycle": [
+        "PRE-BUILD",
+        "POST-BUILD",
+        "BUILD"
+      ],
+      "_fromFile": "snyk.json"
     },
     {
       "name": "SnykVulnCheck",
