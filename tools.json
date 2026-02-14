@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-13T12:40:04Z",
+  "last_updated": "2026-02-14T15:15:57Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -3509,6 +3509,47 @@
         "NODE.JS"
       ],
       "_fromFile": "cyclonedx_for_esbuild.json"
+    },
+    {
+      "name": "CycloneDX for Fortran Package Manager",
+      "publisher": "Patrick Dwyer",
+      "description": "Generates CycloneDX Software Bill of Materials (SBOM) for Fortran fpm projects.",
+      "repository_url": "https://github.com/coderpatros/cyclonedx-fortran-fpm",
+      "website_url": "https://github.com/coderpatros/cyclonedx-fortran-fpm",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "analysis": [],
+      "transform": [],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        "FORTRAN"
+      ],
+      "_fromFile": "cyclonedx_for_fortran_fpm.json"
     },
     {
       "name": "CycloneDX for Go",
