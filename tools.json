@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-14T15:15:57Z",
+  "last_updated": "2026-02-17T16:55:37Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -2826,6 +2826,54 @@
         "PYTHON"
       ],
       "_fromFile": "cyberwatch.json"
+    },
+    {
+      "name": "CycloneDX BOM Studio",
+      "publisher": "OWASP Foundation",
+      "description": "A visual editor for creating and managing CycloneDX Bills of Materials. BOM Studio lets you create, edit, validate, and export CycloneDX BOMs through an intuitive browser-based interface.",
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-bom-studio",
+      "website_url": "https://cyclonedx.studio/",
+      "capabilities": [
+        "AI/ML-BOM",
+        "CBOM",
+        "HBOM",
+        "OBOM",
+        "SAASBOM",
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "AUTHOR",
+        "ANALYSIS"
+      ],
+      "analysis": [],
+      "transform": [
+        "BOM_VERSION"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [],
+      "_fromFile": "cyclonedx-bom-studio.json"
     },
     {
       "name": "CycloneDX-Buildroot",
