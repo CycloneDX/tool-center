@@ -13,9 +13,9 @@ _tool_fname_replace = re_compile('[^a-zA-Z0-9]+')
 
 
 def make_tool_fname(t):
-    id_ = t.get('id')
+    from_file = t.get('_fromFile')
     name = t['name']
-    return f'{id_}.json' if id_ \
+    return f'{Path(from_file).name}' if from_file \
         else f'{_tool_fname_replace.sub("_", name).lower()}.json'
 
 
