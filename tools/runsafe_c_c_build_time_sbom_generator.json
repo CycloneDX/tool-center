@@ -5,7 +5,7 @@
     "name": "RunSafe C/C++ Build-time SBOM Generator",
     "publisher": "RunSafe Security",
     "description": "Generates a C/C++ SBOM at build-time without a package manager, working across build environments and reporting on all library dependencies.",
-    "website_url": "https://runsafesecurity.com/c-c-plus-plus-sbom/",
+    "website_url": "https://docs.runsafesecurity.com/identify/docs/compiled-sboms/",
     "capabilities": [
       "SBOM"
     ],
