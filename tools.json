@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-19T10:29:45Z",
+  "last_updated": "2026-02-26T21:17:02Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -9462,7 +9462,7 @@
       "name": "RunSafe C/C++ Build-time SBOM Generator",
       "publisher": "RunSafe Security",
       "description": "Generates a C/C++ SBOM at build-time without a package manager, working across build environments and reporting on all library dependencies.",
-      "website_url": "https://runsafesecurity.com/c-c-plus-plus-sbom/",
+      "website_url": "https://docs.runsafesecurity.com/identify/docs/compiled-sboms/",
       "capabilities": [
         "SBOM"
       ],
