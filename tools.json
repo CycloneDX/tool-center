@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-27T07:22:13Z",
+  "last_updated": "2026-02-27T13:33:53Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -6957,6 +6957,55 @@
       ],
       "supportedLanguages": [],
       "_fromFile": "jsf_cli.json"
+    },
+    {
+      "name": "JSF Web Tool",
+      "publisher": "Patrick Dwyer",
+      "description": "JSON Signature Format web tool for SBOM signing, and signature verification.",
+      "repository_url": "https://github.com/coderpatros/dotnet-jsf",
+      "website_url": "https://patrickdwyer.au/dotnet-jsf/",
+      "capabilities": [
+        "SBOM",
+        "SAASBOM",
+        "OBOM",
+        "MBOM",
+        "AI/ML-BOM",
+        "CBOM",
+        "CDXA",
+        "HBOM",
+        "RELEASE_NOTES",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "analysis": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
+      ],
+      "supportedLanguages": [],
+      "_fromFile": "jsf_web.json"
     },
     {
       "name": "JupiterOne",
