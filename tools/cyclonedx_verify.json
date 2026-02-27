@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "cyclonedx-verify",
+    "publisher": "Patrick Dwyer",
+    "description": "Command-line tool that verifies file integrity against CycloneDX SBOM files in JSON format, including signature and hash verification.",
+    "repository_url": "https://github.com/coderpatros/cyclonedx-verify",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.1",
+      "CYCLONEDX_V1.0",
+      "CYCLONEDX_V1.7"
+    ],
+    "website_url": "https://github.com/coderpatros/cyclonedx-verify"
+  }
+}
