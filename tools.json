@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-02-26T21:17:02Z",
+  "last_updated": "2026-02-27T07:22:13Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -5030,6 +5030,53 @@
       "_fromFile": "cyclonedx_rust.json"
     },
     {
+      "name": "cyclonedx-verify",
+      "publisher": "Patrick Dwyer",
+      "description": "Command-line tool that verifies file integrity against CycloneDX SBOM files in JSON format, including signature and hash verification.",
+      "repository_url": "https://github.com/coderpatros/cyclonedx-verify",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "SIGNING/NOTARY"
+      ],
+      "analysis": [
+        "POLICY_EVALUATION"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0",
+        "CYCLONEDX_V1.7"
+      ],
+      "website_url": "https://github.com/coderpatros/cyclonedx-verify",
+      "_fromFile": "cyclonedx_verify.json"
+    },
+    {
       "name": "CycloneDX Web Tool",
       "publisher": "CycloneDX",
       "description": "Web-based tool for validating, viewing, and converting CycloneDX SBOMs. Supports XML/JSON, and conversion between CycloneDX and SPDX formats.",
@@ -6855,6 +6902,61 @@
       ],
       "supportedLanguages": [],
       "_fromFile": "jetstack_secure.json"
+    },
+    {
+      "name": "JSF CLI",
+      "publisher": "Patrick Dwyer",
+      "description": "CLI tool JSON Signature Format for SBOM signing, and signature verification.",
+      "repository_url": "https://github.com/coderpatros/dotnet-jsf",
+      "website_url": "https://github.com/coderpatros/dotnet-jsf",
+      "capabilities": [
+        "SBOM",
+        "SAASBOM",
+        "OBOM",
+        "MBOM",
+        "AI/ML-BOM",
+        "CBOM",
+        "CDXA",
+        "HBOM",
+        "RELEASE_NOTES",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "analysis": [],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "library": [
+        ".NET"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
+      ],
+      "supportedLanguages": [],
+      "_fromFile": "jsf_cli.json"
     },
     {
       "name": "JupiterOne",
