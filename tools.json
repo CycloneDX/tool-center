@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-04-23T18:11:43Z",
+  "last_updated": "2026-04-23T19:05:38Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -2942,7 +2942,7 @@
     {
       "name": "CycloneDX BOM Studio",
       "publisher": "OWASP Foundation",
-      "description": "A visual editor for creating and managing CycloneDX Bills of Materials. BOM Studio lets you create, edit, validate, and export CycloneDX BOMs through an intuitive browser-based interface.",
+      "description": "A visual editor for creating and managing CycloneDX Bills of Materials. BOM Studio lets you create, edit, validate, and export CycloneDX BOMs through an intuitive browser\u2011based web interface.",
       "repository_url": "https://github.com/CycloneDX/cyclonedx-bom-studio",
       "website_url": "https://cyclonedx.studio/",
       "capabilities": [
