@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-04-23T13:32:22Z",
+  "last_updated": "2026-04-23T18:08:45Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -109,7 +109,7 @@
       "name": "AIBoMGen CLI Action",
       "publisher": "IDLab, Ghent University, imec",
       "description": "A GitHub Action that generates a CycloneDX AI Bill of Materials for Hugging Face models referenced in a repository using AIBoMGen-cli.",
-      "repository_url": "https://github.com/CRACY-project/AIBoMGen-cli-action",
+      "repository_url": "https://github.com/CRA-tools/aibomgen-cli-action",
       "capabilities": [
         "AI/ML-BOM",
         "SBOM"
@@ -132,7 +132,7 @@
       "name": "AIBoMGen CLI",
       "publisher": "IDLab, Ghent University, imec",
       "description": "A Go CLI tool that scans repositories for Hugging Face model usage, generates CycloneDX AI BOMs, validates, checks completeness, enriches, and merges AIBOMs with SBOMs.",
-      "repository_url": "https://github.com/idlab-discover/AIBoMGen-cli",
+      "repository_url": "https://github.com/idlab-discover/aibomgen-cli",
       "capabilities": [
         "AI/ML-BOM",
         "SBOM"
@@ -172,39 +172,6 @@
         "JAVASCRIPT/TYPESCRIPT"
       ],
       "_fromFile": "aibomgen-cli.json"
-    },
-    {
-      "name": "AIBoMGen",
-      "publisher": "IDLab, Ghent University, imec",
-      "description": "A proof-of-concept platform for generating AI Bills of Materials (AIBOMs) during distributed AI model training. This is a reference and research architecture: not meant for production.",
-      "repository_url": "https://github.com/idlab-discover/AIBoMGen",
-      "capabilities": [
-        "AI/ML-BOM",
-        "SBOM"
-      ],
-      "availability": [
-        "OPEN_SOURCE"
-      ],
-      "functions": [
-        "SIGNING/NOTARY"
-      ],
-      "packaging": [
-        "APPLICATION"
-      ],
-      "lifecycle": [
-        "BUILD",
-        "POST-BUILD"
-      ],
-      "supportedStandards": [
-        "CYCLONEDX"
-      ],
-      "cycloneDxVersion": [
-        "CYCLONEDX_V1.6"
-      ],
-      "supportedLanguages": [
-        "PYTHON"
-      ],
-      "_fromFile": "aibomgen.json"
     },
     {
       "name": "Aikido Security",
