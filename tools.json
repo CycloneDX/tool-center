@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-04-23T19:05:38Z",
+  "last_updated": "2026-05-11T10:17:30Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -8967,6 +8967,47 @@
       "_fromFile": "parlay.json"
     },
     {
+      "name": "CycloneDX SBOM Parser for PHP",
+      "publisher": "Martin Adler",
+      "description": "Type-safe, read-only PHP library for parsing CycloneDX SBOM JSON files. Supports CycloneDX 1.4+ including components, vulnerabilities, and metadata. Built for application code that needs to consume existing SBOM files.",
+      "repository_url": "https://github.com/mteu/sbom-parser",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "library": [
+        "PHP"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.7"
+      ],
+      "_fromFile": "parser_php.json"
+    },
+    {
       "name": "pip-audit",
       "publisher": "Trail of Bits",
       "description": "Audits Python environments and dependency trees for known vulnerabilities and can emit CycloneDX SBOMs of affected components.",
@@ -9746,7 +9787,7 @@
       "name": "RunSafe C/C++ Build-time SBOM Generator",
       "publisher": "RunSafe Security",
       "description": "Generates a C/C++ SBOM at build-time without a package manager, working across build environments and reporting on all library dependencies.",
-      "website_url": "https://docs.runsafesecurity.com/identify/docs/compiled-sboms/",
+      "website_url": "https://runsafesecurity.com/cyclonedx-sbom/",
       "capabilities": [
         "SBOM"
       ],
