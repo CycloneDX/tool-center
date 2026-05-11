@@ -1,0 +1,43 @@
+{
+	"specVersion": "2.0",
+	"tool": {
+		"name": "CycloneDX SBOM Parser for PHP",
+		"publisher": "Martin Adler",
+		"description": "Type-safe, read-only PHP library for parsing CycloneDX SBOM JSON files. Supports CycloneDX 1.4+ including components, vulnerabilities, and metadata. Built for application code that needs to consume existing SBOM files.",
+		"repository_url": "https://github.com/mteu/sbom-parser",
+		"capabilities": [
+			"SBOM"
+		],
+		"availability": [
+			"OPEN_SOURCE",
+			"OSI_APPROVED"
+		],
+		"functions": [
+			"ANALYSIS"
+		],
+		"packaging": [
+			"LIBRARY"
+		],
+		"library": [
+			"PHP"
+		],
+		"platform": [
+			"LINUX",
+			"MAC",
+			"WINDOWS"
+		],
+		"lifecycle": [
+			"POST-BUILD",
+			"OPERATIONS"
+		],
+		"supportedStandards": [
+			"CYCLONEDX"
+		],
+		"cycloneDxVersion": [
+			"CYCLONEDX_V1.4",
+			"CYCLONEDX_V1.5",
+			"CYCLONEDX_V1.6",
+			"CYCLONEDX_V1.7"
+		]
+	}
+}
