@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "depguard",
+    "publisher": "Jorge Morais",
+    "description": "MCP security server for AI coding agents. Generates CycloneDX 1.6 SBOMs with optional VEX, audits npm packages against npm and GitHub advisories, scans tarballs for supply-chain attacks, and acts as a pre-install guardian. Zero runtime dependencies.",
+    "repository_url": "https://github.com/mopanc/depguard",
+    "website_url": "https://depguard.dev",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT",
+      "NODE.JS"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS"
+    ]
+  }
+}
