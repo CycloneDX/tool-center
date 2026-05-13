@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ShieldBOM",
+    "publisher": "kazu11max17",
+    "description": "SBOM vulnerability scanner for embedded & IoT systems. Supports SPDX/CycloneDX, OSV.dev integration, assists with EU CRA SBOM requirements. Written in Rust.",
+    "repository_url": "https://github.com/kazu11max17/shieldbom",
+    "website_url": "https://github.com/kazu11max17/shieldbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ]
+  }
+}
