@@ -2,7 +2,7 @@
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
   "specVersion": "2.0",
   "tool": {
-    "name": "sbom-tools",
+    "name": "Semantic SBOM Diff (sbom-tools)",
     "publisher": "sbom-tool",
     "description": "Semantic SBOM diff and analysis tool for CycloneDX and SPDX. Compares SBOMs, enriches with vulnerability and EOL data, scores quality, checks compliance, and supports continuous watch monitoring.",
     "repository_url": "https://github.com/sbom-tool/sbom-tools",
