@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-05-13T07:31:12Z",
+  "last_updated": "2026-05-26T08:05:55Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -11761,6 +11761,61 @@
       "_fromFile": "securestack.json"
     },
     {
+      "name": "Semantic SBOM Diff (sbom-tools)",
+      "publisher": "sbom-tool",
+      "description": "Semantic SBOM diff and analysis tool for CycloneDX and SPDX. Compares SBOMs, enriches with vulnerability and EOL data, scores quality, checks compliance, and supports continuous watch monitoring.",
+      "repository_url": "https://github.com/sbom-tool/sbom-tools",
+      "website_url": "https://sbom.tools",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "TRANSFORM"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING",
+        "OUTDATED_COMPONENTS",
+        "POLICY_EVALUATION",
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [
+        "BOM_SERIALIZATION_FORMAT"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "library": [
+        "RUST"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ],
+      "_fromFile": "semantic_sbom_diff.json"
+    },
+    {
       "name": "Semgrep",
       "publisher": "Semgrep Inc",
       "description": "Semgrep is an application security platform where developers can scan for vulnerabilities in code (SAST), in OSS dependencies (SCA), and secrets. Semgrep creates CycloneDX SBOMs that enrich vulnerabilities with reachability analysis.",
@@ -11832,6 +11887,49 @@
         "FORTRAN"
       ],
       "_fromFile": "semgrep.json"
+    },
+    {
+      "name": "ShieldBOM",
+      "publisher": "kazu11max17",
+      "description": "SBOM vulnerability scanner for embedded & IoT systems. Supports SPDX/CycloneDX, OSV.dev integration, assists with EU CRA SBOM requirements. Written in Rust.",
+      "repository_url": "https://github.com/kazu11max17/shieldbom",
+      "website_url": "https://github.com/kazu11max17/shieldbom",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "LICENSE_REPORTING"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ],
+      "_fromFile": "shieldbom.json"
     },
     {
       "name": "ShiftLeft Scan",
