@@ -3,15 +3,16 @@
   "specVersion": "2.0",
   "tool": {
     "name": "CycloneDX for Erlang/Elixir (Rebar3)",
-    "publisher": "Bram Verburg",
-    "description": "Rebar3 plug-in that generates CycloneDX SBOMs for Erlang/Elixir projects, exporting XML or JSON and supporting CycloneDX v1.4.",
-    "repository_url": "https://github.com/voltone/rebar3_sbom",
+    "publisher": "Erlang Ecosystem Foundation",
+    "description": "Rebar3 plug-in that generates CycloneDX SBOMs for Erlang/Elixir projects, exporting XML or JSON and supporting CycloneDX v1.6.",
+    "repository_url": "https://github.com/erlef/rebar3_sbom",
     "website_url": "https://hex.pm/packages/rebar3_sbom",
     "capabilities": [
       "SBOM"
     ],
     "availability": [
-      "OPEN_SOURCE"
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
     ],
     "functions": [
       "AUTHOR",
@@ -42,7 +43,7 @@
       "PACKAGE_URL"
     ],
     "cycloneDxVersion": [
-      "CYCLONEDX_V1.4"
+      "CYCLONEDX_V1.6"
     ],
     "supportedLanguages": [
       "ERLANG_ELIXIR"

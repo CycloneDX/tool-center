@@ -3,15 +3,16 @@
   "specVersion": "2.0",
   "tool": {
     "name": "CycloneDX for Erlang/Elixir (Mix)",
-    "publisher": "Bram Verburg",
-    "description": "Mix task that generates CycloneDX SBOMs for Erlang/Elixir projects, exporting XML or JSON and supporting multiple CycloneDX schema versions.",
-    "repository_url": "https://github.com/voltone/sbom",
+    "publisher": "Erlang Ecosystem Foundation",
+    "description": "Mix task that generates CycloneDX SBOMs for Erlang/Elixir projects, exporting XML or JSON and supporting CycloneDX schema versions 1.3 through 1.7.",
+    "repository_url": "https://github.com/erlef/mix_sbom",
     "website_url": "https://hex.pm/packages/sbom",
     "capabilities": [
       "SBOM"
     ],
     "availability": [
-      "OPEN_SOURCE"
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
     ],
     "functions": [
       "AUTHOR",
@@ -26,6 +27,7 @@
     ],
     "packaging": [
       "COMMAND_LINE_UTILITY",
+      "GITHUB_ACTION",
       "LIBRARY"
     ],
     "platform": [
@@ -42,9 +44,11 @@
       "PACKAGE_URL"
     ],
     "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
       "CYCLONEDX_V1.4",
-      "CYCLONEDX_V1.3",
-      "CYCLONEDX_V1.2"
+      "CYCLONEDX_V1.3"
     ],
     "supportedLanguages": [
       "ERLANG_ELIXIR"
