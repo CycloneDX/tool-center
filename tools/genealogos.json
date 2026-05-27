@@ -1,0 +1,43 @@
+{
+  "tool": {
+    "name": "genealogos",
+    "publisher": "Tweag I/O",
+    "description": "CLI and library to generate SBOMs from Nix expression without having to build the derivations, build on top of Nixtract.",
+    "repository_url": "https://github.com/tweag/genealogos",
+    "website_url": "https://github.com/tweag/genealogos",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION",
+      "AUTHOR"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "RUST"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "PRE-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.4"
+    ]
+  },
+  "specVersion": "2.0"
+}
