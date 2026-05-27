@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-05-26T15:04:34Z",
+  "last_updated": "2026-05-27T08:50:13Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -6514,6 +6514,47 @@
         "PHP"
       ],
       "_fromFile": "gemnasium.json"
+    },
+    {
+      "name": "genealogos",
+      "publisher": "Tweag I/O",
+      "description": "CLI and library to generate SBOMs from Nix expression without having to build the derivations, build on top of Nixtract.",
+      "repository_url": "https://github.com/tweag/genealogos",
+      "website_url": "https://github.com/tweag/genealogos",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION",
+        "AUTHOR"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY",
+        "LIBRARY"
+      ],
+      "library": [
+        "RUST"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC"
+      ],
+      "lifecycle": [
+        "PRE-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.4"
+      ],
+      "_fromFile": "genealogos.json"
     },
     {
       "name": "Generate SBoM for Elixir project",
