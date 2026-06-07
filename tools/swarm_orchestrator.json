@@ -27,6 +27,9 @@
       "CYCLONEDX",
       "SPDX"
     ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
     "packaging": [
       "GITHUB_ACTION",
       "COMMAND_LINE_UTILITY"
