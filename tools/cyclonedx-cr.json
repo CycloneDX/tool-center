@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "cyclonedx-cr",
+    "publisher": "hahwul",
+    "description": "A Crystal tool for generating CycloneDX SBOMs from Crystal shard projects, reading shard.yml and shard.lock to produce JSON, XML, or CSV output with canonical PURLs.",
+    "repository_url": "https://github.com/hahwul/cyclonedx-cr",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "LIBRARY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}
