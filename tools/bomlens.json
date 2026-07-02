@@ -1,0 +1,64 @@
+{
+    "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+    "specVersion": "2.0",
+    "tool": {
+        "name": "BomLens",
+        "publisher": "SK Telecom",
+        "description": "Local-first (no-SaaS) SBOM generator and open source risk assessor. CycloneDX SBOMs, AI ML-BOMs with G7 conformance checks, NOTICE files, and security/license risk reports from source, containers, binaries, firmware, AI models, and ingested SBOMs.",
+        "repository_url": "https://github.com/sktelecom/sbom-tools",
+        "website_url": "https://sktelecom.github.io/sbom-tools/",
+        "capabilities": [
+            "AI/ML-BOM",
+            "SBOM"
+        ],
+        "availability": [
+            "OPEN_SOURCE"
+        ],
+        "functions": [
+            "AUTHOR",
+            "ANALYSIS"
+        ],
+        "analysis": [
+            "LICENSE_REPORTING",
+            "SECURITY_VULNERABILITIES"
+        ],
+        "packaging": [
+            "APPLICATION",
+            "COMMAND_LINE_UTILITY",
+            "CONTAINER_IMAGE"
+        ],
+        "platform": [
+            "LINUX",
+            "MAC",
+            "WINDOWS"
+        ],
+        "lifecycle": [
+            "BUILD",
+            "POST-BUILD",
+            "OPERATIONS"
+        ],
+        "supportedStandards": [
+            "CPE",
+            "CYCLONEDX",
+            "PACKAGE_URL",
+            "SPDX"
+        ],
+        "cycloneDxVersion": [
+            "CYCLONEDX_V1.7",
+            "CYCLONEDX_V1.6"
+        ],
+        "supportedLanguages": [
+            "C/C++",
+            ".NET",
+            "GO",
+            "JAVA",
+            "JAVASCRIPT/TYPESCRIPT",
+            "NODE.JS",
+            "PHP",
+            "PYTHON",
+            "RUBY",
+            "RUST",
+            "SWIFT"
+        ]
+    }
+}
