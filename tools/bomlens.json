@@ -4,7 +4,7 @@
     "tool": {
         "name": "BomLens",
         "publisher": "SK Telecom",
-        "description": "Local-first (no-SaaS) SBOM generator and open source risk assessor. CycloneDX SBOMs, AI ML-BOMs with G7 conformance checks, NOTICE files, and security/license risk reports from source, containers, binaries, firmware, AI models, and ingested SBOMs.",
+        "description": "Generates CycloneDX SBOMs from source code, containers, binaries, firmware, and HuggingFace AI models. Ingests existing CycloneDX/SPDX SBOMs and produces license and security findings and NOTICE files. CLI, web UI, and desktop app.",
         "repository_url": "https://github.com/sktelecom/sbom-tools",
         "website_url": "https://sktelecom.github.io/sbom-tools/",
         "capabilities": [
@@ -15,12 +15,15 @@
             "OPEN_SOURCE"
         ],
         "functions": [
-            "AUTHOR",
-            "ANALYSIS"
+            "ANALYSIS",
+            "TRANSFORM"
         ],
         "analysis": [
             "LICENSE_REPORTING",
             "SECURITY_VULNERABILITIES"
+        ],
+        "transform": [
+            "BOM_STANDARD"
         ],
         "packaging": [
             "APPLICATION",
