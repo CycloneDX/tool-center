@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-06-22T10:40:35Z",
+  "last_updated": "2026-07-03T07:56:04Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -1173,6 +1173,70 @@
         "CYCLONEDX_V1.3"
       ],
       "_fromFile": "bombon.json"
+    },
+    {
+      "name": "BomLens",
+      "publisher": "SK Telecom",
+      "description": "Generates CycloneDX SBOMs from source code, containers, binaries, firmware, and HuggingFace AI models. Ingests existing CycloneDX/SPDX SBOMs and produces license and security findings and NOTICE files. CLI, web UI, and desktop app.",
+      "repository_url": "https://github.com/sktelecom/sbom-tools",
+      "website_url": "https://sktelecom.github.io/sbom-tools/",
+      "capabilities": [
+        "AI/ML-BOM",
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "TRANSFORM"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING",
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [
+        "BOM_STANDARD"
+      ],
+      "packaging": [
+        "APPLICATION",
+        "COMMAND_LINE_UTILITY",
+        "CONTAINER_IMAGE"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CPE",
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "SPDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        "C/C++",
+        ".NET",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SWIFT"
+      ],
+      "_fromFile": "bomlens.json"
     },
     {
       "name": "BOMnipotent",
