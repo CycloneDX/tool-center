@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "KernelScan Dependency-Track Plugin",
+    "publisher": "KernelScan",
+    "description": "Config-aware Linux-kernel CVE analyzer plugin for Dependency-Track v5. Reports only the CVEs reachable in a kernel's running .config, and delivers config-aware not_affected/exploitable verdicts as CycloneDX VEX.",
+    "repository_url": "https://github.com/kernelscan/kernelscan-dt-plugin",
+    "website_url": "https://kernelscan.io/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "OPERATIONS",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "CPE",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "C/C++"
+    ]
+  }
+}
