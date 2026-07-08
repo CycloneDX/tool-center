@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CycloneDX for Apache Ant",
+    "publisher": "The Apache Software Foundation / Apache Ant Project",
+    "description": "Library of Apache Ant tasks and types support the generation of CycloneDX SBOMs (JSON or XML) for Java projects",
+    "repository_url": "https://gitbox.apache.org/repos/asf/ant-antlibs-cyclonedx.git",
+    "website_url": "https://ant.apache.org/antlibs/cyclonedx/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_VERSION"
+    ],
+    "packaging": [
+      "LIBRARY"
+    ],
+    "library": [
+      "JAVA"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ],
+    "supportedLanguages": [
+      "JAVA"
+    ]
+  }
+}
