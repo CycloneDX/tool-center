@@ -14,7 +14,8 @@
       "OPEN_SOURCE"
     ],
     "functions": [
-      "AUTHOR"
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
     ],
     "transform": [
       "BOM_SERIALIZATION_FORMAT",
