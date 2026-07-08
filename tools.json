@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-07-03T07:56:04Z",
+  "last_updated": "2026-07-08T08:00:39Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -7432,6 +7432,54 @@
       "_fromFile": "kbom_kubernetes_bill_of_materials_powered_by_ksoc.json"
     },
     {
+      "name": "KernelScan Dependency-Track Plugin",
+      "publisher": "KernelScan",
+      "description": "Config-aware Linux-kernel CVE analyzer plugin for Dependency-Track v5. Reports only the CVEs reachable in a kernel's running .config, and delivers config-aware not_affected/exploitable verdicts as CycloneDX VEX.",
+      "repository_url": "https://github.com/kernelscan/kernelscan-dt-plugin",
+      "website_url": "https://kernelscan.io/",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "library": [
+        "JAVA"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "OPERATIONS",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "CPE",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        "C/C++"
+      ],
+      "_fromFile": "kernelscan_dt_plugin.json"
+    },
+    {
       "name": "Keysight IoT Security Assessment",
       "publisher": "Keysight",
       "description": "Automated firmware analysis platform that generates SBOMs and identifies vulnerabilities, misconfigurations, hardcoded credentials, weak cryptography, and potential zero-day vulnerabilities in IoT devices.",
@@ -7908,6 +7956,72 @@
         "JAVASCRIPT/TYPESCRIPT"
       ],
       "_fromFile": "licensecompliancetool.json"
+    },
+    {
+      "name": "Lucent Sky AVM",
+      "publisher": "Lucent Sky",
+      "description": "Scans binaries, source code, dependencies, and existing SBOMs to identify and remediate known and unknown vulnerabilities. Generates CycloneDX and SPDX SBOMs to support compliance and supply chain transparency.",
+      "website_url": "https://www.lucentsky.com/",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "SUBSCRIPTION",
+        "COMMERCIAL_LICENSE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "LICENSE_REPORTING",
+        "POLICY_EVALUATION",
+        "OUTDATED_COMPONENTS"
+      ],
+      "packaging": [
+        "APPLICATION",
+        "COMMAND_LINE_UTILITY"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        ".NET",
+        "C/C++",
+        "GO",
+        "GROOVY",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "KOTLIN",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SCALA",
+        "SWIFT"
+      ],
+      "_fromFile": "lucent_sky_avm.json"
     },
     {
       "name": "macaron",
