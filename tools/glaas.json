@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "GLaaS",
+    "publisher": "TReqs Inc.",
+    "description": "GLaaS (Global Lineage-as-a-Service) pairs with the open-source roar CLI to trace ML pipeline lineage and generate CycloneDX 1.7 AI-BOMs, scored for completeness against G7, CISA, and NTIA SBOM-for-AI minimum elements.",
+    "repository_url": "https://github.com/treqs/roar",
+    "website_url": "https://glaas.ai",
+    "capabilities": [
+      "AI/ML-BOM"
+    ],
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION",
+      "RESOURCE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "APPLICATION"
+    ],
+    "library": [
+      "PYTHON",
+      "RUST"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7"
+    ]
+  }
+}
