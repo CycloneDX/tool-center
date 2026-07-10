@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Swarm Orchestrator",
+    "publisher": "Brad Kinnard",
+    "description": "Audits AI-generated pull requests for cheat patterns and emits CycloneDX-ML and SPDX 3.0 AI-Profile (AI-BOM) artifacts for EU AI Act and CISA SBOM-for-AI documentation.",
+    "repository_url": "https://github.com/moonrunnerkc/swarm-orchestrator",
+    "website_url": "https://github.com/moonrunnerkc/swarm-orchestrator#readme",
+    "capabilities": [
+      "AI/ML-BOM",
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "library": [
+      "NODE.JS"
+    ],
+    "lifecycle": [
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "packaging": [
+      "GITHUB_ACTION",
+      "COMMAND_LINE_UTILITY"
+    ]
+  }
+}
