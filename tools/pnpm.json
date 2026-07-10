@@ -11,7 +11,8 @@
       "SBOM"
     ],
     "availability": [
-      "OPEN_SOURCE"
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
     ],
     "functions": [
       "PACKAGE_MANAGER_INTEGRATION"
@@ -25,14 +26,19 @@
       "WINDOWS"
     ],
     "lifecycle": [
-      "BUILD"
+      "BUILD",
+      "PRE-BUILD",
+      "OPERATIONS"
     ],
     "supportedStandards": [
       "CYCLONEDX",
-      "SPDX"
+      "SPDX",
+      "PACKAGE_URL"
     ],
     "cycloneDxVersion": [
-      "CYCLONEDX_V1.6"
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.7"
     ],
     "supportedLanguages": [
       "JAVASCRIPT/TYPESCRIPT",
