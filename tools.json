@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-07-08T11:59:13Z",
+  "last_updated": "2026-07-10T10:06:15Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -13153,6 +13153,38 @@
         "PYTHON"
       ],
       "_fromFile": "surfactant.json"
+    },
+    {
+      "name": "Swarm Orchestrator",
+      "publisher": "Brad Kinnard",
+      "description": "Audits AI-generated pull requests for cheat patterns and emits CycloneDX-ML and SPDX 3.0 AI-Profile (AI-BOM) artifacts for EU AI Act and CISA SBOM-for-AI documentation.",
+      "repository_url": "https://github.com/moonrunnerkc/swarm-orchestrator",
+      "website_url": "https://github.com/moonrunnerkc/swarm-orchestrator#readme",
+      "capabilities": [
+        "AI/ML-BOM",
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "library": [
+        "NODE.JS"
+      ],
+      "lifecycle": [
+        "BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6"
+      ],
+      "packaging": [
+        "GITHUB_ACTION",
+        "COMMAND_LINE_UTILITY"
+      ],
+      "_fromFile": "swarm_orchestrator.json"
     },
     {
       "name": "swift-package-sbom-generator",
