@@ -6,7 +6,7 @@
     "publisher": "pnpm",
     "description": "Fast, disk space efficient JavaScript package manager with a CLI command to generate SBOMs in CycloneDX and SPDX formats.",
     "repository_url": "https://github.com/pnpm/pnpm",
-    "website_url": "https://pnpm.io/next/cli/sbom",
+    "website_url": "https://pnpm.io/cli/sbom",
     "capabilities": [
       "SBOM"
     ],
