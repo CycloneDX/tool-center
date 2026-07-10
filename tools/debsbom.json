@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "debsbom",
+    "publisher": "Siemens",
+    "description": "debsbom generates SBOMs for distributions based on Debian in the two standard formats SPDX and CycloneDX.",
+    "repository_url": "https://github.com/siemens/debsbom",
+    "website_url": "https://siemens.github.io/debsbom/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "PYTHON"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+        "DESIGN",
+        "BUILD",
+        "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ]
+  }
+}
