@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-07-23T14:16:29Z",
+  "last_updated": "2026-07-23T14:24:20Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -1178,8 +1178,8 @@
       "name": "BomLens",
       "publisher": "SK Telecom",
       "description": "Generates CycloneDX SBOMs from source code, containers, binaries, firmware, and HuggingFace AI models. Ingests existing CycloneDX/SPDX SBOMs and produces license and security findings and NOTICE files. CLI, web UI, and desktop app.",
-      "repository_url": "https://github.com/sktelecom/sbom-tools",
-      "website_url": "https://sktelecom.github.io/sbom-tools/",
+      "repository_url": "https://github.com/sktelecom/bomlens",
+      "website_url": "https://sktelecom.github.io/bomlens/",
       "capabilities": [
         "AI/ML-BOM",
         "SBOM"
