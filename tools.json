@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-07-10T16:28:36Z",
+  "last_updated": "2026-07-23T14:16:29Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -13557,6 +13557,47 @@
         "CYCLONEDX_V1.4"
       ],
       "_fromFile": "tern.json"
+    },
+    {
+      "name": "Threat Detective",
+      "publisher": "Threat Detective Ltd",
+      "description": "FDA-ready SBOM compliance for medical devices. Validates CycloneDX and SPDX SBOMs against FDA requirements, enriches component data, flags known vulnerabilities, exports VEX, and generates eSTAR-ready premarket and postmarket documentation.",
+      "website_url": "https://threatdetectivehq.com",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "library": [],
+      "platform": [],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [],
+      "_fromFile": "threat_detective.json"
     },
     {
       "name": "ThreatMapper",
