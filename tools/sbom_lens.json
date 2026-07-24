@@ -4,7 +4,7 @@
   "tool": {
     "name": "SBOM Lens",
     "publisher": "EverBright IT",
-    "description": "A fast client-side viewer for CycloneDX and SPDX SBOMs that resolves multi-document cascades, including CycloneDX BOM-Link references, into one navigable tree. VEX overlay (OpenVEX, CSAF 2.0), release diffing and NTIA / BSI TR-03183 profile checks. Files never leave the machine.",
+    "description": "Client-side viewer for CycloneDX and SPDX SBOMs: resolves multi-document cascades into one tree, overlays VEX (OpenVEX, CSAF 2.0), diffs releases, checks NTIA / BSI TR-03183 profiles. Files never leave the machine.",
     "repository_url": "https://github.com/EverBright-IT/SBOM-Lens",
     "website_url": "https://sbom-lens.everbright-it.de/",
     "capabilities": ["SBOM", "VDR/VEX"],
