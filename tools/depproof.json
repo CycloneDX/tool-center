@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "depproof",
+    "publisher": "itsnotbug, LLC",
+    "description": "Self-hosted software composition analysis: dependency license and OSV vulnerability audit plus CycloneDX SBOM generation for Maven, Gradle and npm/pnpm/yarn, running inside your perimeter as a container or GitHub Action.",
+    "repository_url": "https://github.com/depproof/depproof-action",
+    "website_url": "https://depproof.com",
+    "capabilities": ["SBOM"],
+    "availability": ["FREEMIUM", "COMMERCIAL_LICENSE"],
+    "functions": ["AUTHOR", "ANALYSIS", "PACKAGE_MANAGER_INTEGRATION"],
+    "analysis": ["LICENSE_REPORTING", "SECURITY_VULNERABILITIES", "POLICY_EVALUATION"],
+    "packaging": ["GITHUB_ACTION", "CONTAINER_IMAGE", "COMMAND_LINE_UTILITY"],
+    "platform": ["LINUX"],
+    "lifecycle": ["PRE-BUILD", "POST-BUILD"],
+    "supportedStandards": ["CYCLONEDX", "PACKAGE_URL"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.6"],
+    "supportedLanguages": ["JAVA", "JAVASCRIPT/TYPESCRIPT", "NODE.JS"]
+  }
+}
