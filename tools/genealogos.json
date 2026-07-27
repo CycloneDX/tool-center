@@ -13,8 +13,7 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "PACKAGE_MANAGER_INTEGRATION",
-      "AUTHOR"
+      "PACKAGE_MANAGER_INTEGRATION"
     ],
     "packaging": [
       "COMMAND_LINE_UTILITY",

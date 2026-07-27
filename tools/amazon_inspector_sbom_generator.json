@@ -12,9 +12,7 @@
     "availability": [
       "SUBSCRIPTION"
     ],
-    "functions": [
-      "AUTHOR"
-    ],
+    "functions": [],
     "analysis": [
       "LICENSE_REPORTING"
     ],

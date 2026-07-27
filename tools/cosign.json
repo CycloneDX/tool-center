@@ -16,7 +16,6 @@
     ],
     "functions": [
       "SIGNING/NOTARY",
-      "AUTHOR",
       "DISTRIBUTE"
     ],
     "library": [

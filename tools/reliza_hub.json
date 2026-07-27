@@ -14,7 +14,6 @@
       "SUBSCRIPTION"
     ],
     "functions": [
-      "AUTHOR",
       "DISTRIBUTE",
       "ANALYSIS"
     ],

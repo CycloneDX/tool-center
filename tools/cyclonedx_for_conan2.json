@@ -19,7 +19,6 @@
       "COMMAND_LINE_UTILITY"
     ],
     "functions": [
-      "AUTHOR",
       "PACKAGE_MANAGER_INTEGRATION"
     ],
     "platform": [

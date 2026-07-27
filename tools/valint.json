@@ -17,7 +17,6 @@
       "SUBSCRIPTION"
     ],
     "functions": [
-      "AUTHOR",
       "ANALYSIS",
       "SIGNING/NOTARY",
       "PACKAGE_MANAGER_INTEGRATION",

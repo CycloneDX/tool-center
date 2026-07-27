@@ -14,9 +14,7 @@
       "OPEN_SOURCE",
       "OSI_APPROVED"
     ],
-    "functions": [
-      "AUTHOR"
-    ],
+    "functions": [],
     "packaging": [
       "GITHUB_ACTION"
     ],

@@ -19,7 +19,6 @@
     ],
     "functions": [
       "ANALYSIS",
-      "AUTHOR",
       "TRANSFORM",
       "SIGNING/NOTARY"
     ],

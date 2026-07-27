@@ -16,7 +16,6 @@
       "SUBSCRIPTION"
     ],
     "functions": [
-      "AUTHOR",
       "ANALYSIS",
       "PACKAGE_MANAGER_INTEGRATION",
       "TRANSFORM"
