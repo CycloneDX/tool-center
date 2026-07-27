@@ -9,7 +9,7 @@
     "website_url": "https://depproof.com",
     "capabilities": ["SBOM"],
     "availability": ["FREEMIUM", "COMMERCIAL_LICENSE"],
-    "functions": ["AUTHOR", "ANALYSIS", "PACKAGE_MANAGER_INTEGRATION"],
+    "functions": ["ANALYSIS", "PACKAGE_MANAGER_INTEGRATION"],
     "analysis": ["LICENSE_REPORTING", "SECURITY_VULNERABILITIES", "POLICY_EVALUATION"],
     "packaging": ["GITHUB_ACTION", "CONTAINER_IMAGE", "COMMAND_LINE_UTILITY"],
     "platform": ["LINUX"],
