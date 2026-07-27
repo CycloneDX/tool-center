@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-07-24T07:21:06Z",
+  "last_updated": "2026-07-27T17:42:33Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -9792,6 +9792,74 @@
         "JAVASCRIPT/TYPESCRIPT"
       ],
       "_fromFile": "project_piper.json"
+    },
+    {
+      "name": "Provenant",
+      "publisher": "Provenant contributors",
+      "description": "Fast license, copyright, package, and SBOM scanner in Rust. Emits CycloneDX and SPDX with a complete, closed, purl-keyed dependency inventory. Static and offline: no execution of scanned code or package-manager code.",
+      "repository_url": "https://github.com/getprovenant/provenant",
+      "website_url": "https://getprovenant.dev",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING",
+        "RESOURCE_REPORTING",
+        "POLICY_EVALUATION"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY",
+        "LIBRARY",
+        "CONTAINER_IMAGE",
+        "GITHUB_ACTION"
+      ],
+      "library": [
+        "RUST"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD",
+        "DISCOVERY"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7"
+      ],
+      "supportedLanguages": [
+        "C/C++",
+        ".NET",
+        "ERLANG_ELIXIR",
+        "GO",
+        "GROOVY",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "KOTLIN",
+        "NODE.JS",
+        "PERL",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SWIFT"
+      ],
+      "_fromFile": "provenant.json"
     },
     {
       "name": "PulseUno Plugin for Dimensions CM",
