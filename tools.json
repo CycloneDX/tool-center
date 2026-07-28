@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-07-28T11:57:34Z",
+  "last_updated": "2026-07-28T11:59:09Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -10961,6 +10961,53 @@
         "CYCLONEDX_V1.4"
       ],
       "_fromFile": "sbom_insights.json"
+    },
+    {
+      "name": "SBOM Lens",
+      "publisher": "EverBright IT",
+      "description": "Client-side viewer for CycloneDX and SPDX SBOMs: resolves multi-document cascades into one tree, overlays VEX (OpenVEX, CSAF 2.0), diffs releases, checks NTIA / BSI TR-03183 profiles. Files never leave the machine.",
+      "repository_url": "https://github.com/EverBright-IT/SBOM-Lens",
+      "website_url": "https://sbom-lens.everbright-it.de/",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "POLICY_EVALUATION",
+        "LICENSE_REPORTING"
+      ],
+      "packaging": [
+        "CONTAINER_IMAGE",
+        "APPLICATION"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
+      ],
+      "_fromFile": "sbom_lens.json"
     },
     {
       "name": "SBOM-Manager",
