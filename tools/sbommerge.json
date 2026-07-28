@@ -4,7 +4,8 @@
   "tool": {
     "name": "SBOMMerge",
     "publisher": "Anthony Harrison",
-    "description": "Command-line utility that merges two SBOM files, supporting CycloneDX and SPDX SBOMs and outputs in tag, JSON or YAML formats.",    "repository_url": "https://github.com/anthonyharrison/sbommerge",
+    "description": "Command-line utility that merges two SBOM files, supporting CycloneDX and SPDX SBOMs and outputs in tag, JSON or YAML formats.",
+    "repository_url": "https://github.com/anthonyharrison/sbommerge",
     "website_url": "https://pypi.org/project/sbommerge/",
     "capabilities": [
       "SBOM"
