@@ -15,8 +15,7 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "ANALYSIS",
-      "AUTHOR"
+      "ANALYSIS"
     ],
     "analysis": [
       "LICENSE_REPORTING"

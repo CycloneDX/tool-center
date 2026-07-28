@@ -14,9 +14,7 @@
       "OPEN_SOURCE",
       "OSI_APPROVED"
     ],
-    "functions": [
-      "AUTHOR"
-    ],
+    "functions": [],
     "packaging": [
       "COMMAND_LINE_UTILITY"
     ],

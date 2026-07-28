@@ -19,8 +19,8 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "ANALYSIS",
-      "AUTHOR"
+      "AUTHOR",
+      "ANALYSIS"
     ],
     "analysis": [
       "SECURITY_VULNERABILITIES",

@@ -14,8 +14,8 @@
       "COMMERCIAL_LICENSE"
     ],
     "functions": [
-      "ANALYSIS",
       "AUTHOR",
+      "ANALYSIS",
       "TRANSFORM"
     ],
     "analysis": [

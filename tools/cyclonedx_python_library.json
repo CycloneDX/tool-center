@@ -23,7 +23,6 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "AUTHOR",
       "TRANSFORM"
     ],
     "transform": [

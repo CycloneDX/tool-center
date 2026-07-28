@@ -13,9 +13,7 @@
     "capabilities": [
       "AI/ML-BOM"
     ],
-    "functions": [
-      "AUTHOR"
-    ],
+    "functions": [],
     "supportedLanguages": [
       "PYTHON"
     ],
