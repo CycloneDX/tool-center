@@ -16,6 +16,7 @@
       "COMMERCIAL_LICENSE"
     ],
     "functions": [
+      "AUTHOR",
       "ANALYSIS",
       "TRANSFORM",
       "PACKAGE_MANAGER_INTEGRATION",
