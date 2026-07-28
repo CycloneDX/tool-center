@@ -41,20 +41,9 @@
       "SPDX"
     ],
     "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
       "CYCLONEDX_V1.5",
       "CYCLONEDX_V1.4"
-    ],
-    "supportedLanguages": [
-      "C/C++",
-      "GO",
-      "JAVA",
-      "JAVASCRIPT/TYPESCRIPT",
-      ".NET",
-      "NODE.JS",
-      "PHP",
-      "PYTHON",
-      "RUBY",
-      "RUST"
     ]
   }
 }

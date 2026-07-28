@@ -46,15 +46,16 @@
     "cycloneDxVersion": [
       "CYCLONEDX_V1.6",
       "CYCLONEDX_V1.5",
-      "CYCLONEDX_V1.4",
-      "CYCLONEDX_V1.3"
+      "CYCLONEDX_V1.4"
     ],
     "supportedLanguages": [
       "GO",
       "JAVA",
       "JAVASCRIPT/TYPESCRIPT",
       ".NET",
+      "NODE.JS",
       "PERL",
+      "PHP",
       "PYTHON",
       "RUBY",
       "RUST",

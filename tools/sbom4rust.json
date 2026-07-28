@@ -4,7 +4,7 @@
   "tool": {
     "name": "SBOM4Rust",
     "publisher": "Anthony Harrison",
-    "description": "CLI that reads Cargo.lock and authors CycloneDX v1.6 or SPDX SBOMs for Rust projects.",
+    "description": "CLI that reads Cargo.lock and authors CycloneDX or SPDX SBOMs for Rust projects.",
     "repository_url": "https://github.com/anthonyharrison/sbom4rust",
     "website_url": "https://github.com/anthonyharrison/sbom4rust",
     "capabilities": [
@@ -28,14 +28,17 @@
       "WINDOWS"
     ],
     "lifecycle": [
-      "PRE-BUILD"
+      "BUILD",
+      "POST-BUILD"
     ],
     "supportedStandards": [
       "CYCLONEDX",
       "SPDX"
     ],
     "cycloneDxVersion": [
-      "CYCLONEDX_V1.6"
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
     ],
     "supportedLanguages": [
       "RUST"

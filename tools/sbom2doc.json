@@ -38,9 +38,14 @@
     ],
     "supportedStandards": [
       "CYCLONEDX",
-      "SPDX"
+      "SPDX",
+      "CPE",
+      "PACKAGE_URL"
     ],
-    "cycloneDxVersion": [],
-    "supportedLanguages": []
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ]
   }
 }

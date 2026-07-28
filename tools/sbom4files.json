@@ -28,12 +28,16 @@
       "WINDOWS"
     ],
     "lifecycle": [
-      "BUILD",
-      "POST-BUILD"
+      "PRE-BUILD"
     ],
     "supportedStandards": [
       "CYCLONEDX",
       "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
     ]
   }
 }
