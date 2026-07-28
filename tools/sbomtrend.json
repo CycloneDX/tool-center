@@ -33,6 +33,7 @@
       "WINDOWS"
     ],
     "lifecycle": [
+      "BUILD",
       "POST-BUILD"
     ],
     "supportedStandards": [
@@ -40,7 +41,9 @@
       "SPDX"
     ],
     "cycloneDxVersion": [
-      "CYCLONEDX_V1.5"
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
     ],
     "supportedLanguages": [
       "PYTHON"
