@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-07-27T17:42:33Z",
+  "last_updated": "2026-07-28T11:52:25Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -22,7 +22,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
@@ -77,9 +76,7 @@
       "availability": [
         "OPEN_SOURCE"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "library": [
         "PYTHON"
       ],
@@ -188,8 +185,7 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -247,9 +243,7 @@
       "availability": [
         "SUBSCRIPTION"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "analysis": [
         "LICENSE_REPORTING"
       ],
@@ -295,7 +289,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -349,7 +342,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
       ],
@@ -404,8 +396,7 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "PACKAGE_MANAGER_INTEGRATION",
-        "AUTHOR"
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [],
       "transform": [
@@ -504,7 +495,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "analysis": [
@@ -542,7 +532,6 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "TRANSFORM"
       ],
@@ -815,7 +804,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "library": [
@@ -882,7 +870,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "DISTRIBUTE"
       ],
@@ -1014,8 +1001,8 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "ANALYSIS",
         "AUTHOR",
+        "ANALYSIS",
         "DISTRIBUTE"
       ],
       "analysis": [
@@ -1146,7 +1133,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "packaging": [
@@ -1342,7 +1328,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
@@ -1411,7 +1396,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
       ],
@@ -1471,7 +1455,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "DISTRIBUTE"
       ],
@@ -1526,7 +1509,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "TRANSFORM"
       ],
@@ -1731,8 +1713,7 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -1779,7 +1760,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "TRANSFORM"
       ],
@@ -1833,8 +1813,7 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -2015,7 +1994,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION",
         "SIGNING/NOTARY"
@@ -2086,7 +2064,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION",
         "SIGNING/NOTARY"
@@ -2255,8 +2232,7 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "SIGNING/NOTARY",
-        "AUTHOR"
+        "SIGNING/NOTARY"
       ],
       "packaging": [
         "COMMAND_LINE_UTILITY",
@@ -2323,8 +2299,7 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "SIGNING/NOTARY",
-        "AUTHOR"
+        "SIGNING/NOTARY"
       ],
       "packaging": [
         "GITHUB_ACTION"
@@ -2428,7 +2403,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -2483,8 +2457,7 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -2537,7 +2510,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM",
@@ -2592,7 +2564,6 @@
       ],
       "functions": [
         "SIGNING/NOTARY",
-        "AUTHOR",
         "DISTRIBUTE"
       ],
       "library": [
@@ -2638,7 +2609,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [
@@ -2689,7 +2659,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [
@@ -2796,8 +2765,7 @@
         "FREEMIUM"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -2923,8 +2891,7 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -2965,8 +2932,7 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -3104,7 +3070,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -3161,7 +3126,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM",
         "SIGNING/NOTARY"
       ],
@@ -3221,7 +3185,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "packaging": [
@@ -3482,7 +3445,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -3534,7 +3496,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [],
@@ -3588,7 +3549,6 @@
         "COMMAND_LINE_UTILITY"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "platform": [
@@ -3634,7 +3594,6 @@
         "COMMAND_LINE_UTILITY"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "platform": [
@@ -3680,7 +3639,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -3737,7 +3695,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -3788,9 +3745,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "analysis": [
         "LICENSE_REPORTING"
       ],
@@ -3882,7 +3837,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "packaging": [
@@ -3923,7 +3877,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -3979,7 +3932,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -4033,7 +3985,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "transform": [
@@ -4085,7 +4036,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [],
@@ -4129,7 +4079,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "packaging": [
@@ -4164,7 +4113,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "library": [
@@ -4221,7 +4169,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -4278,7 +4225,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -4334,7 +4280,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "transform": [
@@ -4381,7 +4326,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -4436,7 +4380,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "transform": [
@@ -4483,9 +4426,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "analysis": [
         "LICENSE_REPORTING"
       ],
@@ -4536,7 +4477,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -4593,7 +4533,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "library": [
@@ -4648,9 +4587,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "LIBRARY"
       ],
@@ -4699,7 +4636,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "TRANSFORM"
       ],
@@ -4760,7 +4696,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM"
       ],
       "transform": [
@@ -4895,9 +4830,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "analysis": [
         "LICENSE_REPORTING"
       ],
@@ -4938,9 +4871,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "GITHUB_ACTION"
       ],
@@ -4980,9 +4911,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "CONTAINER_IMAGE"
       ],
@@ -5028,9 +4957,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "LIBRARY"
       ],
@@ -5075,9 +5002,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "GITHUB_ACTION"
       ],
@@ -5119,9 +5044,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "LIBRARY"
       ],
@@ -5164,9 +5087,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "GITHUB_ACTION"
       ],
@@ -5215,7 +5136,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM"
       ],
       "transform": [
@@ -5267,7 +5187,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [],
@@ -5463,8 +5382,7 @@
         "FREEMIUM"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -5628,8 +5546,8 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "AUTHOR",
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -5848,7 +5766,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -5892,7 +5809,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [],
@@ -6028,7 +5944,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "analysis": [
@@ -6074,8 +5989,7 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -6116,7 +6030,6 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
@@ -6181,7 +6094,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "packaging": [
@@ -6214,9 +6126,7 @@
       "capabilities": [
         "AI/ML-BOM"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "supportedLanguages": [
         "PYTHON"
       ],
@@ -6239,8 +6149,7 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES"
@@ -6280,7 +6189,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "DISTRIBUTE"
       ],
@@ -6316,7 +6224,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -6589,7 +6496,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "DISTRIBUTE"
       ],
@@ -6662,8 +6568,7 @@
         "FREEMIUM"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -6718,8 +6623,7 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "PACKAGE_MANAGER_INTEGRATION",
-        "AUTHOR"
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "packaging": [
         "COMMAND_LINE_UTILITY",
@@ -6758,7 +6662,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [],
@@ -6801,9 +6704,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "COMMAND_LINE_UTILITY"
       ],
@@ -6899,8 +6800,7 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -6944,7 +6844,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -7095,7 +6994,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "transform": [],
@@ -7256,9 +7154,7 @@
       "availability": [
         "OPEN_SOURCE"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "COMMAND_LINE_UTILITY"
       ],
@@ -7534,7 +7430,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "analysis": [
@@ -7624,8 +7519,7 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -7712,7 +7606,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [],
@@ -7757,7 +7650,6 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "DISTRIBUTE"
       ],
@@ -7811,7 +7703,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [
@@ -7970,7 +7861,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM"
       ],
       "transform": [
@@ -8012,8 +7902,7 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "LICENSE_REPORTING"
@@ -8208,7 +8097,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "DISTRIBUTE"
       ],
@@ -8337,7 +8225,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -8402,7 +8289,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -8441,7 +8327,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -8493,7 +8378,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
@@ -8564,7 +8448,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [],
@@ -8707,7 +8590,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [
@@ -8822,7 +8704,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -8877,7 +8758,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "lifecycle": [
@@ -8916,8 +8796,7 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -9060,8 +8939,7 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -9109,7 +8987,6 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "analysis": [
@@ -9243,7 +9120,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -9571,7 +9447,6 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
@@ -9645,7 +9520,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION",
         "SIGNING/NOTARY",
@@ -9710,8 +9584,8 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "ANALYSIS",
         "AUTHOR",
+        "ANALYSIS",
         "TRANSFORM"
       ],
       "analysis": [
@@ -9758,7 +9632,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [],
@@ -9907,7 +9780,6 @@
         "CBOM"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "availability": [
@@ -10056,7 +9928,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -10171,7 +10042,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "DISTRIBUTE",
         "ANALYSIS"
       ],
@@ -10215,8 +10085,7 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES"
@@ -10268,7 +10137,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
       ],
@@ -10374,7 +10242,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "lifecycle": [
@@ -10417,7 +10284,6 @@
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "packaging": [
@@ -10464,8 +10330,7 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -10613,9 +10478,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "COMMAND_LINE_UTILITY",
         "LIBRARY"
@@ -10651,9 +10514,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "analysis": [
         "LICENSE_REPORTING"
       ],
@@ -10701,9 +10562,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "COMMAND_LINE_UTILITY",
         "CONTAINER_IMAGE"
@@ -10972,7 +10831,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [
@@ -11118,7 +10976,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
@@ -11280,7 +11137,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "analysis": [
@@ -11375,7 +11231,6 @@
       ],
       "functions": [
         "DISTRIBUTE",
-        "AUTHOR",
         "SIGNING/NOTARY"
       ],
       "analysis": [
@@ -11483,7 +11338,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM",
@@ -12080,9 +11934,7 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "analysis": [
         "SECURITY_VULNERABILITIES"
       ],
@@ -12125,8 +11977,7 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -12293,7 +12144,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "DISTRIBUTE",
         "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION"
@@ -12399,7 +12249,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
       ],
@@ -12563,7 +12412,6 @@
         "SBOM"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "supportedLanguages": [
@@ -12650,7 +12498,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -12718,7 +12565,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [
@@ -12868,7 +12714,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -12939,8 +12784,7 @@
         "FREEMIUM"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -12993,7 +12837,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "DISTRIBUTE",
         "TRANSFORM"
       ],
@@ -13064,7 +12907,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "TRANSFORM"
       ],
@@ -13167,7 +13009,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "DISTRIBUTE"
       ],
@@ -13367,7 +13208,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "TRANSFORM"
       ],
       "transform": [
@@ -13453,9 +13293,7 @@
       "availability": [
         "OPEN_SOURCE"
       ],
-      "functions": [
-        "AUTHOR"
-      ],
+      "functions": [],
       "packaging": [
         "COMMAND_LINE_UTILITY"
       ],
@@ -13542,7 +13380,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "TRANSFORM"
       ],
@@ -13654,7 +13491,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "analysis": [
@@ -13697,8 +13533,7 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -13788,8 +13623,7 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -13839,7 +13673,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION"
@@ -13912,7 +13745,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
@@ -13971,7 +13803,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM"
       ],
       "analysis": [
@@ -14040,7 +13871,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -14108,7 +13938,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "TRANSFORM",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -14214,7 +14043,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "SIGNING/NOTARY",
         "PACKAGE_MANAGER_INTEGRATION",
@@ -14311,8 +14139,7 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "ANALYSIS",
-        "AUTHOR"
+        "ANALYSIS"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -14414,7 +14241,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "analysis": [
@@ -14507,7 +14333,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION",
         "DISTRIBUTE"
       ],
@@ -14628,7 +14453,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -14745,7 +14569,6 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS"
       ],
       "analysis": [
@@ -14785,7 +14608,6 @@
         "OPEN_SOURCE"
       ],
       "functions": [
-        "AUTHOR",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
@@ -14897,7 +14719,6 @@
         "SUBSCRIPTION"
       ],
       "functions": [
-        "AUTHOR",
         "ANALYSIS",
         "DISTRIBUTE",
         "PACKAGE_MANAGER_INTEGRATION"
@@ -14960,7 +14781,6 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
