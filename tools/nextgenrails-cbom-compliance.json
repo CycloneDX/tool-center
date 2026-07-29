@@ -1,0 +1,43 @@
+{
+  "name": "NextGenRails CBOM Compliance",
+  "publisher": "NextGenRails",
+  "description": "Assesses cryptographic assets declared in a CycloneDX or SPDX manifest against NIST IR 8547 and the EO 14412 deadlines, then issues an offline-verifiable receipt dual-signed RS256 + ML-DSA-65 (FIPS 204). Free, uncapped check; nothing retained.",
+  "website_url": "https://cbomcompliance.com",
+  "capabilities": [
+    "CBOM",
+    "SBOM"
+  ],
+  "availability": [
+    "FREEMIUM",
+    "SUBSCRIPTION"
+  ],
+  "functions": [
+    "ANALYSIS",
+    "SIGNING/NOTARY"
+  ],
+  "analysis": [
+    "POLICY_EVALUATION",
+    "SECURITY_VULNERABILITIES"
+  ],
+  "packaging": [
+    "APPLICATION"
+  ],
+  "platform": [
+    "LINUX",
+    "MAC",
+    "WINDOWS"
+  ],
+  "lifecycle": [
+    "POST-BUILD",
+    "OPERATIONS"
+  ],
+  "supportedStandards": [
+    "CYCLONEDX",
+    "SPDX"
+  ],
+  "cycloneDxVersion": [
+    "CYCLONEDX_V1.7",
+    "CYCLONEDX_V1.6",
+    "CYCLONEDX_V1.5"
+  ]
+}
