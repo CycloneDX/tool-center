@@ -13,9 +13,7 @@
     "availability": [
       "OPEN_SOURCE"
     ],
-    "functions": [
-      "AUTHOR"
-    ],
+    "functions": [],
     "packaging": [
       "COMMAND_LINE_UTILITY"
     ],

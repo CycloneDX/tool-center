@@ -19,7 +19,6 @@
     ],
     "functions": [
       "ANALYSIS",
-      "AUTHOR",
       "PACKAGE_MANAGER_INTEGRATION",
       "DISTRIBUTE"
     ],

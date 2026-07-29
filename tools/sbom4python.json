@@ -14,9 +14,7 @@
       "OPEN_SOURCE",
       "OSI_APPROVED"
     ],
-    "functions": [
-      "AUTHOR"
-    ],
+    "functions": [],
     "analysis": [
       "LICENSE_REPORTING"
     ],
@@ -36,6 +34,7 @@
       "WINDOWS"
     ],
     "lifecycle": [
+      "BUILD",
       "PRE-BUILD",
       "POST-BUILD"
     ],
@@ -44,7 +43,9 @@
       "SPDX"
     ],
     "cycloneDxVersion": [
-      "CYCLONEDX_V1.5"
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
     ],
     "supportedLanguages": [
       "PYTHON"

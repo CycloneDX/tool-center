@@ -18,7 +18,6 @@
       "OPEN_SOURCE"
     ],
     "functions": [
-      "AUTHOR",
       "ANALYSIS",
       "PACKAGE_MANAGER_INTEGRATION",
       "SIGNING/NOTARY"

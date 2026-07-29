@@ -4,7 +4,7 @@
   "tool": {
     "name": "SBOMDiff",
     "publisher": "Anthony Harrison",
-    "description": "SBOMDiff is an Apache-2.0 CLI that compares two SBOM files (CycloneDX 1.4 or SPDX 2.3), highlighting package additions, removals, version or license changes, and outputs text, JSON or YAML reports.",
+    "description": "SBOMDiff is an Apache-2.0 CLI that compares two SBOM files (CycloneDX or SPDX), highlighting package additions, removals, version or license changes, and outputs text, JSON or YAML reports.",
     "repository_url": "https://github.com/anthonyharrison/sbomdiff",
     "website_url": "https://pypi.org/project/sbomdiff/",
     "capabilities": [
@@ -33,6 +33,7 @@
       "WINDOWS"
     ],
     "lifecycle": [
+      "BUILD",
       "POST-BUILD"
     ],
     "supportedStandards": [
@@ -40,6 +41,8 @@
       "SPDX"
     ],
     "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
       "CYCLONEDX_V1.4"
     ]
   }

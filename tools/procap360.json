@@ -24,7 +24,6 @@
     ],
     "functions": [
       "ANALYSIS",
-      "AUTHOR",
       "DISTRIBUTE",
       "PACKAGE_MANAGER_INTEGRATION",
       "SIGNING/NOTARY",

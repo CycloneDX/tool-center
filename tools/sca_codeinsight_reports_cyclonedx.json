@@ -15,9 +15,7 @@
       "OPEN_SOURCE",
       "OSI_APPROVED"
     ],
-    "functions": [
-      "AUTHOR"
-    ],
+    "functions": [],
     "analysis": [
       "SECURITY_VULNERABILITIES"
     ],

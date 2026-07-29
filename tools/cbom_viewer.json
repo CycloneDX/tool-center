@@ -14,8 +14,7 @@
       "COMMERCIAL_LICENSE"
     ],
     "functions": [
-      "ANALYSIS",
-      "AUTHOR"
+      "ANALYSIS"
     ],
     "analysis": [
       "SECURITY_VULNERABILITIES",

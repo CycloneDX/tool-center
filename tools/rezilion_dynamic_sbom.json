@@ -16,7 +16,6 @@
     ],
     "functions": [
       "ANALYSIS",
-      "AUTHOR",
       "PACKAGE_MANAGER_INTEGRATION",
       "TRANSFORM"
     ],

@@ -15,7 +15,6 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "AUTHOR",
       "TRANSFORM",
       "PACKAGE_MANAGER_INTEGRATION"
     ],
@@ -41,7 +40,9 @@
       "SPDX"
     ],
     "cycloneDxVersion": [
-      "CYCLONEDX_V1.5"
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
     ]
   }
 }

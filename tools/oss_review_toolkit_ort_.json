@@ -17,7 +17,6 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "AUTHOR",
       "ANALYSIS",
       "PACKAGE_MANAGER_INTEGRATION"
     ],

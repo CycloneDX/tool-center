@@ -15,8 +15,7 @@
       "OPEN_SOURCE"
     ],
     "functions": [
-      "SIGNING/NOTARY",
-      "AUTHOR"
+      "SIGNING/NOTARY"
     ],
     "packaging": [
       "GITHUB_ACTION"

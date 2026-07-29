@@ -1,0 +1,71 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Provenant",
+    "publisher": "Provenant contributors",
+    "description": "Fast license, copyright, package, and SBOM scanner in Rust. Emits CycloneDX and SPDX with a complete, closed, purl-keyed dependency inventory. Static and offline: no execution of scanned code or package-manager code.",
+    "repository_url": "https://github.com/getprovenant/provenant",
+    "website_url": "https://getprovenant.dev",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "RESOURCE_REPORTING",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "RUST"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      ".NET",
+      "ERLANG_ELIXIR",
+      "GO",
+      "GROOVY",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "KOTLIN",
+      "NODE.JS",
+      "PERL",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SWIFT"
+    ]
+  }
+}

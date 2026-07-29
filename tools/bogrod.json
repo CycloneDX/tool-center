@@ -15,8 +15,8 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "ANALYSIS",
       "AUTHOR",
+      "ANALYSIS",
       "DISTRIBUTE"
     ],
     "analysis": [

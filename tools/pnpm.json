@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "pnpm",
+    "publisher": "pnpm",
+    "description": "Fast, disk space efficient JavaScript package manager with a CLI command to generate SBOMs in CycloneDX and SPDX formats.",
+    "repository_url": "https://github.com/pnpm/pnpm",
+    "website_url": "https://pnpm.io/cli/sbom",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "PRE-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.7"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS"
+    ]
+  }
+}

@@ -5,8 +5,8 @@
         "name": "BomLens",
         "publisher": "SK Telecom",
         "description": "Generates CycloneDX SBOMs from source code, containers, binaries, firmware, and HuggingFace AI models. Ingests existing CycloneDX/SPDX SBOMs and produces license and security findings and NOTICE files. CLI, web UI, and desktop app.",
-        "repository_url": "https://github.com/sktelecom/sbom-tools",
-        "website_url": "https://sktelecom.github.io/sbom-tools/",
+        "repository_url": "https://github.com/sktelecom/bomlens",
+        "website_url": "https://sktelecom.github.io/bomlens/",
         "capabilities": [
             "AI/ML-BOM",
             "SBOM"

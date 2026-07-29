@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "quantakrypto pqc-tools",
+    "publisher": "quantakrypto / Dandelion Labs",
+    "description": "Scans source code for quantum-vulnerable cryptography and generates CycloneDX CBOMs. Reports a post-quantum readiness score with NIST-based migration guidance. Ships as a CLI, a GitHub Action, and an MCP server.",
+    "repository_url": "https://github.com/quantakrypto/pqc-tools",
+    "website_url": "https://quantakrypto.com/tools",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT",
+      "NODE.JS"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "GITHUB_ACTION",
+      "LIBRARY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      ".NET",
+      "ERLANG_ELIXIR",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "KOTLIN",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SCALA",
+      "SWIFT"
+    ]
+  }
+}

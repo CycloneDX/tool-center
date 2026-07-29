@@ -15,8 +15,7 @@
       "OPEN_SOURCE"
     ],
     "functions": [
-      "ANALYSIS",
-      "AUTHOR"
+      "ANALYSIS"
     ],
     "analysis": [
       "SECURITY_VULNERABILITIES",

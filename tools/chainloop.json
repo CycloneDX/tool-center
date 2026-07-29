@@ -16,7 +16,6 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "AUTHOR",
       "DISTRIBUTE",
       "PACKAGE_MANAGER_INTEGRATION",
       "SIGNING/NOTARY"

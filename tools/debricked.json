@@ -14,8 +14,7 @@
       "FREEMIUM"
     ],
     "functions": [
-      "ANALYSIS",
-      "AUTHOR"
+      "ANALYSIS"
     ],
     "analysis": [
       "SECURITY_VULNERABILITIES",

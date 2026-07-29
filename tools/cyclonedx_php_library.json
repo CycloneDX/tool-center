@@ -16,9 +16,7 @@
       "OPEN_SOURCE",
       "OSI_APPROVED"
     ],
-    "functions": [
-      "AUTHOR"
-    ],
+    "functions": [],
     "packaging": [
       "LIBRARY"
     ],

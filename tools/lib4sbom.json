@@ -4,18 +4,20 @@
   "tool": {
     "name": "Lib4sbom",
     "publisher": "Anthony Harrison",
-    "description": "Python library that parses, converts and generates SBOMs in CycloneDX and SPDX formats, allowing JSON, Tag, YAML and XML serialization and programmatic manipulation of packages, files and dependencies.",
+    "description": "Python library that parses, validates, converts and generates xBOMs in CycloneDX and SPDX formats, allowing JSON, Tag, YAML and XML serialization and programmatic manipulation of packages, files and dependencies.",
     "repository_url": "https://github.com/anthonyharrison/lib4sbom",
     "website_url": "https://pypi.org/project/lib4sbom/",
     "capabilities": [
-      "SBOM"
+      "AI/ML-BOM",
+      "OBOM",
+      "SBOM",
+      "VDR/VEX"
     ],
     "availability": [
       "OPEN_SOURCE",
       "OSI_APPROVED"
     ],
     "functions": [
-      "AUTHOR",
       "TRANSFORM"
     ],
     "transform": [
@@ -40,6 +42,11 @@
     "supportedStandards": [
       "CYCLONEDX",
       "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
     ]
   }
 }

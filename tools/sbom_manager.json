@@ -4,7 +4,7 @@
   "tool": {
     "name": "SBOM-Manager",
     "publisher": "Anthony Harrison",
-    "description": "SBOM-Manager is an open-source Python CLI that stores, queries, and scans CycloneDX 1.4/1.5 and SPDX 2.3 SBOMs via a local repository to support audit and vulnerability investigations.",
+    "description": "SBOM-Manager is an open-source Python CLI that stores, queries, and scans CycloneDX and SPDX SBOMs via a local repository to support audit and vulnerability investigations.",
     "repository_url": "https://github.com/anthonyharrison/sbom-manager",
     "website_url": "https://pypi.org/project/sbom-manager/",
     "capabilities": [
@@ -41,6 +41,7 @@
       "SPDX"
     ],
     "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
       "CYCLONEDX_V1.5",
       "CYCLONEDX_V1.4"
     ]
