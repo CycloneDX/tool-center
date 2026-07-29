@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CVD Portal SBOM Validator",
+    "publisher": "Porta Regulus B.V.",
+    "description": "Free hosted validator that checks a CycloneDX or SPDX document against BSI TR-03183-2 and reports pass or fail for each requirement with its clause reference, including the specification version minimum. No signup.",
+    "website_url": "https://cvdportal.com/tools/sbom-validator",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "FREEMIUM"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "POLICY_EVALUATION"
+    ],
+    "transform": [],
+    "packaging": [],
+    "library": [],
+    "platform": [],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.2",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.7"
+    ],
+    "supportedLanguages": []
+  }
+}
