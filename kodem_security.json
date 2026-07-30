@@ -4,7 +4,7 @@
   "tool": {
     "name": "Kodem",
     "publisher": "Kodem Security",
-    "description": "Application security platform with runtime intelligence that determines vulnerability exploitability through production observation.",
+    "description": "Application security platform that generates CycloneDX and SPDX SBOMs across dependencies, source code, and container images. Uses runtime execution data to determine which vulnerabilities are reachable and exploitable in production.",
     "website_url": "https://www.kodemsecurity.com",
     "capabilities": [
       "SBOM"
@@ -13,7 +13,6 @@
       "COMMERCIAL_LICENSE"
     ],
     "functions": [
-      "AUTHOR",
       "ANALYSIS"
     ],
     "analysis": [
@@ -59,8 +58,7 @@
       "PYTHON",
       "RUBY",
       "RUST",
-      "SCALA",
-      "SWIFT"
+      "SCALA"
     ]
   }
 }
