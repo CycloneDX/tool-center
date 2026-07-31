@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Kodem",
+    "publisher": "Kodem Security",
+    "description": "Application security platform that generates CycloneDX and SPDX SBOMs across dependencies, source code, and container images. Uses runtime execution data to determine which vulnerabilities are reachable and exploitable in production.",
+    "website_url": "https://www.kodemsecurity.com",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY",
+      "GITHUB_ACTION",
+      "GITHUB_APP",
+      "JENKINS_PLUGIN"
+    ],
+    "library": [],
+    "platform": [
+      "LINUX",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      ".NET",
+      "C/C++",
+      "ERLANG_ELIXIR",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "KOTLIN",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST",
+      "SCALA"
+    ]
+  }
+}
