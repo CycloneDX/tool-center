@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CBOM-Lens",
+    "publisher": "OmniTrust",
+    "description": "Discovers certificates, keys, secrets, and algorithms on local systems, in container images, and on network services, generating a CycloneDX 1.6 or 1.7 CBOM. Detects post-quantum algorithms and emits the 1.7 algorithmFamily and ellipticCurve fields.",
+    "repository_url": "https://github.com/OmniTrustILM/cbom-lens",
+    "website_url": "https://omnitrust.com",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}
