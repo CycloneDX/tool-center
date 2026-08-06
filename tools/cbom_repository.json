@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CBOM-Repository",
+    "publisher": "OmniTrust",
+    "description": "REST API service for storing, versioning, retrieving, and searching CycloneDX CBOM documents on S3-compatible object storage. Assigns serial numbers and versions when missing. Deployed as a container image or Helm chart.",
+    "repository_url": "https://github.com/OmniTrustILM/cbom-repository",
+    "website_url": "https://omnitrust.com",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}
