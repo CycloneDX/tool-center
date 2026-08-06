@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-07-29T13:45:41Z",
+  "last_updated": "2026-08-06T12:50:04Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -1699,6 +1699,87 @@
         "CYCLONEDX_V1.7"
       ],
       "_fromFile": "cbom_generator_cipheriq.json"
+    },
+    {
+      "name": "CBOM-Lens",
+      "publisher": "OmniTrust",
+      "description": "Discovers certificates, keys, secrets, and algorithms on local systems, in container images, and on network services, generating a CycloneDX 1.6 or 1.7 CBOM. Detects post-quantum algorithms and emits the 1.7 algorithmFamily and ellipticCurve fields.",
+      "repository_url": "https://github.com/OmniTrustILM/cbom-lens",
+      "website_url": "https://omnitrust.com",
+      "capabilities": [
+        "CBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY",
+        "CONTAINER_IMAGE"
+      ],
+      "library": [
+        "GO"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS",
+        "DISCOVERY"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6"
+      ],
+      "_fromFile": "cbom_lens.json"
+    },
+    {
+      "name": "CBOM-Repository",
+      "publisher": "OmniTrust",
+      "description": "REST API service for storing, versioning, retrieving, and searching CycloneDX CBOM documents on S3-compatible object storage. Assigns serial numbers and versions when missing. Deployed as a container image or Helm chart.",
+      "repository_url": "https://github.com/OmniTrustILM/cbom-repository",
+      "website_url": "https://omnitrust.com",
+      "capabilities": [
+        "CBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [
+        "APPLICATION",
+        "CONTAINER_IMAGE"
+      ],
+      "library": [
+        "GO"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6"
+      ],
+      "_fromFile": "cbom_repository.json"
     },
     {
       "name": "CBOM Viewer",
