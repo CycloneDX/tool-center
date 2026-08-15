@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Conformesh",
+    "publisher": "Conformesh",
+    "description": "A guided EU Cyber Resilience Act operations platform that imports release-bound CycloneDX SBOMs, matches vulnerabilities, records reviewed decisions, and exports CycloneDX VEX.",
+    "repository_url": "https://github.com/conformesh/conformesh-pipeline-cli",
+    "website_url": "https://conformesh.com/how-to/build-pipeline",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}
