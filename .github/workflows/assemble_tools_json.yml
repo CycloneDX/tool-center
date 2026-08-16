@@ -13,7 +13,9 @@ permissions: { }
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  # false: push-back commits and pushes tools.json to main. Cancelling that
+  # job mid-push can leave the branch half-updated.
+  cancel-in-progress: false
 
 jobs:
   assemble:
@@ -23,13 +25,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.x
       - name: assemble tools.json
         run: helpers/tools-assemble.py
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: tools.json
           path: tools.json
@@ -43,13 +45,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.x
       - name: Install check-jsonschema
         run: pip install check-jsonschema
       - name: Download artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v7
         with:
           name: tools.json
       - name: Validate tools.json
@@ -69,7 +71,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Download artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v7
         with:
           name: tools.json
       - name: diff
