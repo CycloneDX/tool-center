@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CRA Release Evidence",
+    "publisher": "Warnowdigitalsolutions",
+    "description": "GitHub Action that imports CycloneDX SBOMs and packages them with existing test, security, and Git data into versioned Markdown and JSON release evidence. It does not scan or make compliance decisions.",
+    "repository_url": "https://github.com/mastermuetze/cra-release-evidence",
+    "website_url": "https://github.com/marketplace/actions/cra-release-evidence",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "packaging": [
+      "GITHUB_ACTION"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
+    ]
+  }
+}
