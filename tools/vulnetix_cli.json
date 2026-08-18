@@ -4,12 +4,14 @@
   "tool": {
     "name": "Vulnetix CLI",
     "publisher": "Vulnetix",
-    "description": "A vulnerability scanner for SAST, IaC, container images, cloud, and SCA/licenses of software ecosystems. Works with all known package manager manifests and supports CycloneDX, SPDX, and OpenVEX.",
+    "description": "A vulnerability scanner for CBOM, AIBOM, SAST, IaC, container images, malware IOCs, and SCA/licenses of software ecosystems. Works with most well-known package manager manifests and supports CycloneDX for xBOM and VEX, SPDX Licenses, and OpenVEX.",
     "repository_url": "https://github.com/Vulnetix/cli",
     "website_url": "https://www.vulnetix.com/features/code-scanner",
     "capabilities": [
       "SBOM",
-      "VDR/VEX"
+      "VDR/VEX",
+      "AI/ML-BOM",
+      "CBOM"
     ],
     "availability": [
       "OPEN_SOURCE",
@@ -17,7 +19,8 @@
     ],
     "functions": [
       "ANALYSIS",
-      "TRANSFORM"
+      "TRANSFORM",
+      "AUTHOR"
     ],
     "analysis": [
       "SECURITY_VULNERABILITIES",
@@ -32,7 +35,8 @@
     ],
     "packaging": [
       "COMMAND_LINE_UTILITY",
-      "GITHUB_ACTION"
+      "GITHUB_ACTION",
+      "GITLAB_CI_TEMPLATE"
     ],
     "library": [
       "GO"
