@@ -34,7 +34,7 @@ jobs:
 
       - name: Set up Python
         # see https://github.com/actions/setup-python
-        uses: actions/setup-python@8d9ed9ac5c53483de85588cdf95a591a75ab9f55  # v5.5.0
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
         with:
           python-version: 3.x
 
