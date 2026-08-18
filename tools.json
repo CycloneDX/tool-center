@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-08-06T12:50:04Z",
+  "last_updated": "2026-08-18T07:44:19Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -2514,6 +2514,46 @@
       "_fromFile": "codesentry.json"
     },
     {
+      "name": "Conformesh",
+      "publisher": "Conformesh",
+      "description": "A CI/CD command-line and container integration that uploads an existing CycloneDX SBOM and other build evidence to a product-scoped Conformesh account, then returns the product's current CRA dossier-readiness result.",
+      "repository_url": "https://github.com/conformesh/conformesh-pipeline-cli",
+      "website_url": "https://conformesh.com/how-to",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY",
+        "CONTAINER_IMAGE"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
+      ],
+      "_fromFile": "conformesh.json"
+    },
+    {
       "name": "Continuous Clearing",
       "publisher": "Siemens",
       "description": "Scans third-party OSS components in NPM, NuGet, Maven, Python and Debian projects, generates CycloneDX SBOMs, then uploads them to SW360 and Fossology for automated license clearing.",
@@ -2767,6 +2807,47 @@
         "NODE.JS"
       ],
       "_fromFile": "covenant.json"
+    },
+    {
+      "name": "CRA Release Evidence",
+      "publisher": "Warnowdigitalsolutions",
+      "description": "GitHub Action that imports CycloneDX SBOMs and packages them with existing test, security, and Git data into versioned Markdown and JSON release evidence. It does not scan or make compliance decisions.",
+      "repository_url": "https://github.com/mastermuetze/cra-release-evidence",
+      "website_url": "https://github.com/marketplace/actions/cra-release-evidence",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "library": [
+        "JAVASCRIPT_TYPESCRIPT"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2"
+      ],
+      "_fromFile": "cra_release_evidence.json"
     },
     {
       "name": "CVD Portal SBOM Validator",
