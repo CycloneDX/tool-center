@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Conformesh",
+    "publisher": "Conformesh",
+    "description": "A CI/CD command-line and container integration that uploads an existing CycloneDX SBOM and other build evidence to a product-scoped Conformesh account, then returns the product's current CRA dossier-readiness result.",
+    "repository_url": "https://github.com/conformesh/conformesh-pipeline-cli",
+    "website_url": "https://conformesh.com/how-to",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}
