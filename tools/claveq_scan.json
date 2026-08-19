@@ -6,7 +6,6 @@
     "publisher": "ClaveQ",
     "description": "Passive cryptographic discovery for OT and critical infrastructure networks — classifies quantum-vulnerable vs quantum-safe crypto in use, zero packets stored, no agents, and outputs a schema-validated CycloneDX 1.7 CBOM as evidence.",
     "website_url": "https://www.claveq.com",
-    "repository_url": "https://github.com/ClaveQuantum/claveq-cyclonedx",
     "capabilities": [
       "CBOM"
     ],
@@ -14,8 +13,7 @@
       "FREEMIUM"
     ],
     "functions": [
-      "ANALYSIS",
-      "AUTHOR"
+      "ANALYSIS"
     ],
     "analysis": [
       "SECURITY_VULNERABILITIES"
