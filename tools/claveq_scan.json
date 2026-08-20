@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ClaveQ Scan",
+    "publisher": "ClaveQ",
+    "description": "Passive cryptographic discovery for OT and critical infrastructure networks — classifies quantum-vulnerable vs quantum-safe crypto in use, zero packets stored, no agents, and outputs a schema-validated CycloneDX 1.7 CBOM as evidence.",
+    "website_url": "https://www.claveq.com",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "FREEMIUM"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "DISCOVERY",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7"
+    ]
+  }
+}
