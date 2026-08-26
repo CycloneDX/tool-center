@@ -96,7 +96,9 @@ jobs:
           git add tools.json
           git commit -s -m "Update tools.json [automated commit]" || echo "No changes to commit"
       - name: git push back
-        run: git push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
   publish:
     name: deploy
