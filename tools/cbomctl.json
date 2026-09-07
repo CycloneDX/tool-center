@@ -1,0 +1,23 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "cbomctl",
+    "publisher": "Sadjad Asadi",
+    "description": "Evaluates a CycloneDX CBOM against seven national post-quantum policies at once (BSI, ANSSI, ASD, CNSA 2.0, EO 14412, EU roadmap, NIST IR 8547) and reports where their verdicts contradict. Every rule cites a primary source and a verification date.",
+    "repository_url": "https://github.com/lvlrSajjad/cbomctl",
+    "website_url": "https://lvlrsajjad.github.io/cbomctl/",
+    "capabilities": ["CBOM"],
+    "availability": ["OPEN_SOURCE", "OSI_APPROVED"],
+    "functions": ["ANALYSIS"],
+    "analysis": ["POLICY_EVALUATION"],
+    "transform": [],
+    "packaging": ["COMMAND_LINE_UTILITY", "GITHUB_ACTION"],
+    "library": ["PYTHON"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["POST-BUILD", "OPERATIONS"],
+    "supportedStandards": ["CYCLONEDX"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.7", "CYCLONEDX_V1.6"],
+    "supportedLanguages": []
+  }
+}
