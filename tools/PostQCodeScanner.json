@@ -1,0 +1,30 @@
+{
+    "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+    "specVersion": "2.0",
+  "tool": {
+    "website_url": "https://postqsoftwarelabs.com/products.html",
+    "name": "PostQ Code Scan",
+    "publisher": "PostQ softwaer Labs Pvt Ltd",
+    "description": "Cryptographic code analysis for source repositories, focused on finding cryptographic usage, parameters, evidence, quantum-migration relevance, FIPS assessment signals, and changes between scan",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [],
+    "platform": [
+      "WINDOWS",
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [],
+    "supportedLanguages": [
+      "GO",
+      "C/C++",
+      "PYTHON",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}
