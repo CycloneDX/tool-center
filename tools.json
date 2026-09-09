@@ -1,13 +1,40 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-09-07T09:27:34Z",
+  "last_updated": "2026-09-09T12:59:15Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
     "url": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "tools": [
+    {
+      "website_url": "https://postqsoftwarelabs.com/products.html",
+      "name": "PostQ Code Scan",
+      "publisher": "PostQ softwaer Labs Pvt Ltd",
+      "description": "Cryptographic code analysis for source repositories, focused on finding cryptographic usage, parameters, evidence, quantum-migration relevance, FIPS assessment signals, and changes between scan",
+      "capabilities": [
+        "CBOM"
+      ],
+      "availability": [
+        "COMMERCIAL_LICENSE"
+      ],
+      "functions": [],
+      "platform": [
+        "WINDOWS",
+        "LINUX",
+        "MAC"
+      ],
+      "lifecycle": [],
+      "supportedLanguages": [
+        "GO",
+        "C/C++",
+        "PYTHON",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT"
+      ],
+      "_fromFile": "PostQCodeScanner.json"
+    },
     {
       "name": "action-owasp-dependecy-track-check",
       "publisher": "Quobis",
