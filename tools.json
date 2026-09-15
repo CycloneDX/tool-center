@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-09-09T12:59:15Z",
+  "last_updated": "2026-09-15T12:26:03Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -10260,6 +10260,44 @@
         "OPERATIONS"
       ],
       "_fromFile": "qinsight-atlas.json"
+    },
+    {
+      "website_url": "https://github.com/StanimirTenev/qrp-mcp",
+      "repository_url": "https://github.com/StanimirTenev/qrp-mcp",
+      "name": "qrp-mcp",
+      "publisher": "Elkan Electronic",
+      "description": "Offline scanner for quantum-vulnerable crypto in source code and config. Reports its own coverage \u2014 the files it read and those it couldn't \u2014 and emits a CycloneDX CBOM. Runs locally via uvx; free and open source. For PQC readiness and DORA evidence.",
+      "capabilities": [
+        "CBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "DISCOVERY",
+        "OPERATIONS"
+      ],
+      "supportedLanguages": [
+        "C/C++",
+        ".NET",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST"
+      ],
+      "_fromFile": "qrp-mcp.json"
     },
     {
       "name": "quantakrypto pqc-tools",
