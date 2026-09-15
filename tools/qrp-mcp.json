@@ -6,7 +6,7 @@
     "repository_url": "https://github.com/StanimirTenev/qrp-mcp",
     "name": "qrp-mcp",
     "publisher": "Elkan Electronic",
-    "description": "Offline scanner for quantum-vulnerable cryptography in source code and configuration. It reports its own coverage - which files it read and which it could not, per file with reasons - and emits a CycloneDX CBOM. Runs locally via uvx (no code leaves the machine); free and open source. Aimed at post-quantum readiness and DORA/CBOM evidence.",
+    "description": "Offline scanner for quantum-vulnerable crypto in source code and config. Reports its own coverage — the files it read and those it couldn't — and emits a CycloneDX CBOM. Runs locally via uvx; free and open source. For PQC readiness and DORA evidence.",
     "capabilities": [
       "CBOM"
     ],
