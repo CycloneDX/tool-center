@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "website_url": "https://github.com/StanimirTenev/qrp-mcp",
+    "repository_url": "https://github.com/StanimirTenev/qrp-mcp",
+    "name": "qrp-mcp",
+    "publisher": "Elkan Electronic",
+    "description": "Offline scanner for quantum-vulnerable crypto in source code and config. Reports its own coverage — the files it read and those it couldn't — and emits a CycloneDX CBOM. Runs locally via uvx; free and open source. For PQC readiness and DORA evidence.",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DISCOVERY",
+      "OPERATIONS"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      ".NET",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST"
+    ]
+  }
+}
