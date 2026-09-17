@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "agentgate",
+    "publisher": "Zhiliang Tech",
+    "description": "Control plane for the tools AI agents run: inventories MCP servers and other agent tooling, records which scanners actually ran, and never reports a partial scan as clean. CLI and GitHub Action; emits its own CycloneDX SBOM.",
+    "repository_url": "https://github.com/ciceroyang/agentgate",
+    "website_url": "https://app.xn--5kvo87g.com/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS"
+    ]
+  }
+}
