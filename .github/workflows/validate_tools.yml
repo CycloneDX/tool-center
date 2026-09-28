@@ -24,18 +24,21 @@ concurrency:
 jobs:
   validate:
     name: validate each tool
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, vulnetix-local]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        # setup-python cannot install on the self-hosted Amazon Linux pool; uv
+        # can, and activate-environment puts a venv's python and uv pip on PATH.
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: 3.x
+          python-version: '3.12'
+          activate-environment: true
 
       - name: Install check-jsonschema
-        run: pip install check-jsonschema
+        run: uv pip install check-jsonschema
 
       - name: Validate all tools
         run: |

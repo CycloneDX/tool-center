@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   docs_json:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, vulnetix-local]
     defaults:
       run:
         working-directory: docgen
@@ -26,9 +26,17 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Python Environment
-        uses: actions/setup-python@v5
+        # setup-python cannot install on the self-hosted Amazon Linux pool; uv
+        # can, and activate-environment puts a venv's python and uv pip on PATH.
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: 3.x
+          python-version: '3.12'
+          activate-environment: true
+
+      # A uv venv has no pip, so gen.sh's own `python -m pip` fallback would
+      # fail; installing here means it finds generate-schema-doc and skips it.
+      - name: Install docgen requirements
+        run: uv pip install -r requirements.txt
 
       - name: Generate Schema documentation
         run: ./gen.sh
@@ -40,7 +48,7 @@ jobs:
           path: docgen/docs  # The folder that has your generated docs
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, vulnetix-local]
     needs: docs_json
     permissions:
       pages: write

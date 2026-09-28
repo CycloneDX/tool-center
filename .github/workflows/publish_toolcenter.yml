@@ -18,7 +18,7 @@ concurrency:
 jobs:
   trigger_deploy:
     name: deploy
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, vulnetix-local]
     steps:
       - name: Trigger Cloudflare Deploy Hook
         run: curl -X POST '${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}'

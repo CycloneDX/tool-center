@@ -20,14 +20,17 @@ concurrency:
 jobs:
   assemble:
     name: assemble tools.json
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, vulnetix-local]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v6
+        # setup-python cannot install on the self-hosted Amazon Linux pool; uv
+        # can, and activate-environment puts a venv's python and uv pip on PATH.
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: 3.x
+          python-version: '3.12'
+          activate-environment: true
       - name: assemble tools.json
         run: helpers/tools-assemble.py
       - name: Upload artifact
@@ -40,16 +43,19 @@ jobs:
     needs:
       - assemble
     name: validate tools.json
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, vulnetix-local]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v6
+        # setup-python cannot install on the self-hosted Amazon Linux pool; uv
+        # can, and activate-environment puts a venv's python and uv pip on PATH.
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: 3.x
+          python-version: '3.12'
+          activate-environment: true
       - name: Install check-jsonschema
-        run: pip install check-jsonschema
+        run: uv pip install check-jsonschema
       - name: Download artifact
         uses: actions/download-artifact@v7
         with:
@@ -62,7 +68,7 @@ jobs:
       - assemble
       - validate
     name: push tools.json
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, vulnetix-local]
     permissions:
       contents: write  # needed for git push
     steps:
@@ -91,7 +97,7 @@ jobs:
     name: deploy
     needs:
       - push-back
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, vulnetix-local]
     steps:
       - name: Trigger Cloudflare Deploy Hook
         run: curl -X POST '${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}'
