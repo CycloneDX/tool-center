@@ -4,7 +4,7 @@
   "tool": {
     "name": "lynkctl",
     "publisher": "Interlynk.io",
-    "description": "Command-line utility that generates high-quality CycloneDX SBOMs from C/C++ and embedded firmware build systems (GNU Make, CMake, IAR) and package manager manifests (npm, Cargo, Go, Maven, Gradle, NuGet, Python, RubyGems, PHP, Gleam) without executing the build.",
+    "description": "Command-line utility that generates CycloneDX SBOMs from C/C++ and embedded firmware build systems (GNU Make, CMake, IAR) and package manager manifests (npm, Cargo, Go, Maven, Gradle, NuGet, Python, RubyGems, PHP, Gleam) without executing the build.",
     "repository_url": "https://github.com/interlynk-io/lynkctl-public",
     "website_url": "https://www.interlynk.io/",
     "capabilities": [
