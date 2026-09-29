@@ -4,29 +4,20 @@
   "tool": {
     "name": "lynkctl",
     "publisher": "Interlynk.io",
-    "description": "Command-line utility that generates high-quality CycloneDX and SPDX SBOMs from C/C++ and embedded firmware projects without executing the build.",
+    "description": "Command-line utility that generates high-quality CycloneDX SBOMs from C/C++ and embedded firmware build systems (GNU Make, CMake, IAR) and package manager manifests (npm, Cargo, Go, Maven, Gradle, NuGet, Python, RubyGems, PHP, Gleam) without executing the build.",
     "repository_url": "https://github.com/interlynk-io/lynkctl-public",
     "website_url": "https://www.interlynk.io/",
     "capabilities": [
       "SBOM"
     ],
     "availability": [
-      "OPEN_SOURCE",
-      "OSI_APPROVED"
+      "COMMERCIAL_LICENSE"
     ],
     "functions": [
-      "ANALYSIS",
-      "PACKAGE_MANAGER_INTEGRATION",
-      "TRANSFORM"
+      "ANALYSIS"
     ],
     "analysis": [
-      "LICENSE_REPORTING",
-      "RESOURCE_REPORTING"
-    ],
-    "transform": [
-      "BOM_SERIALIZATION_FORMAT",
-      "BOM_STANDARD",
-      "BOM_VERSION"
+      "LICENSE_REPORTING"
     ],
     "packaging": [
       "COMMAND_LINE_UTILITY",
