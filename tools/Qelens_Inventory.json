@@ -1,0 +1,22 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Qelens Inventory",
+    "publisher": "Qelens",
+    "description": "Commercial cryptographic inventory platform: CycloneDX CBOMs from source code, compiled binaries and TLS endpoints across six languages, with a limited open-source community edition plus Freemium, Pro and Enterprise editions.",
+    "website_url": "https://qelens.com/",
+    "capabilities": ["CBOM"],
+    "availability": ["OPEN_SOURCE", "OSI_APPROVED", "FREEMIUM", "COMMERCIAL_LICENSE", "SUBSCRIPTION"],
+    "functions": ["ANALYSIS", "AUTHOR", "TRANSFORM"],
+    "analysis": ["POLICY_EVALUATION", "OUTDATED_COMPONENTS"],
+    "transform": ["BOM_STANDARD"],
+    "packaging": ["COMMAND_LINE_UTILITY", "CONTAINER_IMAGE", "GITHUB_ACTION", "APPLICATION"],
+    "library": ["RUST"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["DESIGN", "PRE-BUILD", "BUILD", "POST-BUILD", "OPERATIONS"],
+    "supportedStandards": ["CYCLONEDX", "SPDX"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.6"],
+    "supportedLanguages": ["C/C++", "GO", "JAVA", "JAVASCRIPT/TYPESCRIPT", "PYTHON", "RUST"]
+  }
+}
