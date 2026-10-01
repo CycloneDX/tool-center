@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CRA Label SBOM Generator",
+    "publisher": "CRA Label",
+    "description": "Free web-based SBOM generator: drop a manifest or lockfile (npm, PyPI, Go, Cargo, Maven, RubyGems, Composer) and get CycloneDX 1.6 and SPDX 2.3 SBOMs with package-URLs, plus an ML-DSA-65-signed attestation and verifier. No signup, nothing stored.",
+    "website_url": "https://cralabel.com/sbom.html",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "FREEMIUM"
+    ],
+    "functions": [
+      "AUTHOR",
+      "SIGNING/NOTARY"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "NODE.JS",
+      "JAVASCRIPT/TYPESCRIPT",
+      "PYTHON",
+      "GO",
+      "RUST",
+      "JAVA",
+      "RUBY",
+      "PHP"
+    ]
+  }
+}
