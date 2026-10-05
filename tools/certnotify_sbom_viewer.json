@@ -1,0 +1,18 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CertNotify SBOM Viewer",
+    "publisher": "CertNotify",
+    "description": "Free web viewer for CycloneDX and SPDX JSON SBOMs. Lists every component, version and license by ecosystem, and flags gaps such as missing versions or purls. Parsed in the browser; nothing is uploaded.",
+    "website_url": "https://www.certnotify.com/tools/sbom-viewer",
+    "capabilities": ["SBOM"],
+    "availability": ["FREEMIUM"],
+    "functions": ["ANALYSIS"],
+    "analysis": ["LICENSE_REPORTING"],
+    "packaging": ["APPLICATION"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["POST-BUILD"],
+    "supportedStandards": ["CYCLONEDX", "SPDX", "PACKAGE_URL"]
+  }
+}
