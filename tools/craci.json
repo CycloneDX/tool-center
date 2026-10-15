@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CRACI",
+    "publisher": "CRACI Corporation Oy",
+    "description": "GitHub Actions runners that record an SBOM of every dependency a job pulls in while the build runs, not a scan afterwards. Exports CycloneDX and SPDX, signs build provenance and monitors shipped SBOMs for new vulnerabilities.",
+    "website_url": "https://craci.com/features/sbom-generation",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION",
+      "ANALYSIS",
+      "DISTRIBUTE",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "GITHUB_APP"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX"
+    ],
+    "supportedLanguages": [
+      "GO",
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "PYTHON",
+      "RUBY",
+      "RUST"
+    ]
+  }
+}
