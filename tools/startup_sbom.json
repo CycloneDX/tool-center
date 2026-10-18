@@ -4,7 +4,7 @@
   "tool": {
     "name": "Startup-SBOM",
     "publisher": "morpheuslord",
-    "description": "Read-only static analyser for Linux root filesystems and container images. Maps boot-time services to the packages they load and writes CycloneDX SBOMs with services, dependencies, vulnerabilities and reachability-aware VEX.",
+    "description": "Static and dynamic analyser for Linux root filesystems, container images and running systems. Maps boot-time services to the packages they load and writes CycloneDX SBOMs with services, dependencies, vulnerabilities and reachability-aware VEX.",
     "repository_url": "https://github.com/morpheuslord/Startup-SBOM",
     "website_url": "https://morpheuslord.github.io/Startup-SBOM/",
     "capabilities": [
