@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Ambolt CRA checks (CLI and GitHub Action)",
+    "publisher": "Ambolt",
+    "description": "Checks an SBOM (CycloneDX or SPDX JSON) against the NTIA minimum elements and the Cyber Resilience Act wording, with an optional OSV vulnerability lookup, and generates security.txt and a vulnerability disclosure policy. Command-line tool (npm) and GitHub Action. No dependencies; the SBOM is read locally.",
+    "repository_url": "https://github.com/ambolt-dev/cra-check",
+    "website_url": "https://ambolt.dev/cra",
+    "capabilities": ["SBOM", "VDR/VEX"],
+    "availability": ["OPEN_SOURCE", "OSI_APPROVED"],
+    "functions": ["ANALYSIS"],
+    "analysis": ["LICENSE_REPORTING", "SECURITY_VULNERABILITIES", "POLICY_EVALUATION"],
+    "packaging": ["COMMAND_LINE_UTILITY", "GITHUB_ACTION"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["POST-BUILD"],
+    "supportedStandards": ["CYCLONEDX", "SPDX", "PACKAGE_URL"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.6", "CYCLONEDX_V1.5", "CYCLONEDX_V1.4"],
+    "supportedLanguages": ["JAVASCRIPT/TYPESCRIPT", "NODE.JS"]
+  }
+}
