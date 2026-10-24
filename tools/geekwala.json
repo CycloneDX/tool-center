@@ -29,7 +29,7 @@
       "WINDOWS"
     ],
     "lifecycle": [
-      "BUILD",
+      "PRE-BUILD",
       "POST-BUILD",
       "OPERATIONS"
     ],
