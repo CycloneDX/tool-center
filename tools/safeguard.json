@@ -1,0 +1,18 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Safeguard",
+    "publisher": "Safeguard.sh Inc.",
+    "description": "Software supply chain security platform. Generates and analyzes SBOMs in CycloneDX and SPDX, imports existing SBOMs and CSAF/VEX documents, inventories AI models as ML-BOMs, and evaluates components for known vulnerabilities (with EPSS and CISA KEV), license obligations and policy gates in CI.",
+    "website_url": "https://safeguard.sh",
+    "capabilities": ["SBOM", "VDR/VEX", "AI/ML-BOM"],
+    "availability": ["SUBSCRIPTION"],
+    "functions": ["AUTHOR", "ANALYSIS", "DISTRIBUTE"],
+    "analysis": ["SECURITY_VULNERABILITIES", "LICENSE_REPORTING", "OUTDATED_COMPONENTS", "POLICY_EVALUATION"],
+    "packaging": ["APPLICATION", "COMMAND_LINE_UTILITY"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["BUILD", "POST-BUILD", "OPERATIONS"],
+    "supportedStandards": ["CYCLONEDX", "SPDX", "PACKAGE_URL", "CPE"]
+  }
+}
