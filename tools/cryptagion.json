@@ -1,0 +1,20 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "CRYPTAGION",
+    "publisher": "KOR IT",
+    "description": "Cryptographic discovery and post-quantum migration. Scans source code, X.509 certificates and live TLS endpoints, scores quantum risk and exports a CycloneDX 1.6 CBOM, a migration roadmap and a report. Runs on-prem or air-gapped.",
+    "website_url": "https://www.cryptagion.io",
+    "capabilities": ["CBOM"],
+    "availability": ["COMMERCIAL_LICENSE"],
+    "functions": ["AUTHOR", "ANALYSIS"],
+    "analysis": ["POLICY_EVALUATION"],
+    "packaging": ["COMMAND_LINE_UTILITY", "CONTAINER_IMAGE"],
+    "platform": ["LINUX", "MAC"],
+    "lifecycle": ["PRE-BUILD", "BUILD", "OPERATIONS", "DISCOVERY"],
+    "supportedStandards": ["CYCLONEDX"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.6"],
+    "supportedLanguages": ["PYTHON", "JAVASCRIPT/TYPESCRIPT", "JAVA", "GO", "C/C++"]
+  }
+}
