@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "licenseproof",
+    "publisher": "thrillhouse34",
+    "description": "Offline CLI that scans Node.js and Python dependency trees for licence conflicts and writes a CycloneDX 1.5 SBOM. Source-available (Elastic-2.0); scan and CycloneDX SBOM free, HTML/PDF reports and SPDX SBOM paid.",
+    "repository_url": "https://github.com/thrillhouse34/licenseproof",
+    "website_url": "https://licenseproof.dev",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "FREEMIUM"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT",
+      "NODE.JS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "PYTHON"
+    ]
+  }
+}
