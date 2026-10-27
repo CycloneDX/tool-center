@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ceproof",
+    "publisher": "thrillhouse34",
+    "description": "Offline CLI that scans a Node.js or Python repo, writes CycloneDX 1.6 and SPDX SBOMs, and derives an EU Cyber Resilience Act gap checklist. Source-available (Elastic-2.0); scan and SBOMs free, technical-file pack paid.",
+    "repository_url": "https://github.com/thrillhouse34/ceproof",
+    "website_url": "https://ceproof.dev",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "FREEMIUM"
+    ],
+    "functions": [
+      "AUTHOR"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "JAVASCRIPT_TYPESCRIPT",
+      "NODE.JS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "PYTHON"
+    ]
+  }
+}
