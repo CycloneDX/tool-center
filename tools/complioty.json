@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Complioty",
+    "publisher": "Complioty GmbH",
+    "description": "Cloud platform for product security and Cyber Resilience Act (CRA) compliance of machinery manufacturers. Ingests CycloneDX SBOMs and HBOMs, monitors vulnerabilities and publishes CSAF 2.0 advisories and VEX.",
+    "website_url": "https://complioty.de",
+    "capabilities": [
+      "SBOM",
+      "HBOM",
+      "OBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "lifecycle": [
+      "DESIGN",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "CPE",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ]
+  }
+}
