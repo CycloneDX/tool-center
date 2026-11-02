@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "TegmenSoft CRA Compliance Platform",
+    "publisher": "TegmenSoft",
+    "description": "EU Cyber Resilience Act platform for embedded device makers: SBOMs from firmware binaries, CycloneDX/SPDX import, KEV/EPSS vulnerability prioritisation, VEX and technical file.",
+    "website_url": "https://www.tegmensoft.com.tr/en/platform",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "CPE",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": []
+  }
+}
