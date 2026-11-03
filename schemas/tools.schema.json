@@ -410,7 +410,26 @@
           "minLength": 1,
           "description": "from which file was the tool taken?"
         }
-      }
+      },
+      "allOf": [
+        {
+          "$comment": "if a tool is open source, it requires a repository url",
+          "if": {
+            "required": ["availability"],
+            "properties": {
+              "availability": {
+                "contains": { "const": "OPEN_SOURCE" }
+              }
+            }
+          },
+          "then": {
+            "required": ["repository_url"],
+            "properties": {
+              "repository_url": { "minLength": 1 }
+            }
+          }
+        }
+      ]
     }
   }
 }
