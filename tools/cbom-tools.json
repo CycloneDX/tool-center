@@ -6,6 +6,7 @@
     "publisher": "FIBEMATE",
     "description": "A CLI for generating Cryptographic Bill of Materials (CBOM) by scanning source repositories for cryptographic algorithm usage, producing CycloneDX 1.6 CBOM output with schema validation.",
     "repository_url": "https://github.com/Lennonhaha/fibemate-tools",
+    "website_url": "https://github.com/Lennonhaha/fibemate-tools/tree/main/cbom-tools#readme",
     "capabilities": ["CBOM"],
     "availability": ["OPEN_SOURCE"],
     "functions": ["ANALYSIS"],
