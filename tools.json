@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-03T08:52:16Z",
+  "last_updated": "2026-11-03T13:27:39Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -2341,6 +2341,41 @@
         "RUST"
       ],
       "_fromFile": "celmis.json"
+    },
+    {
+      "name": "CertNotify SBOM Viewer",
+      "publisher": "CertNotify",
+      "description": "Free web viewer for CycloneDX and SPDX JSON SBOMs. Lists every component, version and license by ecosystem, and flags gaps such as missing versions or purls. Parsed in the browser; nothing is uploaded.",
+      "website_url": "https://www.certnotify.com/tools/sbom-viewer",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "FREEMIUM"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "_fromFile": "certnotify_sbom_viewer.json"
     },
     {
       "name": "Chainloop",
