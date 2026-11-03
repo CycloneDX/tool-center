@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "DevKit Dossier",
+    "publisher": "DevKit Srl",
+    "description": "Hosted record keeper for CRA evidence. Stores each release's CycloneDX or SPDX JSON SBOM unchanged with a SHA-256 hash, matches its components daily against OSV advisories, adds CISA KEV and EPSS data, and exports an evidence pack. Not a scanner.",
+    "website_url": "https://devkit.dev",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.7"
+    ]
+  }
+}
