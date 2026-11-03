@@ -5,7 +5,7 @@
     "name": "Complioty Scanner",
     "publisher": "Complioty GmbH",
     "description": "Desktop app that builds CycloneDX SBOMs and HBOMs of industrial machines from PLC projects (TIA Portal, CODESYS, Rockwell, B&R), diagnostic exports, Windows and Linux IPC/HMI images and network scans, and uploads them to Complioty.",
-    "website_url": "https://complioty.de",
+    "website_url": "https://complioty.de/en/apps/scanner/",
     "capabilities": [
       "SBOM",
       "HBOM",
