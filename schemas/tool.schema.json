@@ -369,7 +369,44 @@
             "description": "Indicates the programming languages or ecosystems of the artifacts that the tool can analyse, scan, or generate metadata for — not the language the tool itself is written in."
           }
         }
-      }
+      },
+      "allOf": [
+        {
+          "$comment": "if a tool is open source, it requires a repository url",
+          "if": {
+            "required": ["availability"],
+            "properties": {
+              "availability": {
+                "contains": { "const": "OPEN_SOURCE" }
+              }
+            }
+          },
+          "then": {
+            "required": ["repository_url"],
+            "properties": {
+              "repository_url": { "minLength": 1 }
+            }
+          }
+        },
+        {
+          "$comment": "only open source can be osi approved",
+          "if": {
+            "required": ["availability"],
+            "properties": {
+              "availability": {
+                "contains": { "const": "OSI_APPROVED" }
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "availability": {
+                "contains": { "const": "OPEN_SOURCE" }
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }
