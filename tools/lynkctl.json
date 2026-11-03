@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "lynkctl",
+    "publisher": "Interlynk.io",
+    "description": "Command-line utility that generates CycloneDX SBOMs from C/C++ and embedded firmware build systems (GNU Make, CMake, IAR) and package manager manifests (npm, Cargo, Go, Maven, Gradle, NuGet, Python, RubyGems, PHP, Gleam) without executing the build.",
+    "repository_url": "https://github.com/interlynk-io/lynkctl-public",
+    "website_url": "https://www.interlynk.io/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.7"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "GO",
+      "JAVA",
+      "JAVASCRIPT/TYPESCRIPT",
+      ".NET",
+      "NODE.JS",
+      "PHP",
+      "PYTHON",
+      "RUBY",
+      "RUST"
+    ]
+  }
+}
