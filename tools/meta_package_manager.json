@@ -11,7 +11,8 @@
       "SBOM"
     ],
     "availability": [
-      "OSI_APPROVED"
+      "OSI_APPROVED",
+      "OPEN_SOURCE"
     ],
     "functions": [
       "PACKAGE_MANAGER_INTEGRATION"
