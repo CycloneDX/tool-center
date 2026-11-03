@@ -428,6 +428,24 @@
               "repository_url": { "minLength": 1 }
             }
           }
+        },
+        {
+          "$comment": "only open source can be osi approved",
+          "if": {
+            "required": ["availability"],
+            "properties": {
+              "availability": {
+                "contains": { "const": "OSI_APPROVED" }
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "availability": {
+                "contains": { "const": "OPEN_SOURCE" }
+              }
+            }
+          }
         }
       ]
     }
