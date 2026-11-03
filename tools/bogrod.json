@@ -12,7 +12,8 @@
       "VDR/VEX"
     ],
     "availability": [
-      "OSI_APPROVED"
+      "OSI_APPROVED",
+      "OPEN_SOURCE"
     ],
     "functions": [
       "AUTHOR",
