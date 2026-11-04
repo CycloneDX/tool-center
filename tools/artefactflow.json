@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ArtefactFlow",
+    "publisher": "ArtefactFlow",
+    "description": "SaaS platform that builds, signs and exports CycloneDX 1.7 SBOMs and HBOMs from your artefact versions, records which version is deployed or installed where, and manages vulnerabilities with VEX, policy gates and CRA evidence.",
+    "website_url": "https://www.artefactflow.com/",
+    "capabilities": [
+      "SBOM",
+      "HBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR",
+      "DISTRIBUTE",
+      "SIGNING/NOTARY",
+      "TRANSFORM"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT",
+      "BOM_STANDARD"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_ACTION"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL",
+      "CPE"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ]
+  }
+}
