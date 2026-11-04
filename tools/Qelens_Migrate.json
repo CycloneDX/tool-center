@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Qelens Migrate",
+    "publisher": "Qelens",
+    "description": "Commercial PQC migration platform: turns a CycloneDX CBOM into a sequenced migration plan, rewrites code to ML-KEM/ML-DSA, and proves each change with a CBOM delta. Freemium, Pro and Enterprise editions.",
+    "website_url": "https://qelens.com/",
+    "capabilities": ["CBOM"],
+    "availability": ["FREEMIUM", "COMMERCIAL_LICENSE", "SUBSCRIPTION"],
+    "functions": ["ANALYSIS", "AUTHOR"],
+    "analysis": ["POLICY_EVALUATION"],
+    "packaging": ["COMMAND_LINE_UTILITY", "CONTAINER_IMAGE", "GITHUB_ACTION", "APPLICATION"],
+    "library": ["RUST"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["DESIGN", "PRE-BUILD", "BUILD", "POST-BUILD", "OPERATIONS"],
+    "supportedStandards": ["CYCLONEDX", "SPDX"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.6"],
+    "supportedLanguages": ["C/C++", "GO", "JAVA", "JAVASCRIPT/TYPESCRIPT", "PYTHON", "RUST"]
+  }
+}
