@@ -8,7 +8,7 @@
     "website_url": "https://www.cryptagion.io",
     "capabilities": ["CBOM"],
     "availability": ["COMMERCIAL_LICENSE"],
-    "functions": ["AUTHOR", "ANALYSIS"],
+    "functions": ["ANALYSIS"],
     "analysis": ["POLICY_EVALUATION"],
     "packaging": ["COMMAND_LINE_UTILITY", "CONTAINER_IMAGE"],
     "platform": ["LINUX", "MAC"],
