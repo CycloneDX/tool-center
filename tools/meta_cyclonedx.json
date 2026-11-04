@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "meta-cyclonedx",
+    "publisher": "iris-GmbH infrared & intelligent sensors",
+    "description": "meta-cyclonedx is a Yocto meta-layer which produces CycloneDX SBOM and VEX files",
+    "repository_url": "https://github.com/iris-GmbH/meta-cyclonedx",
+    "website_url": "https://github.com/iris-GmbH/meta-cyclonedx",
+    "capabilities": ["SBOM", "VDR/VEX"],
+    "availability": ["OPEN_SOURCE", "OSI_APPROVED"],
+    "functions": ["DISTRIBUTE", "PACKAGE_MANAGER_INTEGRATION"],
+    "analysis": ["LICENSE_REPORTING", "SECURITY_VULNERABILITIES"],
+    "packaging": ["LIBRARY"],
+    "library": ["PYTHON", "SHELL"],
+    "platform": ["LINUX"],
+    "lifecycle": ["BUILD"],
+    "supportedStandards": ["CYCLONEDX", "CPE", "PACKAGE_URL"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.4", "CYCLONEDX_V1.6", "CYCLONEDX_V1.7"]
+  }
+}

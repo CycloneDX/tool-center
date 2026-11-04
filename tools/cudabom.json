@@ -2,36 +2,36 @@
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
   "specVersion": "2.0",
   "tool": {
-    "name": "SBOMcenter",
-    "publisher": "Codenotary Inc",
-    "description": "SBOMcenter.io is a free service to get insights into the ingredients of your software for free and without any software.",
-    "website_url": "https://sbomcenter.io",
+    "name": "cudabom",
+    "publisher": "Chris Peoples",
+    "description": "CLI that identifies NVIDIA CUDA software inside Python wheels, shared libraries, executables, and container images, then emits CycloneDX SBOMs and VEX mapped to NVIDIA security bulletins.",
+    "repository_url": "https://github.com/cpeoples/cudabom",
+    "website_url": "https://github.com/cpeoples/cudabom",
     "capabilities": [
       "SBOM",
-      "SAASBOM",
+      "AI/ML-BOM",
       "VDR/VEX"
     ],
     "availability": [
       "OPEN_SOURCE",
-      "FREEMIUM"
+      "OSI_APPROVED"
     ],
     "functions": [
       "ANALYSIS",
-      "DISTRIBUTE"
+      "TRANSFORM"
     ],
     "analysis": [
-      "SECURITY_VULNERABILITIES",
-      "LICENSE_REPORTING",
-      "OUTDATED_COMPONENTS"
+      "SECURITY_VULNERABILITIES"
     ],
     "transform": [
-      "BOM_STANDARD",
       "BOM_SERIALIZATION_FORMAT"
     ],
     "packaging": [
       "COMMAND_LINE_UTILITY",
-      "GITHUB_ACTION",
-      "CONTAINER_IMAGE"
+      "LIBRARY"
+    ],
+    "library": [
+      "RUST"
     ],
     "platform": [
       "LINUX",
@@ -39,22 +39,19 @@
       "WINDOWS"
     ],
     "lifecycle": [
-      "BUILD",
       "POST-BUILD",
       "OPERATIONS"
     ],
     "supportedStandards": [
       "CYCLONEDX",
-      "SPDX"
+      "PACKAGE_URL"
     ],
     "cycloneDxVersion": [
       "CYCLONEDX_V1.6"
     ],
     "supportedLanguages": [
-      "JAVA",
       "PYTHON",
-      "JAVASCRIPT/TYPESCRIPT",
-      "GO",
+      "C/C++",
       "RUST"
     ]
   }
