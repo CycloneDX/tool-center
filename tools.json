@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T11:00:47Z",
+  "last_updated": "2026-11-05T11:03:06Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -8984,6 +8984,42 @@
         "GO"
       ],
       "_fromFile": "lagoon_insights_handler.json"
+    },
+    {
+      "name": "LegacyMind",
+      "publisher": "LegacyMind GmbH",
+      "description": "Binary firmware analysis without source code: CycloneDX SBOM from Linux images and bare-metal builds (ELF/AXF from Keil, IAR, GNU Arm), supplier SBOM import (CycloneDX, SPDX), and CVE matching incl. known-exploited vulnerabilities.",
+      "website_url": "https://www.legacymind.de/en/formats",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS",
+        "DISCOVERY"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6"
+      ],
+      "_fromFile": "legacymind.json"
     },
     {
       "name": "Lib4sbom",
