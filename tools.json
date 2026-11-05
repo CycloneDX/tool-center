@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T10:27:38Z",
+  "last_updated": "2026-11-05T10:41:17Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -2584,6 +2584,39 @@
         "CYCLONEDX_V1.7"
       ],
       "_fromFile": "claveq_scan.json"
+    },
+    {
+      "name": "Clearlane CRA",
+      "publisher": "Clearlane Apps",
+      "description": "Jira Cloud app for EU Cyber Resilience Act work: imports CycloneDX and SPDX JSON SBOMs per product version, finds the versions that contain a given component or version range, tracks Article 14 deadlines and exports CSAF 2.0 advisories.",
+      "website_url": "https://clearlaneapps.com/cra/",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "COMMERCIAL_LICENSE",
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
+      ],
+      "_fromFile": "clearlane_cra.json"
     },
     {
       "name": "ClickBOM",
