@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T10:04:33Z",
+  "last_updated": "2026-11-05T10:09:45Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -7011,6 +7011,50 @@
         "SWID"
       ],
       "_fromFile": "fact.json"
+    },
+    {
+      "name": "Firmpath",
+      "publisher": "Firmpath",
+      "description": "Vulnerability monitoring for embedded firmware: resolves a build's SBOM and chip-vendor SDK (ESP-IDF, Zephyr, nRF Connect, STM32Cube, Silicon Labs) into bundled libraries and checks them against vendor advisories, NVD, OSV and KEV. Exports VEX.",
+      "website_url": "https://www.firmpath.dev/",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "FREEMIUM",
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "OUTDATED_COMPONENTS"
+      ],
+      "transform": [],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "library": [],
+      "platform": [],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "CPE",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        "C/C++"
+      ],
+      "_fromFile": "firmpath.json"
     },
     {
       "name": "Flawnter",
