@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T09:56:40Z",
+  "last_updated": "2026-11-05T10:00:48Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -1726,6 +1726,42 @@
         "CYCLONEDX"
       ],
       "_fromFile": "cast_sbom_manager.json"
+    },
+    {
+      "name": "cbom-tools",
+      "publisher": "FIBEMATE",
+      "description": "A CLI for generating Cryptographic Bill of Materials (CBOM) by scanning source repositories for cryptographic algorithm usage, producing CycloneDX 1.6 CBOM output with schema validation.",
+      "repository_url": "https://github.com/Lennonhaha/fibemate-tools",
+      "website_url": "https://github.com/Lennonhaha/fibemate-tools/tree/main/cbom-tools#readme",
+      "capabilities": [
+        "CBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX"
+      ],
+      "supportedLanguages": [
+        "JAVASCRIPT/TYPESCRIPT",
+        "C/C++",
+        "PYTHON"
+      ],
+      "_fromFile": "cbom-tools.json"
     },
     {
       "name": "cbom-generator",
