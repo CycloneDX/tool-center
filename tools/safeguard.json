@@ -8,7 +8,7 @@
     "website_url": "https://safeguard.sh",
     "capabilities": ["SBOM", "VDR/VEX", "AI/ML-BOM"],
     "availability": ["SUBSCRIPTION"],
-    "functions": ["AUTHOR", "ANALYSIS", "DISTRIBUTE"],
+    "functions": ["ANALYSIS", "DISTRIBUTE"],
     "analysis": ["SECURITY_VULNERABILITIES", "LICENSE_REPORTING", "OUTDATED_COMPONENTS", "POLICY_EVALUATION"],
     "packaging": ["APPLICATION", "COMMAND_LINE_UTILITY"],
     "platform": ["LINUX", "MAC", "WINDOWS"],
