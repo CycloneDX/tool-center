@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T10:41:17Z",
+  "last_updated": "2026-11-05T10:49:19Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -2822,6 +2822,93 @@
         "PACKAGE_URL"
       ],
       "_fromFile": "codesentry.json"
+    },
+    {
+      "name": "Complioty",
+      "publisher": "Complioty GmbH",
+      "description": "Cloud platform for product security and Cyber Resilience Act (CRA) compliance of machinery manufacturers. Ingests CycloneDX SBOMs and HBOMs, monitors vulnerabilities and publishes CSAF 2.0 advisories and VEX.",
+      "website_url": "https://complioty.de",
+      "capabilities": [
+        "SBOM",
+        "HBOM",
+        "OBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "SUBSCRIPTION",
+        "COMMERCIAL_LICENSE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "DISTRIBUTE"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "OUTDATED_COMPONENTS",
+        "POLICY_EVALUATION",
+        "LICENSE_REPORTING"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "lifecycle": [
+        "DESIGN",
+        "POST-BUILD",
+        "OPERATIONS",
+        "DISCOVERY"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "CPE",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5"
+      ],
+      "_fromFile": "complioty.json"
+    },
+    {
+      "name": "Complioty Scanner",
+      "publisher": "Complioty GmbH",
+      "description": "Desktop app that builds CycloneDX SBOMs and HBOMs of industrial machines from PLC projects (TIA Portal, CODESYS, Rockwell, B&R), diagnostic exports, Windows and Linux IPC/HMI images and network scans, and uploads them to Complioty.",
+      "website_url": "https://complioty.de/en/apps/scanner/",
+      "capabilities": [
+        "SBOM",
+        "HBOM",
+        "OBOM"
+      ],
+      "availability": [
+        "COMMERCIAL_LICENSE"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "platform": [
+        "LINUX",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "PRE-BUILD",
+        "POST-BUILD",
+        "OPERATIONS",
+        "DISCOVERY"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "CPE",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5"
+      ],
+      "_fromFile": "complioty_scanner.json"
     },
     {
       "name": "Conformesh",
