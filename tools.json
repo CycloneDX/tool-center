@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T10:17:53Z",
+  "last_updated": "2026-11-05T10:25:01Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -3171,6 +3171,54 @@
         "RUST"
       ],
       "_fromFile": "craci.json"
+    },
+    {
+      "name": "CRA Desk Scan",
+      "publisher": "CRA Desk",
+      "description": "Turns a CycloneDX or SPDX JSON SBOM into an EU Cyber Resilience Act (CRA) readiness report: scope verdict and product class with article citations, plus a cited checklist. GitHub Action, GitLab CI component or npx CLI.",
+      "repository_url": "https://github.com/mmalinowski/cradesk-action",
+      "website_url": "https://cradesk.eu",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "POLICY_EVALUATION"
+      ],
+      "transform": [],
+      "packaging": [
+        "GITHUB_ACTION",
+        "GITLAB_CI_TEMPLATE",
+        "COMMAND_LINE_UTILITY"
+      ],
+      "library": [
+        "JAVASCRIPT_TYPESCRIPT"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5"
+      ],
+      "supportedLanguages": [],
+      "_fromFile": "cradesk_scan.json"
     },
     {
       "name": "CRA Label SBOM Generator",
