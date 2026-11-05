@@ -4,7 +4,8 @@
   "tool": {
     "name": "licensegate",
     "publisher": "licensegate",
-    "description": "Offline licence gate for npm dependencies: judges each licence by how you ship (SaaS, app, library, internal) and writes a CycloneDX 1.5 SBOM, an SPDX 2.3 SBOM and third-party notices. CLI for any CI and MCP server. Zero dependencies, MIT.",
+    "description": "Offline license gate for npm dependencies: judges each license by how you ship (SaaS, app, library, internal) and writes a CycloneDX 1.5 SBOM, an SPDX 2.3 SBOM and third-party notices. CLI for any CI and MCP server. Zero dependencies, MIT.",
+    "repository_url": "https://github.com/agustinnb/licensegate",
     "website_url": "https://licensegate.org/",
     "capabilities": [
       "SBOM"
@@ -14,7 +15,6 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "AUTHOR",
       "ANALYSIS"
     ],
     "analysis": [
