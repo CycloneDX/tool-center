@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T10:49:19Z",
+  "last_updated": "2026-11-05T10:55:11Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -3339,6 +3339,55 @@
       ],
       "supportedLanguages": [],
       "_fromFile": "cradesk_scan.json"
+    },
+    {
+      "name": "CRA Label SBOM Action",
+      "publisher": "CRA Label",
+      "description": "A GitHub Action that builds CycloneDX 1.6 and SPDX 2.3 SBOMs from the dependency files in a repository inside the runner, and adds an ML-DSA-65-signed attestation over their hashes. Source code and lockfiles stay in the runner.",
+      "repository_url": "https://github.com/Shauliko/cralabel-sbom-action",
+      "website_url": "https://github.com/marketplace/actions/cra-label-sbom",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "library": [
+        "NODE.JS"
+      ],
+      "platform": [
+        "LINUX",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        "NODE.JS",
+        "JAVASCRIPT/TYPESCRIPT",
+        "PYTHON",
+        "GO",
+        "RUST",
+        "JAVA",
+        "RUBY",
+        "PHP"
+      ],
+      "_fromFile": "cralabel-sbom-action.json"
     },
     {
       "name": "CRA Label SBOM Generator",
