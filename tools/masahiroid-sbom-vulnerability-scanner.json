@@ -11,8 +11,7 @@
       "OSI_APPROVED"
     ],
     "functions": [
-      "ANALYSIS",
-      "AUTHOR"
+      "ANALYSIS"
     ],
     "supportedStandards": [
       "CYCLONEDX",
