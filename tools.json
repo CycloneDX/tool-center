@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T10:00:48Z",
+  "last_updated": "2026-11-05T10:03:06Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -7287,6 +7287,25 @@
       "cycloneDxVersion": [],
       "supportedLanguages": [],
       "_fromFile": "fossa.json"
+    },
+    {
+      "name": "FractalAI CBOM Seal",
+      "publisher": "FRACTAL AI S.A.S.",
+      "description": "Notarizes a CycloneDX CBOM: signs it with ML-DSA-65 (FIPS 204) and timestamps it against drand, so integrity, authorship and prior existence verify offline. Seals the inventory you declare; it does not audit or certify it.",
+      "website_url": "https://fractalai.net.co/cbom",
+      "capabilities": [
+        "CBOM"
+      ],
+      "availability": [
+        "FREEMIUM"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "lifecycle": [
+        "OPERATIONS"
+      ],
+      "_fromFile": "fractalai_cbom_seal.json"
     },
     {
       "name": "FuseSoC",
