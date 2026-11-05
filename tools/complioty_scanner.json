@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Complioty Scanner",
+    "publisher": "Complioty GmbH",
+    "description": "Desktop app that builds CycloneDX SBOMs and HBOMs of industrial machines from PLC projects (TIA Portal, CODESYS, Rockwell, B&R), diagnostic exports, Windows and Linux IPC/HMI images and network scans, and uploads them to Complioty.",
+    "website_url": "https://complioty.de/en/apps/scanner/",
+    "capabilities": [
+      "SBOM",
+      "HBOM",
+      "OBOM"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "DISTRIBUTE"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "POST-BUILD",
+      "OPERATIONS",
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "CPE",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ]
+  }
+}
