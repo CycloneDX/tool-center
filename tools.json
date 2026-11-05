@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-03T16:54:29Z",
+  "last_updated": "2026-11-05T00:41:14Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -15310,12 +15310,14 @@
     {
       "name": "Vulnetix CLI",
       "publisher": "Vulnetix",
-      "description": "A vulnerability scanner for SAST, IaC, container images, cloud, and SCA/licenses of software ecosystems. Works with all known package manager manifests and supports CycloneDX, SPDX, and OpenVEX.",
+      "description": "A vulnerability scanner for CBOM, AIBOM, SAST, IaC, container images, malware IOCs, and SCA/licenses of software ecosystems. Works with most well-known package manager manifests and supports CycloneDX for xBOM and VEX, SPDX Licenses, and OpenVEX.",
       "repository_url": "https://github.com/Vulnetix/cli",
-      "website_url": "https://www.vulnetix.com/features/code-scanner",
+      "website_url": "https://docs.vulnetix.com/sbom/author/overview/",
       "capabilities": [
         "SBOM",
-        "VDR/VEX"
+        "VDR/VEX",
+        "AI/ML-BOM",
+        "CBOM"
       ],
       "availability": [
         "OPEN_SOURCE",
@@ -15323,7 +15325,8 @@
       ],
       "functions": [
         "ANALYSIS",
-        "TRANSFORM"
+        "TRANSFORM",
+        "AUTHOR"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -15338,7 +15341,8 @@
       ],
       "packaging": [
         "COMMAND_LINE_UTILITY",
-        "GITHUB_ACTION"
+        "GITHUB_ACTION",
+        "GITLAB_CI_TEMPLATE"
       ],
       "library": [
         "GO"
