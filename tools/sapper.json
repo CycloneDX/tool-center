@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Sapper",
+    "publisher": "Perruer",
+    "description": "Dependency graph of the SBOMs of all your products plus OSV advisories: reports which products each vulnerability reaches and through which path, ranked by CISA KEV and EPSS, with OpenVEX. Continuation of Minefield.",
+    "repository_url": "https://github.com/Perruer/sapper",
+    "website_url": "https://github.com/Perruer/sapper",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3"
+    ],
+    "supportedLanguages": []
+  }
+}
