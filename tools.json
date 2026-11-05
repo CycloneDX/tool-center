@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-05T10:56:39Z",
+  "last_updated": "2026-11-05T10:57:59Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -2548,6 +2548,62 @@
         "RUBY"
       ],
       "_fromFile": "chelsea.json"
+    },
+    {
+      "name": "CipherMap",
+      "publisher": "Ciphermap Technologies LLC",
+      "description": "Offline zero-egress 12-language post-quantum cryptography (PQC) scanner and CycloneDX 1.6 CBOM generator with composite Ed25519 + ML-DSA-65 provenance, NIST FIPS 203/204/205 & CNSA 2.0 policy gates, and local MCP referee.",
+      "website_url": "https://www.ciphermap.io",
+      "capabilities": [
+        "CBOM"
+      ],
+      "availability": [
+        "FREEMIUM",
+        "COMMERCIAL_LICENSE",
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "SIGNING/NOTARY"
+      ],
+      "analysis": [
+        "POLICY_EVALUATION"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        "C/C++",
+        ".NET",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "KOTLIN",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SWIFT"
+      ],
+      "_fromFile": "ciphermap.json"
     },
     {
       "name": "ClaveQ Scan",
