@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Shipmark SBOM Scanner",
+    "publisher": "Shipmark",
+    "description": "Free in-browser scanner for mobile app lockfiles (Flutter, React Native, CocoaPods, Swift PM, Gradle). Builds a CycloneDX 1.6 SBOM and checks components against OSV.dev. The lockfile is parsed locally and never uploaded.",
+    "website_url": "https://shipmark.eu/scan/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "FREEMIUM"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "SWIFT",
+      "KOTLIN",
+      "JAVA"
+    ]
+  }
+}
