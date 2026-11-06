@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "k8s-aibom",
+    "publisher": "Google Cloud",
+    "description": "Unprivileged Kubernetes controller that inventories the AI workloads in a cluster and emits one CycloneDX 1.6 ML-BOM per workload, with an evidence locator and confidence tier on every attribute and Sigstore verification of model signature claims.",
+    "repository_url": "https://github.com/GoogleCloudPlatform/k8s-aibom",
+    "website_url": "https://googlecloudplatform.github.io/k8s-aibom/",
+    "capabilities": [
+      "AI/ML-BOM",
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS",
+      "DISTRIBUTE"
+    ],
+    "analysis": [
+      "RESOURCE_REPORTING"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "CONTAINER_IMAGE",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "GO"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SLSA"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ]
+  }
+}
