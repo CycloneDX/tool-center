@@ -4,7 +4,7 @@
   "tool": {
     "name": "Agnes",
     "publisher": "Agnes",
-    "description": "Hosted code-health analysis for frontend repositories. Every analysis produces a CycloneDX SBOM of the installed npm and Composer packages, with licences, the dependency graph and known vulnerabilities from OSV. Hosted in the EU.",
+    "description": "Web app that analyses the frontend code of GitHub and Bitbucket repositories every day. Each analysis generates a CycloneDX SBOM of the installed npm and Composer packages, with licences, the dependency graph and known vulnerabilities from OSV.",
     "website_url": "https://agnes.dev/sbom",
     "capabilities": [
       "SBOM",
@@ -15,7 +15,6 @@
       "SUBSCRIPTION"
     ],
     "functions": [
-      "AUTHOR",
       "ANALYSIS"
     ],
     "analysis": [
