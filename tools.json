@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-12T11:53:38Z",
+  "last_updated": "2026-11-12T12:06:56Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -6822,6 +6822,74 @@
       "_fromFile": "depproof.json"
     },
     {
+      "name": "DevGuard",
+      "publisher": "L3montree GmbH",
+      "description": "Open-source vulnerability management platform (OWASP project, OpenSSF member). Its CLI builds CycloneDX SBOMs and signs artifacts; the server ingests SBOMs, ranks vulnerabilities by risk and serves live SBOM and VEX (CycloneDX, OpenVEX, CSAF).",
+      "repository_url": "https://github.com/l3montree-dev/devguard",
+      "website_url": "https://devguard.org",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED",
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "DISTRIBUTE",
+        "SIGNING/NOTARY"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "LICENSE_REPORTING",
+        "POLICY_EVALUATION"
+      ],
+      "packaging": [
+        "APPLICATION",
+        "COMMAND_LINE_UTILITY",
+        "CONTAINER_IMAGE",
+        "GITHUB_ACTION",
+        "GITLAB_CI_TEMPLATE"
+      ],
+      "library": [
+        "GO"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "SLSA"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [
+        ".NET",
+        "C/C++",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST"
+      ],
+      "_fromFile": "devguard.json"
+    },
+    {
       "name": "DevKit Dossier",
       "publisher": "DevKit Srl",
       "description": "Hosted record keeper for CRA evidence. Stores each release's CycloneDX or SPDX JSON SBOM unchanged with a SHA-256 hash, matches its components daily against OSV advisories, adds CISA KEV and EPSS data, and exports an evidence pack. Not a scanner.",
@@ -11355,6 +11423,36 @@
         "SPDX"
       ],
       "_fromFile": "rapidfort.json"
+    },
+    {
+      "name": "RaptorGRC CBOM",
+      "publisher": "Biff Labs Ltd",
+      "description": "Self-hosted, agentless scanner that inventories the certificates, keys, protocols and algorithms in use across an estate, rates quantum vulnerability, plans post-quantum migration and exports a signed CycloneDX 1.7 CBOM.",
+      "website_url": "https://raptorgrc.com/products/cbom",
+      "capabilities": [
+        "CBOM"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "SIGNING/NOTARY"
+      ],
+      "packaging": [
+        "CONTAINER_IMAGE"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "OPERATIONS",
+        "DISCOVERY"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7"
+      ],
+      "_fromFile": "raptorgrc_cbom.json"
     },
     {
       "name": "ReARM",
