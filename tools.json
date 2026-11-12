@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-12T11:28:10Z",
+  "last_updated": "2026-11-12T11:36:55Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -7690,6 +7690,50 @@
         "SPDX"
       ],
       "_fromFile": "fusesoc.json"
+    },
+    {
+      "name": "fwsbom",
+      "publisher": "Chen Embedded Software LLC",
+      "description": "Generates CycloneDX SBOMs for bare-metal and RTOS C/C++ firmware (STM32, FreeRTOS, ThreadX, Mbed TLS, lwIP, MCUboot) from vendored sources, using the linker map to keep only components linked into the image.",
+      "repository_url": "https://github.com/chen-embedded/fwsbom",
+      "website_url": "https://github.com/chen-embedded/fwsbom",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [],
+      "analysis": [],
+      "transform": [],
+      "packaging": [
+        "COMMAND_LINE_UTILITY",
+        "GITHUB_ACTION"
+      ],
+      "library": [
+        "PYTHON"
+      ],
+      "platform": [
+        "LINUX",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "CPE",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.5"
+      ],
+      "supportedLanguages": [
+        "C/C++"
+      ],
+      "_fromFile": "fwsbom.json"
     },
     {
       "name": "Gemnasium",
