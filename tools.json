@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-12T12:06:56Z",
+  "last_updated": "2026-11-12T12:10:21Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -14051,6 +14051,38 @@
         "RUST"
       ],
       "_fromFile": "shiftleft_scan.json"
+    },
+    {
+      "name": "ShorList",
+      "publisher": "Elkan Electronic",
+      "description": "Open catalogue of 2,035 cryptographic forms in code and config, with decoys and a primary source per row. Scores any scanner or CBOM tool, incl. qrp-mcp by the same publisher. Data CC BY 4.0, code Apache-2.0.",
+      "repository_url": "https://github.com/shorlist/shorlist",
+      "website_url": "https://github.com/shorlist/shorlist",
+      "capabilities": [
+        "CBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "DISCOVERY"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7"
+      ],
+      "_fromFile": "shorlist.json"
     },
     {
       "name": "SnapSBOM",
