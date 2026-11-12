@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-12T12:10:21Z",
+  "last_updated": "2026-11-12T12:14:11Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -646,6 +646,58 @@
         "RUBY"
       ],
       "_fromFile": "arsenal.json"
+    },
+    {
+      "name": "ArtefactFlow",
+      "publisher": "ArtefactFlow",
+      "description": "SaaS platform that builds, signs and exports CycloneDX 1.7 SBOMs and HBOMs from your artefact versions, records which version is deployed or installed where, and manages vulnerabilities with VEX, policy gates and CRA evidence.",
+      "website_url": "https://www.artefactflow.com/",
+      "capabilities": [
+        "SBOM",
+        "HBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "DISTRIBUTE",
+        "SIGNING/NOTARY",
+        "TRANSFORM"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING",
+        "OUTDATED_COMPONENTS",
+        "POLICY_EVALUATION",
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [
+        "BOM_SERIALIZATION_FORMAT",
+        "BOM_STANDARD"
+      ],
+      "packaging": [
+        "APPLICATION",
+        "GITHUB_ACTION"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL",
+        "CPE"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4"
+      ],
+      "_fromFile": "artefactflow.json"
     },
     {
       "name": "asdf-cyclonedx",
@@ -9352,6 +9404,44 @@
         "NODE.JS"
       ],
       "_fromFile": "licensegate.json"
+    },
+    {
+      "name": "licenseproof",
+      "publisher": "thrillhouse34",
+      "description": "Offline CLI that scans Node.js and Python dependency trees for licence conflicts and writes a CycloneDX 1.5 SBOM. Source-available (Elastic-2.0); scan and CycloneDX SBOM free, HTML/PDF reports and SPDX SBOM paid.",
+      "repository_url": "https://github.com/thrillhouse34/licenseproof",
+      "website_url": "https://licenseproof.dev",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "FREEMIUM"
+      ],
+      "functions": [],
+      "analysis": [
+        "LICENSE_REPORTING"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
+      "library": [
+        "JAVASCRIPT_TYPESCRIPT",
+        "NODE.JS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.5"
+      ],
+      "supportedLanguages": [
+        "JAVASCRIPT/TYPESCRIPT",
+        "NODE.JS",
+        "PYTHON"
+      ],
+      "_fromFile": "licenseproof.json"
     },
     {
       "name": "Lucent Sky AVM",
