@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Agnes",
+    "publisher": "Agnes",
+    "description": "Hosted code-health analysis for frontend repositories. Every analysis produces a CycloneDX SBOM of the installed npm and Composer packages, with licences, the dependency graph and known vulnerabilities from OSV. Hosted in the EU.",
+    "website_url": "https://agnes.dev/sbom",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "AUTHOR",
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_APP"
+    ],
+    "library": [],
+    "platform": [],
+    "lifecycle": [
+      "PRE-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "PHP"
+    ]
+  }
+}
