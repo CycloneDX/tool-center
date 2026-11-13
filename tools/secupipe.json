@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Secupipe",
+    "publisher": "Konstantin Kauz Cloud Solutions Ltd",
+    "description": "Hosted SBOM monitoring for CRA and NIS2: ingests CycloneDX and SPDX SBOMs per release from CI, continuously matches them against OSV, EPSS and CISA KEV, records VEX decisions, tracks CRA reporting deadlines and opens fix pull requests. Includes a free online SBOM check without sign-up.",
+    "website_url": "https://secupipe.com/en/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "POLICY_EVALUATION"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [],
+    "platform": [],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "GO",
+      "PYTHON",
+      "JAVA",
+      ".NET",
+      "PHP",
+      "RUBY",
+      "RUST"
+    ]
+  }
+}
