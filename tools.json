@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2026-11-12T12:14:11Z",
+  "last_updated": "2026-11-17T16:52:42Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -10094,6 +10094,59 @@
         "GO"
       ],
       "_fromFile": "nancy.json"
+    },
+    {
+      "name": "nanobom",
+      "publisher": "Alix ANNERAUD",
+      "description": "Lightweight self-hosted SBOM vulnerability tracker: CI uploads CycloneDX or SPDX SBOMs, components are matched against OSV, findings are ranked with CISA KEV and EPSS, and builds fail on policy. One container, SQLite or PostgreSQL.",
+      "repository_url": "https://github.com/AlixANNERAUD/nanobom",
+      "website_url": "https://alixanneraud.github.io/nanobom/",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "LICENSE_REPORTING",
+        "POLICY_EVALUATION"
+      ],
+      "packaging": [
+        "APPLICATION",
+        "CONTAINER_IMAGE",
+        "GITHUB_ACTION",
+        "GITLAB_CI_TEMPLATE"
+      ],
+      "library": [
+        "RUST"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "SPDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.7",
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3"
+      ],
+      "_fromFile": "nanobom.json"
     },
     {
       "name": "Neo4Cyclone",
