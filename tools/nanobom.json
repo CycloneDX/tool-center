@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "nanobom",
+    "publisher": "Alix ANNERAUD",
+    "description": "Lightweight self-hosted SBOM vulnerability tracker: CI uploads CycloneDX or SPDX SBOMs, components are matched against OSV, findings are ranked with CISA KEV and EPSS, and builds fail on policy. One container, SQLite or PostgreSQL.",
+    "repository_url": "https://github.com/AlixANNERAUD/nanobom",
+    "website_url": "https://alixanneraud.github.io/nanobom/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION",
+      "GITLAB_CI_TEMPLATE"
+    ],
+    "library": [
+      "RUST"
+    ],
+    "platform": [
+      "LINUX"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3"
+    ]
+  }
+}
