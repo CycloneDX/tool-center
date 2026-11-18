@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "sbom-attest",
+    "publisher": "Matt Busel",
+    "description": "Build-time SBOMs for Rust and C/C++ builds, including embedded firmware, from cargo, compile_commands.json, build logs and linker maps. CycloneDX 1.6 and SPDX 2.3 output, SBOM diff, and signed in-toto/SLSA provenance.",
+    "repository_url": "https://github.com/Mattbusel/sbom-attest",
+    "website_url": "https://crates.io/crates/sbom-attest",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "PACKAGE_MANAGER_INTEGRATION",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "LIBRARY"
+    ],
+    "library": [
+      "RUST"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD",
+      "POST-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SLSA",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "C/C++",
+      "RUST"
+    ]
+  }
+}
