@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "SnapSBOM",
+    "publisher": "kawacukennedy",
+    "description": "Deterministic SBOM generator for npm projects. Reads package-lock.json (lockfile v1-v3) and emits SPDX 2.3 or CycloneDX 1.6 that is byte-for-byte reproducible. Offline, no build required.",
+    "repository_url": "https://github.com/kawacukennedy/snapsbom",
+    "website_url": "https://kawacukennedy.github.io/snapsbom/",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "PACKAGE_MANAGER_INTEGRATION"
+    ],
+    "analysis": [],
+    "transform": [
+      "BOM_SERIALIZATION_FORMAT"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY"
+    ],
+    "library": [
+      "RUST"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "NODE.JS",
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}

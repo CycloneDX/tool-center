@@ -1,0 +1,67 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "TITAN Capital Forensics Suite",
+    "publisher": "TITAN Capital Forensics LLC",
+    "description": "Sovereign AI-BOM, Cryptographic SBOM, and EU AI Act / DORA / NIST compliance attestation engine with RFC 3161 hardware-timestamped CycloneDX evidence bundles and automated policy evaluation.",
+    "website_url": "https://titancapitalforensics.com",
+    "capabilities": [
+      "AI/ML-BOM",
+      "CBOM",
+      "CDXA",
+      "SAASBOM",
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "COMMERCIAL_LICENSE",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "SIGNING/NOTARY"
+    ],
+    "analysis": [
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "COMMAND_LINE_UTILITY",
+      "CONTAINER_IMAGE",
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "BUILD",
+      "OPERATIONS",
+      "POST-BUILD",
+      "PRE-BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "PACKAGE_URL",
+      "SLSA",
+      "SPDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ],
+    "supportedLanguages": [
+      "GO",
+      "JAVASCRIPT/TYPESCRIPT",
+      "NODE.JS",
+      "PYTHON",
+      "RUST"
+    ]
+  }
+}

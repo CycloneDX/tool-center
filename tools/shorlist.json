@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ShorList",
+    "publisher": "Elkan Electronic",
+    "description": "Open catalogue of 2,035 cryptographic forms in code and config, with decoys and a primary source per row. Scores any scanner or CBOM tool, incl. qrp-mcp by the same publisher. Data CC BY 4.0, code Apache-2.0.",
+    "repository_url": "https://github.com/shorlist/shorlist",
+    "website_url": "https://github.com/shorlist/shorlist",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "DISCOVERY"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7"
+    ]
+  }
+}

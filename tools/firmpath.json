@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Firmpath",
+    "publisher": "Firmpath",
+    "description": "Vulnerability monitoring for embedded firmware: resolves a build's SBOM and chip-vendor SDK (ESP-IDF, Zephyr, nRF Connect, STM32Cube, Silicon Labs) into bundled libraries and checks them against vendor advisories, NVD, OSV and KEV. Exports VEX.",
+    "website_url": "https://www.firmpath.dev/",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "OUTDATED_COMPONENTS"
+    ],
+    "transform": [],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "library": [],
+    "platform": [],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "CPE",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "C/C++"
+    ]
+  }
+}

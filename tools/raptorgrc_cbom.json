@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "RaptorGRC CBOM",
+    "publisher": "Biff Labs Ltd",
+    "description": "Self-hosted, agentless scanner that inventories the certificates, keys, protocols and algorithms in use across an estate, rates quantum vulnerability, plans post-quantum migration and exports a signed CycloneDX 1.7 CBOM.",
+    "website_url": "https://raptorgrc.com/products/cbom",
+    "capabilities": ["CBOM"],
+    "functions": ["ANALYSIS", "SIGNING/NOTARY"],
+    "packaging": ["CONTAINER_IMAGE"],
+    "platform": ["LINUX"],
+    "lifecycle": ["OPERATIONS", "DISCOVERY"],
+    "supportedStandards": ["CYCLONEDX"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.7"]
+  }
+}
