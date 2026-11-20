@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Shipmark SBOM Action",
+    "publisher": "Shipmark",
+    "description": "GitHub Action that writes a CycloneDX 1.6 SBOM for Flutter, React Native, iOS and Android apps from their lockfiles on every build or release, and checks components against OSV.dev.",
+    "repository_url": "https://github.com/shipmark-eu/sbom-action",
+    "website_url": "https://github.com/marketplace/actions/shipmark-sbom-for-mobile-apps",
+    "capabilities": ["SBOM", "VDR/VEX"],
+    "availability": ["OPEN_SOURCE", "OSI_APPROVED"],
+    "functions": ["AUTHOR", "ANALYSIS"],
+    "analysis": ["SECURITY_VULNERABILITIES"],
+    "packaging": ["GITHUB_ACTION"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["BUILD", "POST-BUILD"],
+    "supportedStandards": ["CYCLONEDX", "PACKAGE_URL"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.6"],
+    "supportedLanguages": ["JAVASCRIPT/TYPESCRIPT", "NODE.JS", "SWIFT", "KOTLIN", "JAVA"]
+  }
+}
