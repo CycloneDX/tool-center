@@ -4,10 +4,12 @@
   "tool": {
     "name": "CipherMap",
     "publisher": "Ciphermap Technologies LLC",
-    "description": "Offline zero-egress 12-language post-quantum cryptography (PQC) scanner and CycloneDX 1.6 CBOM generator with composite Ed25519 + ML-DSA-65 provenance, NIST FIPS 203/204/205 & CNSA 2.0 policy gates, and local MCP referee.",
+    "description": "Offline zero-egress 12-language PQC scanner and CycloneDX 1.6 & 1.7 (ECMA-424) CBOM generator with composite Ed25519 + ML-DSA-65 SLSA provenance, NIST FIPS 203/204/205 & CNSA 2.0 gates, and local 11-tool MCP referee.",
+    "repository_url": "https://github.com/Ciphermap-io/ciphermap-action",
     "website_url": "https://www.ciphermap.io",
     "capabilities": [
-      "CBOM"
+      "CBOM",
+      "VDR/VEX"
     ],
     "availability": [
       "FREEMIUM",
@@ -16,13 +18,22 @@
     ],
     "functions": [
       "ANALYSIS",
-      "SIGNING/NOTARY"
+      "AUTHOR",
+      "SIGNING/NOTARY",
+      "TRANSFORM"
     ],
     "analysis": [
-      "POLICY_EVALUATION"
+      "POLICY_EVALUATION",
+      "SECURITY_VULNERABILITIES"
+    ],
+    "transform": [
+      "BOM_STANDARD",
+      "BOM_VERSION"
     ],
     "packaging": [
-      "COMMAND_LINE_UTILITY"
+      "COMMAND_LINE_UTILITY",
+      "GITHUB_ACTION",
+      "GITLAB_CI_TEMPLATE"
     ],
     "platform": [
       "LINUX",
@@ -32,13 +43,17 @@
     "lifecycle": [
       "PRE-BUILD",
       "BUILD",
-      "POST-BUILD"
+      "POST-BUILD",
+      "DISCOVERY"
     ],
     "supportedStandards": [
       "CYCLONEDX",
-      "PACKAGE_URL"
+      "PACKAGE_URL",
+      "SLSA",
+      "SPDX"
     ],
     "cycloneDxVersion": [
+      "CYCLONEDX_V1.7",
       "CYCLONEDX_V1.6"
     ],
     "supportedLanguages": [
