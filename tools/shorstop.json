@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "ShorStop",
+    "publisher": "ShorStop",
+    "description": "Finds quantum-vulnerable cryptography (RSA, ECC, DH and weak primitives) in source code, configs, certificates and dependencies, rates each by migration urgency, and outputs a CycloneDX 1.6 CBOM and SARIF.",
+    "repository_url": "https://github.com/shorstophq/shorstop",
+    "website_url": "https://shorstophq.github.io/shorstop/",
+    "capabilities": ["CBOM"],
+    "availability": ["OPEN_SOURCE", "OSI_APPROVED"],
+    "functions": ["ANALYSIS", "AUTHOR"],
+    "analysis": ["SECURITY_VULNERABILITIES", "POLICY_EVALUATION"],
+    "packaging": ["COMMAND_LINE_UTILITY", "CONTAINER_IMAGE", "GITHUB_ACTION"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["PRE-BUILD", "BUILD", "DISCOVERY"],
+    "supportedStandards": ["CYCLONEDX", "PACKAGE_URL"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.6"],
+    "supportedLanguages": ["GO", "C/C++", ".NET", "JAVA", "KOTLIN", "JAVASCRIPT/TYPESCRIPT", "PHP", "PYTHON", "RUBY", "RUST"]
+  }
+}
