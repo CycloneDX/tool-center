@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "PQ-Proof",
+    "publisher": "g1mn",
+    "description": "Offline CLI and GitHub Action that judges a codebase before and after a post-quantum migration with the same rules and writes its cryptographic inventory as a CycloneDX 1.6 CBOM, with an evidence hash anyone can recompute.",
+    "repository_url": "https://github.com/g1mn/pqproof",
+    "website_url": "https://g1mn.github.io/pqproof/",
+    "capabilities": [
+      "CBOM"
+    ],
+    "availability": [
+      "OPEN_SOURCE",
+      "OSI_APPROVED"
+    ],
+    "functions": [
+      "ANALYSIS",
+      "AUTHOR"
+    ],
+    "analysis": [
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "COMMAND_LINE_UTILITY",
+      "GITHUB_ACTION"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6"
+    ],
+    "supportedLanguages": [
+      "JAVA",
+      "GO",
+      "PYTHON",
+      "JAVASCRIPT/TYPESCRIPT"
+    ]
+  }
+}
