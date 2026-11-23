@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Pinscope",
+    "publisher": "Pinscope",
+    "description": "Embedded device management (ESP32, Zephyr, Pico) that imports each firmware build's CycloneDX or SPDX SBOM, checks it daily against the NVD and CISA KEV, and records per-CVE decisions for the CRA report.",
+    "website_url": "https://pinscope.dev/cra",
+    "capabilities": [
+      "SBOM"
+    ],
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES"
+    ],
+    "packaging": [
+      "APPLICATION"
+    ],
+    "lifecycle": [
+      "POST-BUILD",
+      "OPERATIONS"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "CPE"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4"
+    ]
+  }
+}
