@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Deptools",
+    "publisher": "Deptools",
+    "description": "Deptools turns dependency graphs into a continuous health system. It analyzes security, licenses, maintainability, activity, popularity, community, and other signals to generate a multidimensional Health Score.",
+    "website_url": "https://deptools.io",
+    "capabilities": [
+      "SBOM",
+      "VDR/VEX"
+    ],
+    "availability": [
+      "FREEMIUM",
+      "SUBSCRIPTION",
+      "COMMERCIAL_LICENSE"
+    ],
+    "functions": [
+      "ANALYSIS"
+    ],
+    "analysis": [
+      "SECURITY_VULNERABILITIES",
+      "LICENSE_REPORTING",
+      "OUTDATED_COMPONENTS",
+      "POLICY_EVALUATION"
+    ],
+    "packaging": [
+      "APPLICATION",
+      "GITHUB_ACTION",
+      "GITHUB_APP",
+      "COMMAND_LINE_UTILITY"
+    ],
+    "platform": [
+      "LINUX",
+      "MAC",
+      "WINDOWS"
+    ],
+    "lifecycle": [
+      "PRE-BUILD",
+      "BUILD"
+    ],
+    "supportedStandards": [
+      "CYCLONEDX",
+      "SPDX",
+      "PACKAGE_URL"
+    ],
+    "cycloneDxVersion": [
+      "CYCLONEDX_V1.7"
+    ],
+    "supportedLanguages": [
+      "JAVASCRIPT/TYPESCRIPT",
+      "JAVA",
+      "KOTLIN",
+      "SCALA",
+      "PHP",
+      "NODE.JS"
+    ]
+  }
+}
