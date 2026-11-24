@@ -1,0 +1,21 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.tool.schema.json",
+  "specVersion": "2.0",
+  "tool": {
+    "name": "Hard Keel Quantum Scan",
+    "publisher": "Hard Keel",
+    "description": "Finds quantum-vulnerable and weak encryption in source code, infrastructure config, live TLS and SSH services and the local host, and writes a CycloneDX 1.6 cryptography bill of materials (CBOM) with a migration plan.",
+    "repository_url": "https://github.com/Hard-Keel/quantum-scan-cli",
+    "website_url": "https://hardkeel.com/quantum-scan/",
+    "capabilities": ["CBOM"],
+    "availability": ["OPEN_SOURCE", "OSI_APPROVED"],
+    "functions": ["AUTHOR", "ANALYSIS"],
+    "analysis": ["SECURITY_VULNERABILITIES", "POLICY_EVALUATION"],
+    "packaging": ["COMMAND_LINE_UTILITY", "GITHUB_ACTION"],
+    "platform": ["LINUX", "MAC", "WINDOWS"],
+    "lifecycle": ["BUILD", "OPERATIONS", "DISCOVERY"],
+    "supportedStandards": ["CYCLONEDX"],
+    "cycloneDxVersion": ["CYCLONEDX_V1.6"],
+    "supportedLanguages": ["PYTHON", "JAVASCRIPT/TYPESCRIPT", "GO", "JAVA", "RUST", ".NET", "PHP", "RUBY", "SWIFT", "C/C++"]
+  }
+}
